@@ -5,7 +5,7 @@ Tout ce qu'il faut pour faire du montage, du motion design et de la génération
 ## Installation (macOS)
 
 ```bash
-git clone <URL-DU-REPO> kit-montage-video
+git clone https://github.com/imraninho366/kit-montage-video.git kit-montage-video
 cd kit-montage-video
 chmod +x install.sh
 ./install.sh
