@@ -103,6 +103,10 @@ step "Serveurs MCP"
 claude mcp add --scope user remotion-documentation -- npx -y @remotion/mcp@latest >/dev/null 2>&1 || true
 ok "remotion-documentation"
 
+# Moteur Remotion du kit (dépendances npm)
+step "Moteur Remotion (moteur-remotion/)"
+(cd "$KIT_DIR/moteur-remotion" && npm install --no-audit --no-fund --loglevel=error >/dev/null 2>&1 && ok "npm install fait — lancer : cd $KIT_DIR/moteur-remotion && npm run studio") || echo "    ⚠ npm install a échoué (relancer à la main dans moteur-remotion/)"
+
 # 9. Dossier de publication -------------------------------------------------
 step "Dossier A-PUBLIER (une fiche par chaîne, un dossier par vidéo)"
 python3 "$SKILLS_DST/a-publier/scripts/a_publier.py" index >/dev/null && ok "$HOME/Downloads/A-PUBLIER"

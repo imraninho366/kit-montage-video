@@ -1,0 +1,593 @@
+{
+ "lignes": [
+  {
+   "id": "L01",
+   "perso": "INES",
+   "texte": "Deux heures quatorze. Mon VTC vient d'annuler. Et il me reste douze pour cent.",
+   "fichier": "rentree/s01p1/L01.wav",
+   "duree": 5.64,
+   "mots": [
+    {
+     "t": "Deux",
+     "a": 0.05,
+     "b": 0.17
+    },
+    {
+     "t": "heures",
+     "a": 0.21,
+     "b": 0.37
+    },
+    {
+     "t": "quatorze.",
+     "a": 0.45,
+     "b": 1.41
+    },
+    {
+     "t": "Mon",
+     "a": 1.49,
+     "b": 1.57
+    },
+    {
+     "t": "VTC",
+     "a": 1.65,
+     "b": 2.05
+    },
+    {
+     "t": "vient",
+     "a": 2.13,
+     "b": 2.29
+    },
+    {
+     "t": "d'annuler.",
+     "a": 2.33,
+     "b": 3.33
+    },
+    {
+     "t": "Et",
+     "a": 3.37,
+     "b": 3.41
+    },
+    {
+     "t": "il",
+     "a": 3.49,
+     "b": 3.57
+    },
+    {
+     "t": "me",
+     "a": 3.61,
+     "b": 3.65
+    },
+    {
+     "t": "reste",
+     "a": 3.73,
+     "b": 4.05
+    },
+    {
+     "t": "douze",
+     "a": 4.21,
+     "b": 4.37
+    },
+    {
+     "t": "pour",
+     "a": 4.53,
+     "b": 4.69
+    },
+    {
+     "t": "cent.",
+     "a": 4.77,
+     "b": 5.41
+    }
+   ]
+  },
+  {
+   "id": "L02",
+   "perso": "INES",
+   "texte": "Neuf minutes à pied. C'est bon, je connais le chemin.",
+   "fichier": "rentree/s01p1/L02.wav",
+   "duree": 3.43,
+   "mots": [
+    {
+     "t": "Neuf",
+     "a": 0.0,
+     "b": 0.24
+    },
+    {
+     "t": "minutes",
+     "a": 0.32,
+     "b": 0.56
+    },
+    {
+     "t": "à",
+     "a": 0.64,
+     "b": 0.72
+    },
+    {
+     "t": "pied.",
+     "a": 0.8,
+     "b": 1.04
+    },
+    {
+     "t": "C'est",
+     "a": 1.44,
+     "b": 1.6
+    },
+    {
+     "t": "bon,",
+     "a": 1.68,
+     "b": 2.0
+    },
+    {
+     "t": "je",
+     "a": 2.08,
+     "b": 2.24
+    },
+    {
+     "t": "connais",
+     "a": 2.32,
+     "b": 2.48
+    },
+    {
+     "t": "le",
+     "a": 2.52,
+     "b": 2.56
+    },
+    {
+     "t": "chemin.",
+     "a": 2.64,
+     "b": 3.2
+    }
+   ]
+  },
+  {
+   "id": "L03",
+   "perso": "JADE",
+   "texte": "T'es partie sans moi ?! Envoie-moi un message quand t'es rentrée, hein !",
+   "fichier": "rentree/s01p1/L03.wav",
+   "duree": 3.571,
+   "mots": [
+    {
+     "t": "T'es",
+     "a": 0.05,
+     "b": 0.141
+    },
+    {
+     "t": "partie",
+     "a": 0.261,
+     "b": 0.461
+    },
+    {
+     "t": "sans",
+     "a": 0.581,
+     "b": 0.701
+    },
+    {
+     "t": "moi",
+     "a": 0.741,
+     "b": 0.861
+    },
+    {
+     "t": "?!",
+     "a": 1.341,
+     "b": 1.381
+    },
+    {
+     "t": "Envoie-moi",
+     "a": 1.421,
+     "b": 1.741
+    },
+    {
+     "t": "un",
+     "a": 1.781,
+     "b": 1.821
+    },
+    {
+     "t": "message",
+     "a": 1.981,
+     "b": 2.141
+    },
+    {
+     "t": "quand",
+     "a": 2.181,
+     "b": 2.261
+    },
+    {
+     "t": "t'es",
+     "a": 2.301,
+     "b": 2.381
+    },
+    {
+     "t": "rentrée,",
+     "a": 2.461,
+     "b": 2.808
+    },
+    {
+     "t": "hein",
+     "a": 2.834,
+     "b": 2.941
+    },
+    {
+     "t": "!",
+     "a": 3.021,
+     "b": 3.341
+    }
+   ]
+  },
+  {
+   "id": "L04",
+   "perso": "INES",
+   "texte": "Attends… Le mec en capuche. Il était devant la soirée.",
+   "fichier": "rentree/s01p1/L04.wav",
+   "duree": 3.96,
+   "mots": [
+    {
+     "t": "Attends…",
+     "a": 0.05,
+     "b": 0.85
+    },
+    {
+     "t": "Le",
+     "a": 0.93,
+     "b": 1.01
+    },
+    {
+     "t": "mec",
+     "a": 1.05,
+     "b": 1.25
+    },
+    {
+     "t": "en",
+     "a": 1.29,
+     "b": 1.33
+    },
+    {
+     "t": "capuche.",
+     "a": 1.45,
+     "b": 2.05
+    },
+    {
+     "t": "Il",
+     "a": 2.21,
+     "b": 2.37
+    },
+    {
+     "t": "était",
+     "a": 2.49,
+     "b": 2.61
+    },
+    {
+     "t": "devant",
+     "a": 2.69,
+     "b": 2.85
+    },
+    {
+     "t": "la",
+     "a": 2.89,
+     "b": 2.93
+    },
+    {
+     "t": "soirée.",
+     "a": 3.01,
+     "b": 3.73
+    }
+   ]
+  },
+  {
+   "id": "L05",
+   "perso": "INES",
+   "texte": "Je traverse. Juste pour voir.",
+   "fichier": "rentree/s01p1/L05.wav",
+   "duree": 2.6,
+   "mots": [
+    {
+     "t": "Je",
+     "a": 0.05,
+     "b": 0.13
+    },
+    {
+     "t": "traverse.",
+     "a": 0.21,
+     "b": 0.93
+    },
+    {
+     "t": "Juste",
+     "a": 1.33,
+     "b": 1.53
+    },
+    {
+     "t": "pour",
+     "a": 1.57,
+     "b": 1.73
+    },
+    {
+     "t": "voir.",
+     "a": 1.89,
+     "b": 2.37
+    }
+   ]
+  },
+  {
+   "id": "L06",
+   "perso": "INES",
+   "texte": "Il a traversé, lui aussi.",
+   "fichier": "rentree/s01p1/L06.wav",
+   "duree": 2.36,
+   "mots": [
+    {
+     "t": "Il",
+     "a": 0.05,
+     "b": 0.13
+    },
+    {
+     "t": "a",
+     "a": 0.21,
+     "b": 0.29
+    },
+    {
+     "t": "traversé,",
+     "a": 0.33,
+     "b": 1.17
+    },
+    {
+     "t": "lui",
+     "a": 1.21,
+     "b": 1.41
+    },
+    {
+     "t": "aussi.",
+     "a": 1.57,
+     "b": 2.13
+    }
+   ]
+  },
+  {
+   "id": "L07",
+   "perso": "HOMME",
+   "texte": "Hé… Tu vas où, comme ça ?",
+   "fichier": "rentree/s01p1/L07.wav",
+   "duree": 2.44,
+   "mots": [
+    {
+     "t": "Hé…",
+     "a": 0.05,
+     "b": 0.45
+    },
+    {
+     "t": "Tu",
+     "a": 0.93,
+     "b": 1.01
+    },
+    {
+     "t": "vas",
+     "a": 1.09,
+     "b": 1.17
+    },
+    {
+     "t": "où,",
+     "a": 1.25,
+     "b": 1.37
+    },
+    {
+     "t": "comme",
+     "a": 1.41,
+     "b": 1.57
+    },
+    {
+     "t": "ça",
+     "a": 1.65,
+     "b": 1.81
+    },
+    {
+     "t": "?",
+     "a": 1.89,
+     "b": 2.21
+    }
+   ]
+  },
+  {
+   "id": "L08",
+   "perso": "INES",
+   "texte": "Je réponds pas. Surtout, je réponds pas.",
+   "fichier": "rentree/s01p1/L08.wav",
+   "duree": 3.16,
+   "mots": [
+    {
+     "t": "Je",
+     "a": 0.05,
+     "b": 0.13
+    },
+    {
+     "t": "réponds",
+     "a": 0.21,
+     "b": 0.53
+    },
+    {
+     "t": "pas.",
+     "a": 0.65,
+     "b": 1.01
+    },
+    {
+     "t": "Surtout,",
+     "a": 1.25,
+     "b": 1.73
+    },
+    {
+     "t": "je",
+     "a": 1.97,
+     "b": 2.05
+    },
+    {
+     "t": "réponds",
+     "a": 2.13,
+     "b": 2.45
+    },
+    {
+     "t": "pas.",
+     "a": 2.53,
+     "b": 2.93
+    }
+   ]
+  },
+  {
+   "id": "L09",
+   "perso": "INES",
+   "texte": "Huit pour cent. Encore cinq minutes jusqu'à chez moi.",
+   "fichier": "rentree/s01p1/L09.wav",
+   "duree": 3.4,
+   "mots": [
+    {
+     "t": "Huit",
+     "a": 0.05,
+     "b": 0.21
+    },
+    {
+     "t": "pour",
+     "a": 0.29,
+     "b": 0.45
+    },
+    {
+     "t": "cent.",
+     "a": 0.53,
+     "b": 0.85
+    },
+    {
+     "t": "Encore",
+     "a": 1.25,
+     "b": 1.65
+    },
+    {
+     "t": "cinq",
+     "a": 1.69,
+     "b": 1.81
+    },
+    {
+     "t": "minutes",
+     "a": 1.89,
+     "b": 2.21
+    },
+    {
+     "t": "jusqu'à",
+     "a": 2.263,
+     "b": 2.53
+    },
+    {
+     "t": "chez",
+     "a": 2.57,
+     "b": 2.61
+    },
+    {
+     "t": "moi.",
+     "a": 2.69,
+     "b": 3.17
+    }
+   ]
+  },
+  {
+   "id": "L10",
+   "perso": "INES",
+   "texte": "Le kebab est encore ouvert. Soit j'entre…",
+   "fichier": "rentree/s01p1/L10.wav",
+   "duree": 3.4,
+   "mots": [
+    {
+     "t": "Le",
+     "a": 0.05,
+     "b": 0.21
+    },
+    {
+     "t": "kebab",
+     "a": 0.29,
+     "b": 0.53
+    },
+    {
+     "t": "est",
+     "a": 0.61,
+     "b": 0.69
+    },
+    {
+     "t": "encore",
+     "a": 0.77,
+     "b": 0.93
+    },
+    {
+     "t": "ouvert.",
+     "a": 1.01,
+     "b": 1.49
+    },
+    {
+     "t": "Soit",
+     "a": 1.97,
+     "b": 2.13
+    },
+    {
+     "t": "j'entre…",
+     "a": 2.21,
+     "b": 3.17
+    }
+   ]
+  },
+  {
+   "id": "L11",
+   "perso": "INES",
+   "texte": "Soit je change encore de trottoir. Mais il connaîtra ma rue.",
+   "fichier": "rentree/s01p1/L11.wav",
+   "duree": 4.28,
+   "mots": [
+    {
+     "t": "Soit",
+     "a": 0.05,
+     "b": 0.21
+    },
+    {
+     "t": "je",
+     "a": 0.29,
+     "b": 0.37
+    },
+    {
+     "t": "change",
+     "a": 0.45,
+     "b": 0.69
+    },
+    {
+     "t": "encore",
+     "a": 0.81,
+     "b": 1.01
+    },
+    {
+     "t": "de",
+     "a": 1.09,
+     "b": 1.17
+    },
+    {
+     "t": "trottoir.",
+     "a": 1.223,
+     "b": 2.01
+    },
+    {
+     "t": "Mais",
+     "a": 2.29,
+     "b": 2.53
+    },
+    {
+     "t": "il",
+     "a": 2.77,
+     "b": 2.93
+    },
+    {
+     "t": "connaîtra",
+     "a": 3.01,
+     "b": 3.33
+    },
+    {
+     "t": "ma",
+     "a": 3.41,
+     "b": 3.49
+    },
+    {
+     "t": "rue.",
+     "a": 3.53,
+     "b": 4.05
+    }
+   ]
+  }
+ ]
+}

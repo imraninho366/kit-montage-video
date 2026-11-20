@@ -1,0 +1,5416 @@
+{
+ "fps": 30,
+ "duree": 23382,
+ "voix": {
+  "src": "voix.wav",
+  "a": 15
+ },
+ "direction": {
+  "palette": "scene",
+  "palettes": {
+   "scene": {
+    "fond": "#0B0714",
+    "encre": "#F4EEFF",
+    "sourdine": "#9A8CB8",
+    "accent": "#FF2E88"
+   },
+   "cyan": {
+    "fond": "#04121B",
+    "encre": "#E6FAFF",
+    "sourdine": "#6FA3B5",
+    "accent": "#21D4FD"
+   },
+   "billet": {
+    "fond": "#F3E9D2",
+    "encre": "#1A1024",
+    "sourdine": "#7A6A58",
+    "accent": "#D7263D"
+   },
+   "projo": {
+    "fond": "#FFB000",
+    "encre": "#140A1E",
+    "sourdine": "#5E3F00",
+    "accent": "#140A1E"
+   },
+   "verdict": {
+    "fond": "#1B1030",
+    "encre": "#F1E9FF",
+    "sourdine": "#9C8FBF",
+    "accent": "#FFB000"
+   },
+   "rouge": {
+    "fond": "#2A0610",
+    "encre": "#FFE9EE",
+    "sourdine": "#C08A96",
+    "accent": "#FF3B3B"
+   }
+  },
+  "polices": {
+   "titre": "affiche",
+   "corps": "grotesk",
+   "mono": "spacemono"
+  },
+  "etalonnage": {
+   "teinte": "rgba(110,60,170,0.14)",
+   "contraste": 1.08,
+   "saturation": 1.0,
+   "vignette": 0.62
+  },
+  "grain": 0.05
+ },
+ "musiques": [
+  {
+   "src": "musique-1-file.mp3",
+   "debut": 15,
+   "fin": 3507,
+   "volume": 0.316,
+   "depart": 0
+  },
+  {
+   "src": "musique-2-recu.mp3",
+   "debut": 3486,
+   "fin": 8826,
+   "volume": 0.18,
+   "depart": 0
+  },
+  {
+   "src": "musique-3-revente.mp3",
+   "debut": 8805,
+   "fin": 13508,
+   "volume": 0.257,
+   "depart": 0
+  },
+  {
+   "src": "musique-4-machine.mp3",
+   "debut": 13487,
+   "fin": 17672,
+   "volume": 0.117,
+   "depart": 0
+  },
+  {
+   "src": "musique-5-proces.mp3",
+   "debut": 17717,
+   "fin": 21371,
+   "volume": 0.191,
+   "depart": 0
+  },
+  {
+   "src": "musique-theme.mp3",
+   "debut": 21350,
+   "fin": 23368,
+   "volume": 0.191,
+   "depart": 50.263000000000034
+  }
+ ],
+ "coupes": [
+  [
+   8068,
+   8128
+  ],
+  [
+   10726,
+   10786
+  ],
+  [
+   15724,
+   15784
+  ],
+  [
+   20057,
+   20117
+  ],
+  [
+   20396,
+   20456
+  ]
+ ],
+ "plans": [
+  {
+   "debut": 0,
+   "type": "plaque",
+   "transition": "fondu",
+   "fondu": 8,
+   "sens": 1,
+   "secousses": [],
+   "props": {
+    "src": "c01_arene_vide.jpg",
+    "mouvement": "avant",
+    "foyer": [
+     50,
+     52
+    ],
+    "palette": "scene"
+   }
+  },
+  {
+   "debut": 69,
+   "type": "billet",
+   "transition": "coupe",
+   "fondu": 0,
+   "sens": 1,
+   "secousses": [],
+   "props": {
+    "titre": "TONIGHT",
+    "sous": "SECTION 104 · ROW F · SEAT 12",
+    "lignes": [
+     {
+      "libelle": "Ticket price",
+      "montant": "$100",
+      "valeur": 100,
+      "a": 21
+     }
+    ],
+    "palette": "scene"
+   }
+  },
+  {
+   "debut": 113,
+   "type": "plaque",
+   "transition": "glisse",
+   "fondu": 9,
+   "sens": 1,
+   "secousses": [],
+   "props": {
+    "src": "c04_telephone_nuit.jpg",
+    "mouvement": "avant",
+    "foyer": [
+     55,
+     60
+    ],
+    "ampleur": 0.18,
+    "palette": "scene"
+   }
+  },
+  {
+   "debut": 189,
+   "type": "billet",
+   "transition": "coupe",
+   "fondu": 0,
+   "sens": 1,
+   "secousses": [],
+   "props": {
+    "titre": "CHECKOUT",
+    "sous": "SECTION 104 · ROW F · SEAT 12",
+    "lignes": [
+     {
+      "libelle": "Ticket price",
+      "montant": "$100",
+      "valeur": 100,
+      "a": 0
+     },
+     {
+      "libelle": "???",
+      "montant": "$27",
+      "valeur": 27,
+      "a": 46,
+      "style": "frais"
+     }
+    ],
+    "palette": "scene"
+   }
+  },
+  {
+   "debut": 265,
+   "type": "plaque",
+   "transition": "glisse",
+   "fondu": 9,
+   "sens": 1,
+   "secousses": [],
+   "props": {
+    "src": "c01_arene_vide.jpg",
+    "mouvement": "arriere",
+    "foyer": [
+     50,
+     48
+    ],
+    "ampleur": 0.2,
+    "palette": "scene"
+   }
+  },
+  {
+   "debut": 357,
+   "type": "plaque",
+   "transition": "glisse",
+   "fondu": 9,
+   "sens": 1,
+   "secousses": [],
+   "props": {
+    "src": "c02_foule_mains.jpg",
+    "mouvement": "avant",
+    "palette": "scene"
+   }
+  },
+  {
+   "debut": 407,
+   "type": "carton",
+   "transition": "coupe",
+   "fondu": 0,
+   "sens": 1,
+   "secousses": [],
+   "props": {
+    "taille": 168,
+    "police": "affiche",
+    "anim": "pop",
+    "palette": "scene",
+    "mots": [
+     {
+      "texte": "Who took",
+      "a": 7
+     },
+     {
+      "texte": "the other $27?",
+      "a": 33
+     }
+    ]
+   }
+  },
+  {
+   "debut": 500,
+   "type": "carton",
+   "transition": "coupe",
+   "fondu": 0,
+   "sens": 1,
+   "secousses": [],
+   "props": {
+    "taille": 126,
+    "police": "playfair",
+    "anim": "masque",
+    "palette": "billet",
+    "mots": [
+     {
+      "texte": "And who decided",
+      "a": 7
+     },
+     {
+      "texte": "the $100?",
+      "a": 28
+     }
+    ]
+   }
+  },
+  {
+   "debut": 597,
+   "type": "plaque",
+   "transition": "zoom",
+   "fondu": 12,
+   "sens": 1,
+   "secousses": [],
+   "props": {
+    "src": "c08_billet_velours.jpg",
+    "mouvement": "avant",
+    "ampleur": 0.22,
+    "palette": "scene"
+   }
+  },
+  {
+   "debut": 681,
+   "type": "plaque",
+   "transition": "glisse",
+   "fondu": 9,
+   "sens": 1,
+   "secousses": [],
+   "props": {
+    "src": "c03_file_nuit.jpg",
+    "mouvement": "gauche",
+    "palette": "scene"
+   }
+  },
+  {
+   "debut": 772,
+   "type": "plaque",
+   "transition": "glisse",
+   "fondu": 9,
+   "sens": 1,
+   "secousses": [],
+   "props": {
+    "src": "c16_stade_uk_pluie.jpg",
+    "mouvement": "avant",
+    "foyer": [
+     50,
+     60
+    ],
+    "palette": "scene"
+   }
+  },
+  {
+   "debut": 822,
+   "type": "plaque",
+   "transition": "glisse",
+   "fondu": 9,
+   "sens": 1,
+   "secousses": [],
+   "props": {
+    "src": "c10_contrats_backstage.jpg",
+    "mouvement": "droite",
+    "foyer": [
+     35,
+     70
+    ],
+    "palette": "scene"
+   }
+  },
+  {
+   "debut": 934,
+   "type": "carton",
+   "transition": "coupe",
+   "fondu": 0,
+   "sens": 1,
+   "secousses": [],
+   "props": {
+    "taille": 101,
+    "police": "spacemono",
+    "anim": "machine",
+    "palette": "cyan",
+    "mots": [
+     {
+      "texte": "One company.",
+      "a": 7
+     },
+     {
+      "texte": "Almost every step.",
+      "a": 53
+     }
+    ]
+   }
+  },
+  {
+   "debut": 1032,
+   "type": "dateline",
+   "transition": "coupe",
+   "fondu": 0,
+   "sens": 1,
+   "secousses": [],
+   "props": {
+    "taille": 108,
+    "lignes": [
+     "April 2026.",
+     "New York.",
+     "A jury decides."
+    ],
+    "palette": "scene"
+   }
+  },
+  {
+   "debut": 1112,
+   "type": "carton",
+   "transition": "coupe",
+   "fondu": 0,
+   "sens": 1,
+   "secousses": [],
+   "props": {
+    "taille": 153,
+    "police": "tampon",
+    "anim": "tampon",
+    "palette": "billet",
+    "mots": [
+     {
+      "texte": "VERDICT",
+      "a": 0
+     }
+    ]
+   }
+  },
+  {
+   "debut": 1184,
+   "type": "neon",
+   "transition": "zoom",
+   "fondu": 12,
+   "sens": 1,
+   "secousses": [],
+   "props": {
+    "lignes": [
+     {
+      "texte": "Why are concert tickets",
+      "a": 0,
+      "police": "affiche",
+      "taille": 150
+     },
+     {
+      "texte": "so expensive?",
+      "a": 18,
+      "police": "neon",
+      "taille": 140
+     }
+    ],
+    "sous": {
+     "texte": "ITEMIZED",
+     "a": 36
+    },
+    "palette": "scene"
+   }
+  },
+  {
+   "debut": 1298,
+   "type": "dateline",
+   "transition": "coupe",
+   "fondu": 0,
+   "sens": 1,
+   "secousses": [],
+   "props": {
+    "taille": 108,
+    "lignes": [
+     "November 15, 2022.",
+     "United States."
+    ],
+    "palette": "cyan"
+   }
+  },
+  {
+   "debut": 1386,
+   "type": "plaque",
+   "transition": "zoom",
+   "fondu": 12,
+   "sens": 1,
+   "secousses": [],
+   "props": {
+    "src": "c15_stade_complet.jpg",
+    "mouvement": "avant",
+    "palette": "cyan"
+   }
+  },
+  {
+   "debut": 1501,
+   "type": "file",
+   "transition": "coupe",
+   "fondu": 0,
+   "sens": 1,
+   "secousses": [],
+   "props": {
+    "etapes": [
+     {
+      "texte": "3.5 million",
+      "legende": "registered in advance (Verified Fan)",
+      "a": 12
+     }
+    ],
+    "palette": "cyan"
+   }
+  },
+  {
+   "debut": 1616,
+   "type": "carton",
+   "transition": "coupe",
+   "fondu": 0,
+   "sens": 1,
+   "secousses": [],
+   "props": {
+    "taille": 150,
+    "police": "setlist",
+    "anim": "glisse",
+    "palette": "projo",
+    "mots": [
+     {
+      "texte": "The largest",
+      "a": 7
+     },
+     {
+      "texte": "pre-registration",
+      "a": 20
+     },
+     {
+      "texte": "ever.",
+      "a": 70
+     }
+    ]
+   }
+  },
+  {
+   "debut": 1723,
+   "type": "file",
+   "transition": "coupe",
+   "fondu": 0,
+   "sens": 1,
+   "secousses": [],
+   "props": {
+    "etapes": [
+     {
+      "texte": "3.5 million",
+      "legende": "registered in advance (Verified Fan)",
+      "a": 0
+     },
+     {
+      "texte": "1.5 million",
+      "legende": "received a code to join the sale",
+      "couleur": "#21D4FD",
+      "a": 9
+     }
+    ],
+    "palette": "cyan"
+   }
+  },
+  {
+   "debut": 1827,
+   "type": "file",
+   "transition": "coupe",
+   "fondu": 0,
+   "sens": 1,
+   "secousses": [],
+   "props": {
+    "etapes": [
+     {
+      "texte": "3.5 million",
+      "legende": "registered in advance (Verified Fan)",
+      "a": 0
+     },
+     {
+      "texte": "1.5 million",
+      "legende": "received a code to join the sale",
+      "couleur": "#21D4FD",
+      "a": 0
+     },
+     {
+      "texte": "3.5 billion",
+      "legende": "system requests that morning",
+      "couleur": "#FF3B3B",
+      "a": 65
+     }
+    ],
+    "bots": 85,
+    "palette": "cyan"
+   }
+  },
+  {
+   "debut": 1971,
+   "type": "stat",
+   "transition": "coupe",
+   "fondu": 0,
+   "sens": 1,
+   "secousses": [],
+   "props": {
+    "valeur": 4,
+    "legende": "its previous record",
+    "suffixe": "×",
+    "palette": "rouge"
+   }
+  },
+  {
+   "debut": 2038,
+   "type": "file",
+   "transition": "coupe",
+   "fondu": 0,
+   "sens": 1,
+   "secousses": [],
+   "props": {
+    "etapes": [
+     {
+      "texte": "3.5 million",
+      "legende": "registered in advance (Verified Fan)",
+      "a": 0
+     },
+     {
+      "texte": "1.5 million",
+      "legende": "received a code to join the sale",
+      "couleur": "#21D4FD",
+      "a": 0
+     },
+     {
+      "texte": "3.5 billion",
+      "legende": "system requests that morning",
+      "couleur": "#FF3B3B",
+      "a": 0
+     }
+    ],
+    "bots": 57,
+    "gel": 123,
+    "palette": "cyan"
+   }
+  },
+  {
+   "debut": 2193,
+   "type": "plaque",
+   "transition": "glisse",
+   "fondu": 9,
+   "sens": 1,
+   "secousses": [],
+   "props": {
+    "src": "c05_serveurs_rouge.jpg",
+    "mouvement": "avant",
+    "ampleur": 0.2,
+    "palette": "cyan"
+   }
+  },
+  {
+   "debut": 2244,
+   "type": "plaque",
+   "transition": "glisse",
+   "fondu": 9,
+   "sens": 1,
+   "secousses": [],
+   "props": {
+    "src": "c04_telephone_nuit.jpg",
+    "mouvement": "arriere",
+    "foyer": [
+     50,
+     55
+    ],
+    "palette": "cyan"
+   }
+  },
+  {
+   "debut": 2298,
+   "type": "stat",
+   "transition": "zoom",
+   "fondu": 12,
+   "sens": 1,
+   "secousses": [],
+   "props": {
+    "valeur": 2,
+    "legende": "tickets sold in a single day",
+    "src": "c02_foule_mains.jpg",
+    "prefixe": "",
+    "suffixe": " million+",
+    "palette": "cyan"
+   }
+  },
+  {
+   "debut": 2416,
+   "type": "plaque",
+   "transition": "glisse",
+   "fondu": 9,
+   "sens": 1,
+   "secousses": [],
+   "props": {
+    "src": "c02_foule_mains.jpg",
+    "mouvement": "gauche",
+    "foyer": [
+     60,
+     40
+    ],
+    "palette": "cyan"
+   }
+  },
+  {
+   "debut": 2544,
+   "type": "carton",
+   "transition": "coupe",
+   "fondu": 0,
+   "sens": 1,
+   "secousses": [],
+   "props": {
+    "taille": 168,
+    "police": "affiche",
+    "anim": "neon",
+    "palette": "scene",
+    "mots": [
+     {
+      "texte": "For millions of fans:",
+      "a": 7
+     },
+     {
+      "texte": "a disaster.",
+      "a": 78
+     }
+    ]
+   }
+  },
+  {
+   "debut": 2661,
+   "type": "plaque",
+   "transition": "glisse",
+   "fondu": 9,
+   "sens": 1,
+   "secousses": [],
+   "props": {
+    "src": "c03_file_nuit.jpg",
+    "mouvement": "droite",
+    "palette": "cyan"
+   }
+  },
+  {
+   "debut": 2702,
+   "type": "carton",
+   "transition": "coupe",
+   "fondu": 0,
+   "sens": 1,
+   "secousses": [],
+   "props": {
+    "taille": 153,
+    "police": "tampon",
+    "anim": "tampon",
+    "palette": "rouge",
+    "mots": [
+     {
+      "texte": "CANCELLED",
+      "a": 0
+     }
+    ]
+   }
+  },
+  {
+   "debut": 2777,
+   "type": "plaque",
+   "transition": "zoom",
+   "fondu": 12,
+   "sens": 1,
+   "secousses": [],
+   "props": {
+    "src": "c06_capitole.jpg",
+    "mouvement": "avant",
+    "palette": "cyan"
+   }
+  },
+  {
+   "debut": 2938,
+   "type": "plaque",
+   "transition": "glisse",
+   "fondu": 9,
+   "sens": 1,
+   "secousses": [],
+   "props": {
+    "src": "c07_audition_senat.jpg",
+    "mouvement": "avant",
+    "foyer": [
+     50,
+     70
+    ],
+    "palette": "cyan"
+   }
+  },
+  {
+   "debut": 3040,
+   "type": "plaque",
+   "transition": "glisse",
+   "fondu": 9,
+   "sens": 1,
+   "secousses": [],
+   "props": {
+    "src": "c13_ferme_telephones.jpg",
+    "mouvement": "gauche",
+    "palette": "cyan"
+   }
+  },
+  {
+   "debut": 3086,
+   "type": "plaque",
+   "transition": "glisse",
+   "fondu": 9,
+   "sens": 1,
+   "secousses": [],
+   "props": {
+    "src": "c07_audition_senat.jpg",
+    "mouvement": "arriere",
+    "foyer": [
+     30,
+     55
+    ],
+    "ampleur": 0.2,
+    "palette": "cyan"
+   }
+  },
+  {
+   "debut": 3174,
+   "type": "carton",
+   "transition": "coupe",
+   "fondu": 0,
+   "sens": 1,
+   "secousses": [],
+   "props": {
+    "taille": 119,
+    "police": "grotesk",
+    "anim": "surligne",
+    "palette": "verdict",
+    "mots": [
+     {
+      "texte": "Not the website.",
+      "a": 0
+     },
+     {
+      "texte": "The price.",
+      "a": 68
+     }
+    ]
+   }
+  },
+  {
+   "debut": 3274,
+   "type": "plaque",
+   "transition": "glisse",
+   "fondu": 9,
+   "sens": 1,
+   "secousses": [],
+   "props": {
+    "src": "c08_billet_velours.jpg",
+    "mouvement": "avant",
+    "foyer": [
+     50,
+     55
+    ],
+    "ampleur": 0.3,
+    "palette": "cyan"
+   }
+  },
+  {
+   "debut": 3424,
+   "type": "carton",
+   "transition": "coupe",
+   "fondu": 0,
+   "sens": 1,
+   "secousses": [],
+   "props": {
+    "taille": 126,
+    "police": "playfair",
+    "anim": "surligne",
+    "palette": "rouge",
+    "mots": [
+     {
+      "texte": "So look at",
+      "a": 8
+     },
+     {
+      "texte": "that number.",
+      "a": 21
+     }
+    ]
+   }
+  },
+  {
+   "debut": 3464,
+   "type": "plaque",
+   "transition": "glisse",
+   "fondu": 9,
+   "sens": 1,
+   "secousses": [],
+   "props": {
+    "src": "c08_billet_velours.jpg",
+    "mouvement": "arriere",
+    "foyer": [
+     40,
+     50
+    ],
+    "palette": "cyan"
+   }
+  },
+  {
+   "debut": 3516,
+   "type": "billet",
+   "transition": "coupe",
+   "fondu": 0,
+   "sens": 1,
+   "secousses": [],
+   "props": {
+    "titre": "FACE VALUE",
+    "sous": "SET OR APPROVED BY THE ARTIST",
+    "lignes": [
+     {
+      "libelle": "Face value",
+      "montant": "$100",
+      "valeur": 100,
+      "a": 39
+     }
+    ],
+    "palette": "billet"
+   }
+  },
+  {
+   "debut": 3594,
+   "type": "plaque",
+   "transition": "glisse",
+   "fondu": 9,
+   "sens": 1,
+   "secousses": [],
+   "props": {
+    "src": "c10_contrats_backstage.jpg",
+    "mouvement": "avant",
+    "foyer": [
+     30,
+     70
+    ],
+    "ampleur": 0.16,
+    "palette": "scene"
+   }
+  },
+  {
+   "debut": 3760,
+   "type": "plaque",
+   "transition": "glisse",
+   "fondu": 9,
+   "sens": 1,
+   "secousses": [],
+   "props": {
+    "src": "c01_arene_vide.jpg",
+    "mouvement": "gauche",
+    "foyer": [
+     50,
+     50
+    ],
+    "palette": "scene"
+   }
+  },
+  {
+   "debut": 3973,
+   "type": "carton",
+   "transition": "coupe",
+   "fondu": 0,
+   "sens": 1,
+   "secousses": [],
+   "props": {
+    "taille": 168,
+    "police": "affiche",
+    "anim": "masque",
+    "palette": "cyan",
+    "mots": [
+     {
+      "texte": "The higher",
+      "a": 8
+     },
+     {
+      "texte": "of two things:",
+      "a": 21
+     }
+    ]
+   }
+  },
+  {
+   "debut": 4026,
+   "type": "carton",
+   "transition": "coupe",
+   "fondu": 0,
+   "sens": 1,
+   "secousses": [],
+   "props": {
+    "taille": 138,
+    "police": "setlist",
+    "anim": "pop",
+    "palette": "billet",
+    "mots": [
+     {
+      "texte": "A guaranteed fee",
+      "a": 4
+     },
+     {
+      "texte": "— or —",
+      "a": 51
+     },
+     {
+      "texte": "a share of the sales.",
+      "a": 60
+     }
+    ]
+   }
+  },
+  {
+   "debut": 4189,
+   "type": "plaque",
+   "transition": "glisse",
+   "fondu": 9,
+   "sens": 1,
+   "secousses": [],
+   "props": {
+    "src": "c15_stade_complet.jpg",
+    "mouvement": "arriere",
+    "palette": "scene"
+   }
+  },
+  {
+   "debut": 4296,
+   "type": "neon",
+   "transition": "coupe",
+   "fondu": 0,
+   "sens": 1,
+   "secousses": [],
+   "props": {
+    "lignes": [
+     {
+      "texte": "Then come",
+      "a": 0,
+      "police": "affiche",
+      "taille": 150
+     },
+     {
+      "texte": "the fees",
+      "a": 16,
+      "police": "neon"
+     }
+    ],
+    "sous": null,
+    "palette": "scene"
+   }
+  },
+  {
+   "debut": 4345,
+   "type": "plaque",
+   "transition": "glisse",
+   "fondu": 9,
+   "sens": 1,
+   "secousses": [],
+   "props": {
+    "src": "c06_capitole.jpg",
+    "mouvement": "droite",
+    "foyer": [
+     50,
+     40
+    ],
+    "palette": "scene"
+   }
+  },
+  {
+   "debut": 4520,
+   "type": "anneaux",
+   "transition": "zoom",
+   "fondu": 12,
+   "sens": 1,
+   "secousses": [],
+   "props": {
+    "anneaux": [
+     {
+      "valeur": 27,
+      "legende": "average fees on the primary market (GAO sample)",
+      "a": 71
+     }
+    ],
+    "palette": "scene"
+   }
+  },
+  {
+   "debut": 4677,
+   "type": "billet",
+   "transition": "coupe",
+   "fondu": 0,
+   "sens": 1,
+   "secousses": [],
+   "props": {
+    "titre": "GAO EXAMPLE",
+    "sous": "AVERAGE FEES · 2018 SAMPLE",
+    "lignes": [
+     {
+      "libelle": "Face value",
+      "montant": "$100",
+      "valeur": 100,
+      "a": 0
+     },
+     {
+      "libelle": "Fees",
+      "montant": "$27",
+      "valeur": 27,
+      "a": 104,
+      "style": "frais"
+     }
+    ],
+    "palette": "scene"
+   }
+  },
+  {
+   "debut": 4816,
+   "type": "compare",
+   "transition": "glisse",
+   "fondu": 9,
+   "sens": 1,
+   "secousses": [],
+   "props": {
+    "titre": "Fees as a share of the ticket price · GAO sample, 2018",
+    "max": 60,
+    "format": "pourcent",
+    "decimales": 0,
+    "source": "",
+    "barres": [
+     {
+      "nom": "Lowest",
+      "detail": "in the sample",
+      "valeur": 13,
+      "a": 81,
+      "couleur": "#21D4FD"
+     },
+     {
+      "nom": "Highest",
+      "detail": "in the sample",
+      "valeur": 58,
+      "a": 114,
+      "couleur": "#FF2E88"
+     }
+    ],
+    "palette": "scene"
+   }
+  },
+  {
+   "debut": 4969,
+   "type": "carton",
+   "transition": "coupe",
+   "fondu": 0,
+   "sens": 1,
+   "secousses": [],
+   "props": {
+    "taille": 168,
+    "police": "affiche",
+    "anim": "pop",
+    "palette": "scene",
+    "mots": [
+     {
+      "texte": "So what",
+      "a": 6
+     },
+     {
+      "texte": "are those fees?",
+      "a": 22
+     }
+    ]
+   }
+  },
+  {
+   "debut": 5033,
+   "type": "document",
+   "transition": "zoom",
+   "fondu": 12,
+   "sens": 1,
+   "secousses": [],
+   "props": {
+    "src": "doc-doj-023.png",
+    "ratio": 1.2704918032786885,
+    "largeurSrc": 1550,
+    "lignes": [
+     {
+      "y": 0.0844,
+      "h": 0.0361
+     },
+     {
+      "y": 0.1467,
+      "h": 0.0361
+     },
+     {
+      "y": 0.2098,
+      "h": 0.0361
+     },
+     {
+      "y": 0.273,
+      "h": 0.0361
+     },
+     {
+      "y": 0.3328,
+      "h": 0.0311
+     },
+     {
+      "y": 0.3975,
+      "h": 0.0311
+     },
+     {
+      "y": 0.4631,
+      "h": 0.0361
+     },
+     {
+      "y": 0.5262,
+      "h": 0.0361
+     },
+     {
+      "y": 0.5885,
+      "h": 0.0361
+     },
+     {
+      "y": 0.6516,
+      "h": 0.0361
+     },
+     {
+      "y": 0.7123,
+      "h": 0.0311
+     },
+     {
+      "y": 0.777,
+      "h": 0.0361
+     },
+     {
+      "y": 0.8377,
+      "h": 0.0311
+     },
+     {
+      "y": 0.9033,
+      "h": 0.0361
+     },
+     {
+      "y": 0.9656,
+      "h": 0.0361
+     }
+    ],
+    "etapes": [
+     {
+      "a": 0,
+      "ligne": 4,
+      "zoom": 1.0
+     },
+     {
+      "a": 52,
+      "ligne": 5,
+      "zoom": 1.2
+     }
+    ],
+    "source": "",
+    "cercle": null,
+    "palette": "scene"
+   }
+  },
+  {
+   "debut": 5121,
+   "type": "billet",
+   "transition": "coupe",
+   "fondu": 0,
+   "sens": 1,
+   "secousses": [],
+   "props": {
+    "titre": "THE FEES",
+    "sous": "AS LISTED IN THE DOJ COMPLAINT, 2024",
+    "talon": "FEES",
+    "libelleTotal": "",
+    "lignes": [
+     {
+      "libelle": "Service fee",
+      "montant": "“convenience fee”",
+      "a": 14,
+      "style": "frais"
+     },
+     {
+      "libelle": "Per-order fee",
+      "montant": "“handling fee”",
+      "a": 136,
+      "style": "frais"
+     }
+    ],
+    "palette": "scene"
+   }
+  },
+  {
+   "debut": 5348,
+   "type": "billet",
+   "transition": "coupe",
+   "fondu": 0,
+   "sens": 1,
+   "secousses": [],
+   "props": {
+    "titre": "THE FEES",
+    "sous": "AS LISTED IN THE DOJ COMPLAINT, 2024",
+    "talon": "FEES",
+    "libelleTotal": "",
+    "lignes": [
+     {
+      "libelle": "Service fee",
+      "montant": "“convenience fee”",
+      "a": 0,
+      "style": "frais"
+     },
+     {
+      "libelle": "Per-order fee",
+      "montant": "“handling fee”",
+      "a": 0,
+      "style": "frais"
+     },
+     {
+      "libelle": "Payment processing fee",
+      "montant": "",
+      "a": 18,
+      "style": "frais"
+     },
+     {
+      "libelle": "Facility fee",
+      "montant": "to the venue",
+      "a": 85,
+      "style": "frais"
+     }
+    ],
+    "palette": "scene"
+   }
+  },
+  {
+   "debut": 5509,
+   "type": "plaque",
+   "transition": "glisse",
+   "fondu": 9,
+   "sens": 1,
+   "secousses": [],
+   "props": {
+    "src": "c02_foule_mains.jpg",
+    "mouvement": "avant",
+    "foyer": [
+     50,
+     35
+    ],
+    "ampleur": 0.18,
+    "palette": "scene"
+   }
+  },
+  {
+   "debut": 5666,
+   "type": "neon",
+   "transition": "coupe",
+   "fondu": 0,
+   "sens": 1,
+   "secousses": [],
+   "props": {
+    "lignes": [
+     {
+      "texte": "Platinum",
+      "a": 12,
+      "police": "neon",
+      "taille": 170
+     }
+    ],
+    "sous": {
+     "texte": "PRICE MOVES WITH DEMAND",
+     "a": 27
+    },
+    "palette": "scene"
+   }
+  },
+  {
+   "debut": 5718,
+   "type": "carton",
+   "transition": "coupe",
+   "fondu": 0,
+   "sens": 1,
+   "secousses": [],
+   "props": {
+    "taille": 126,
+    "police": "playfair",
+    "anim": "masque",
+    "palette": "billet",
+    "mots": [
+     {
+      "texte": "The part",
+      "a": 7
+     },
+     {
+      "texte": "that surprises",
+      "a": 20
+     },
+     {
+      "texte": "people.",
+      "a": 40
+     }
+    ]
+   }
+  },
+  {
+   "debut": 5789,
+   "type": "document",
+   "transition": "zoom",
+   "fondu": 12,
+   "sens": 1,
+   "secousses": [],
+   "props": {
+    "src": "doc-doj-023.png",
+    "ratio": 1.2704918032786885,
+    "largeurSrc": 1550,
+    "lignes": [
+     {
+      "y": 0.0844,
+      "h": 0.0361
+     },
+     {
+      "y": 0.1467,
+      "h": 0.0361
+     },
+     {
+      "y": 0.2098,
+      "h": 0.0361
+     },
+     {
+      "y": 0.273,
+      "h": 0.0361
+     },
+     {
+      "y": 0.3328,
+      "h": 0.0311
+     },
+     {
+      "y": 0.3975,
+      "h": 0.0311
+     },
+     {
+      "y": 0.4631,
+      "h": 0.0361
+     },
+     {
+      "y": 0.5262,
+      "h": 0.0361
+     },
+     {
+      "y": 0.5885,
+      "h": 0.0361
+     },
+     {
+      "y": 0.6516,
+      "h": 0.0361
+     },
+     {
+      "y": 0.7123,
+      "h": 0.0311
+     },
+     {
+      "y": 0.777,
+      "h": 0.0361
+     },
+     {
+      "y": 0.8377,
+      "h": 0.0311
+     },
+     {
+      "y": 0.9033,
+      "h": 0.0361
+     },
+     {
+      "y": 0.9656,
+      "h": 0.0361
+     }
+    ],
+    "etapes": [
+     {
+      "a": 0,
+      "ligne": 12,
+      "zoom": 1.1
+     },
+     {
+      "a": 80,
+      "ligne": 13,
+      "zoom": 1.3
+     }
+    ],
+    "source": "",
+    "cercle": null,
+    "palette": "scene"
+   }
+  },
+  {
+   "debut": 5937,
+   "type": "carton",
+   "transition": "coupe",
+   "fondu": 0,
+   "sens": 1,
+   "secousses": [],
+   "props": {
+    "taille": 101,
+    "police": "spacemono",
+    "anim": "machine",
+    "palette": "cyan",
+    "mots": [
+     {
+      "texte": "Bigger ticket.",
+      "a": 7
+     },
+     {
+      "texte": "Bigger fee.",
+      "a": 54
+     }
+    ]
+   }
+  },
+  {
+   "debut": 6028,
+   "type": "plaque",
+   "transition": "glisse",
+   "fondu": 9,
+   "sens": 1,
+   "secousses": [],
+   "props": {
+    "src": "c05_serveurs_rouge.jpg",
+    "mouvement": "gauche",
+    "foyer": [
+     50,
+     50
+    ],
+    "palette": "scene"
+   }
+  },
+  {
+   "debut": 6108,
+   "type": "carton",
+   "transition": "coupe",
+   "fondu": 0,
+   "sens": 1,
+   "secousses": [],
+   "props": {
+    "taille": 86,
+    "police": "spacemono",
+    "anim": "machine",
+    "palette": "cyan",
+    "mots": [
+     {
+      "texte": "Same cost",
+      "a": 0
+     }
+    ]
+   }
+  },
+  {
+   "debut": 6131,
+   "type": "document",
+   "transition": "glisse",
+   "fondu": 9,
+   "sens": 1,
+   "secousses": [],
+   "props": {
+    "src": "doc-doj-023.png",
+    "ratio": 1.2704918032786885,
+    "largeurSrc": 1550,
+    "lignes": [
+     {
+      "y": 0.0844,
+      "h": 0.0361
+     },
+     {
+      "y": 0.1467,
+      "h": 0.0361
+     },
+     {
+      "y": 0.2098,
+      "h": 0.0361
+     },
+     {
+      "y": 0.273,
+      "h": 0.0361
+     },
+     {
+      "y": 0.3328,
+      "h": 0.0311
+     },
+     {
+      "y": 0.3975,
+      "h": 0.0311
+     },
+     {
+      "y": 0.4631,
+      "h": 0.0361
+     },
+     {
+      "y": 0.5262,
+      "h": 0.0361
+     },
+     {
+      "y": 0.5885,
+      "h": 0.0361
+     },
+     {
+      "y": 0.6516,
+      "h": 0.0361
+     },
+     {
+      "y": 0.7123,
+      "h": 0.0311
+     },
+     {
+      "y": 0.777,
+      "h": 0.0361
+     },
+     {
+      "y": 0.8377,
+      "h": 0.0311
+     },
+     {
+      "y": 0.9033,
+      "h": 0.0361
+     },
+     {
+      "y": 0.9656,
+      "h": 0.0361
+     }
+    ],
+    "etapes": [
+     {
+      "a": 0,
+      "ligne": 13,
+      "zoom": 1.2
+     },
+     {
+      "a": 50,
+      "ligne": 14,
+      "zoom": 1.35
+     }
+    ],
+    "source": "",
+    "cercle": null,
+    "palette": "scene"
+   }
+  },
+  {
+   "debut": 6295,
+   "type": "plaque",
+   "transition": "glisse",
+   "fondu": 9,
+   "sens": 1,
+   "secousses": [],
+   "props": {
+    "src": "c18_amphitheatre.jpg",
+    "mouvement": "avant",
+    "palette": "scene"
+   }
+  },
+  {
+   "debut": 6414,
+   "type": "carton",
+   "transition": "coupe",
+   "fondu": 0,
+   "sens": 1,
+   "secousses": [],
+   "props": {
+    "taille": 161,
+    "police": "setlist",
+    "anim": "glisse",
+    "palette": "projo",
+    "mots": [
+     {
+      "texte": "Part: ticketing.",
+      "a": 8
+     },
+     {
+      "texte": "Part: the venue.",
+      "a": 73
+     }
+    ]
+   }
+  },
+  {
+   "debut": 6505,
+   "type": "plaque",
+   "transition": "glisse",
+   "fondu": 9,
+   "sens": 1,
+   "secousses": [],
+   "props": {
+    "src": "c10_contrats_backstage.jpg",
+    "mouvement": "gauche",
+    "foyer": [
+     60,
+     60
+    ],
+    "palette": "scene"
+   }
+  },
+  {
+   "debut": 6670,
+   "type": "carton",
+   "transition": "coupe",
+   "fondu": 0,
+   "sens": 1,
+   "secousses": [],
+   "props": {
+    "taille": 168,
+    "police": "affiche",
+    "anim": "neon",
+    "palette": "scene",
+    "mots": [
+     {
+      "texte": "How big",
+      "a": 8
+     },
+     {
+      "texte": "is all of this?",
+      "a": 23
+     }
+    ]
+   }
+  },
+  {
+   "debut": 6728,
+   "type": "document",
+   "transition": "zoom",
+   "fondu": 12,
+   "sens": 1,
+   "secousses": [],
+   "props": {
+    "src": "doc-ftc-09.png",
+    "ratio": 1.2636363636363637,
+    "largeurSrc": 1390,
+    "lignes": [
+     {
+      "y": 0.0664,
+      "h": 0.0382
+     },
+     {
+      "y": 0.1473,
+      "h": 0.0382
+     },
+     {
+      "y": 0.2327,
+      "h": 0.0455
+     },
+     {
+      "y": 0.3136,
+      "h": 0.0455
+     },
+     {
+      "y": 0.3918,
+      "h": 0.0382
+     },
+     {
+      "y": 0.4727,
+      "h": 0.0382
+     },
+     {
+      "y": 0.5582,
+      "h": 0.0455
+     },
+     {
+      "y": 0.6355,
+      "h": 0.0382
+     },
+     {
+      "y": 0.7168,
+      "h": 0.0391
+     },
+     {
+      "y": 0.8018,
+      "h": 0.0455
+     },
+     {
+      "y": 0.8827,
+      "h": 0.0455
+     },
+     {
+      "y": 0.9645,
+      "h": 0.0455
+     }
+    ],
+    "etapes": [
+     {
+      "a": 0,
+      "ligne": null,
+      "zoom": 0.92
+     }
+    ],
+    "source": "",
+    "cercle": null,
+    "palette": "scene"
+   }
+  },
+  {
+   "debut": 6900,
+   "type": "anneaux",
+   "transition": "zoom",
+   "fondu": 12,
+   "sens": 1,
+   "secousses": [],
+   "props": {
+    "palette": "rouge",
+    "anneaux": [
+     {
+      "valeur": 44,
+      "legende": "the highest mandatory fees, as a share of a ticket’s price (FTC allegation)",
+      "a": 115
+     }
+    ]
+   }
+  },
+  {
+   "debut": 7088,
+   "type": "document",
+   "transition": "zoom",
+   "fondu": 12,
+   "sens": 1,
+   "secousses": [],
+   "props": {
+    "src": "doc-ftc-17.png",
+    "ratio": 1.5706214689265536,
+    "largeurSrc": 1390,
+    "lignes": [
+     {
+      "y": 0.0644,
+      "h": 0.0565
+     },
+     {
+      "y": 0.165,
+      "h": 0.0565
+     },
+     {
+      "y": 0.2667,
+      "h": 0.0565
+     },
+     {
+      "y": 0.3672,
+      "h": 0.0565
+     },
+     {
+      "y": 0.4689,
+      "h": 0.0565
+     },
+     {
+      "y": 0.5695,
+      "h": 0.0565
+     },
+     {
+      "y": 0.6712,
+      "h": 0.0565
+     },
+     {
+      "y": 0.7672,
+      "h": 0.0475
+     },
+     {
+      "y": 0.8678,
+      "h": 0.0475
+     },
+     {
+      "y": 0.974,
+      "h": 0.0565
+     }
+    ],
+    "etapes": [
+     {
+      "a": 0,
+      "ligne": 3,
+      "zoom": 1.15
+     },
+     {
+      "a": 62,
+      "ligne": 4,
+      "zoom": 1.3
+     }
+    ],
+    "source": "",
+    "cercle": null,
+    "palette": "scene"
+   }
+  },
+  {
+   "debut": 7215,
+   "type": "stat",
+   "transition": "coupe",
+   "fondu": 0,
+   "sens": 1,
+   "secousses": [],
+   "props": {
+    "valeur": 16.4,
+    "legende": "in fees, 2019 to 2024 (FTC allegation)",
+    "decimales": 1,
+    "prefixe": "$",
+    "suffixe": "B",
+    "palette": "scene"
+   }
+  },
+  {
+   "debut": 7338,
+   "type": "carton",
+   "transition": "coupe",
+   "fondu": 0,
+   "sens": 1,
+   "secousses": [],
+   "props": {
+    "taille": 119,
+    "police": "grotesk",
+    "anim": "surligne",
+    "palette": "verdict",
+    "mots": [
+     {
+      "texte": "They deny",
+      "a": 7
+     },
+     {
+      "texte": "the allegations.",
+      "a": 23
+     }
+    ]
+   }
+  },
+  {
+   "debut": 7391,
+   "type": "plaque",
+   "transition": "fondu",
+   "fondu": 8,
+   "sens": 1,
+   "secousses": [],
+   "props": {
+    "src": "c08_billet_velours.jpg",
+    "mouvement": "avant",
+    "foyer": [
+     50,
+     50
+    ],
+    "ampleur": 0.35,
+    "palette": "scene"
+   }
+  },
+  {
+   "debut": 7503,
+   "type": "plaque",
+   "transition": "glisse",
+   "fondu": 9,
+   "sens": 1,
+   "secousses": [],
+   "props": {
+    "src": "c04_telephone_nuit.jpg",
+    "mouvement": "avant",
+    "foyer": [
+     55,
+     55
+    ],
+    "ampleur": 0.28,
+    "palette": "scene"
+   }
+  },
+  {
+   "debut": 7713,
+   "type": "carton",
+   "transition": "coupe",
+   "fondu": 0,
+   "sens": 1,
+   "secousses": [],
+   "props": {
+    "taille": 126,
+    "police": "playfair",
+    "anim": "surligne",
+    "palette": "rouge",
+    "mots": [
+     {
+      "texte": "Full price shown",
+      "a": 8
+     },
+     {
+      "texte": "→ fewer buyers.",
+      "a": 35
+     }
+    ]
+   }
+  },
+  {
+   "debut": 7787,
+   "type": "document",
+   "transition": "zoom",
+   "fondu": 12,
+   "sens": 1,
+   "secousses": [],
+   "props": {
+    "src": "doc-ftc-31.png",
+    "ratio": 1.125506072874494,
+    "largeurSrc": 1390,
+    "lignes": [
+     {
+      "y": 0.0745,
+      "h": 0.0405
+     },
+     {
+      "y": 0.1466,
+      "h": 0.0405
+     },
+     {
+      "y": 0.2194,
+      "h": 0.0405
+     },
+     {
+      "y": 0.2951,
+      "h": 0.0332
+     },
+     {
+      "y": 0.3644,
+      "h": 0.0405
+     },
+     {
+      "y": 0.4364,
+      "h": 0.0405
+     },
+     {
+      "y": 0.5093,
+      "h": 0.0405
+     },
+     {
+      "y": 0.5814,
+      "h": 0.0405
+     },
+     {
+      "y": 0.6534,
+      "h": 0.0405
+     },
+     {
+      "y": 0.7263,
+      "h": 0.0405
+     },
+     {
+      "y": 0.7984,
+      "h": 0.0405
+     },
+     {
+      "y": 0.8713,
+      "h": 0.0405
+     },
+     {
+      "y": 0.9433,
+      "h": 0.0405
+     }
+    ],
+    "etapes": [
+     {
+      "a": 0,
+      "ligne": 1,
+      "zoom": 1.1
+     },
+     {
+      "a": 99,
+      "ligne": 9,
+      "zoom": 1.3
+     },
+     {
+      "a": 119,
+      "ligne": 10,
+      "zoom": 1.35
+     }
+    ],
+    "source": "",
+    "cercle": null,
+    "palette": "scene"
+   }
+  },
+  {
+   "debut": 8084,
+   "type": "carton",
+   "transition": "coupe",
+   "fondu": 0,
+   "sens": 1,
+   "secousses": [],
+   "props": {
+    "taille": 168,
+    "police": "affiche",
+    "anim": "neon",
+    "palette": "scene",
+    "mots": [
+     {
+      "texte": "The low price",
+      "a": 7
+     },
+     {
+      "texte": "was a choice.",
+      "a": 44
+     }
+    ]
+   }
+  },
+  {
+   "debut": 8161,
+   "type": "plaque",
+   "transition": "glisse",
+   "fondu": 9,
+   "sens": 1,
+   "secousses": [],
+   "props": {
+    "src": "c10_contrats_backstage.jpg",
+    "mouvement": "droite",
+    "foyer": [
+     40,
+     65
+    ],
+    "palette": "scene"
+   }
+  },
+  {
+   "debut": 8254,
+   "type": "dateline",
+   "transition": "coupe",
+   "fondu": 0,
+   "sens": 1,
+   "secousses": [],
+   "props": {
+    "taille": 108,
+    "palette": "cyan",
+    "lignes": [
+     "May 12, 2025.",
+     "A federal rule.",
+     "Total price, upfront."
+    ]
+   }
+  },
+  {
+   "debut": 8349,
+   "type": "billet",
+   "transition": "coupe",
+   "fondu": 0,
+   "sens": 1,
+   "secousses": [],
+   "props": {
+    "titre": "ALL-IN PRICE",
+    "sous": "SHOWN FIRST · SINCE MAY 12, 2025",
+    "libelleTotal": "SHOWN UPFRONT",
+    "lignes": [
+     {
+      "libelle": "Face value",
+      "montant": "$100",
+      "valeur": 100,
+      "a": 0
+     },
+     {
+      "libelle": "Fees",
+      "montant": "$27",
+      "valeur": 27,
+      "a": 6,
+      "style": "frais"
+     },
+     {
+      "libelle": "GAO average, for illustration",
+      "a": 14,
+      "style": "note"
+     }
+    ],
+    "palette": "scene"
+   }
+  },
+  {
+   "debut": 8455,
+   "type": "carton",
+   "transition": "coupe",
+   "fondu": 0,
+   "sens": 1,
+   "secousses": [],
+   "props": {
+    "taille": 168,
+    "police": "affiche",
+    "anim": "masque",
+    "palette": "cyan",
+    "mots": [
+     {
+      "texte": "The fees stayed.",
+      "a": 5
+     },
+     {
+      "texte": "Now you see them.",
+      "a": 88
+     }
+    ]
+   }
+  },
+  {
+   "debut": 8572,
+   "type": "billet",
+   "transition": "coupe",
+   "fondu": 0,
+   "sens": 1,
+   "secousses": [],
+   "props": {
+    "titre": "YOUR TICKET",
+    "sous": "LAYER BY LAYER",
+    "talon": "LAYER 1",
+    "libelleTotal": "",
+    "lignes": [
+     {
+      "libelle": "Face value",
+      "montant": "$100",
+      "valeur": 100,
+      "a": 0
+     },
+     {
+      "libelle": "Fees",
+      "montant": "+27%",
+      "a": 4,
+      "style": "frais"
+     },
+     {
+      "libelle": "…",
+      "a": 33,
+      "style": "note"
+     }
+    ],
+    "palette": "scene"
+   }
+  },
+  {
+   "debut": 8674,
+   "type": "plaque",
+   "transition": "glisse",
+   "fondu": 9,
+   "sens": 1,
+   "secousses": [],
+   "props": {
+    "src": "c02_foule_mains.jpg",
+    "mouvement": "gauche",
+    "foyer": [
+     40,
+     60
+    ],
+    "palette": "scene"
+   }
+  },
+  {
+   "debut": 8835,
+   "type": "plaque",
+   "transition": "glisse",
+   "fondu": 9,
+   "sens": 1,
+   "secousses": [],
+   "props": {
+    "src": "c15_stade_complet.jpg",
+    "mouvement": "avant",
+    "foyer": [
+     62,
+     45
+    ],
+    "ampleur": 0.2,
+    "palette": "rouge"
+   }
+  },
+  {
+   "debut": 8898,
+   "type": "compare",
+   "transition": "glisse",
+   "fondu": 9,
+   "sens": 1,
+   "secousses": [],
+   "props": {
+    "titre": "One sold-out seat (example)",
+    "max": 420,
+    "format": "dollar",
+    "decimales": 0,
+    "source": "",
+    "barres": [
+     {
+      "nom": "Face value",
+      "detail": "the price set",
+      "valeur": 100,
+      "a": 17,
+      "couleur": "#21D4FD"
+     },
+     {
+      "nom": "What a fan would pay",
+      "detail": "the gap",
+      "valeur": 400,
+      "a": 88,
+      "couleur": "#FF3B3B"
+     }
+    ],
+    "palette": "rouge"
+   }
+  },
+  {
+   "debut": 9071,
+   "type": "carton",
+   "transition": "coupe",
+   "fondu": 0,
+   "sens": 1,
+   "secousses": [],
+   "props": {
+    "taille": 161,
+    "police": "setlist",
+    "anim": "pop",
+    "palette": "billet",
+    "mots": [
+     {
+      "texte": "Someone",
+      "a": 0
+     },
+     {
+      "texte": "captures it.",
+      "a": 13
+     }
+    ]
+   }
+  },
+  {
+   "debut": 9113,
+   "type": "plaque",
+   "transition": "zoom",
+   "fondu": 12,
+   "sens": 1,
+   "secousses": [],
+   "props": {
+    "src": "c14_broker_ecrans.jpg",
+    "mouvement": "avant",
+    "palette": "rouge"
+   }
+  },
+  {
+   "debut": 9238,
+   "type": "plaque",
+   "transition": "glisse",
+   "fondu": 9,
+   "sens": 1,
+   "secousses": [],
+   "props": {
+    "src": "c13_ferme_telephones.jpg",
+    "mouvement": "droite",
+    "palette": "rouge"
+   }
+  },
+  {
+   "debut": 9442,
+   "type": "billet",
+   "transition": "coupe",
+   "fondu": 0,
+   "sens": 1,
+   "secousses": [],
+   "props": {
+    "titre": "RESALE",
+    "sous": "GAO REVIEW OF RESALE SITES, 2018",
+    "palette": "rouge",
+    "libelleTotal": "AVERAGE MARKUP",
+    "talon": "+74%",
+    "lignes": [
+     {
+      "libelle": "Face value",
+      "montant": "$100",
+      "valeur": 100,
+      "a": 0,
+      "style": "barre"
+     },
+     {
+      "libelle": "Markup, on average",
+      "montant": "+74%",
+      "a": 200,
+      "style": "revente"
+     }
+    ]
+   }
+  },
+  {
+   "debut": 9692,
+   "type": "compare",
+   "transition": "glisse",
+   "fondu": 9,
+   "sens": 1,
+   "secousses": [],
+   "props": {
+    "titre": "Average resale markup · GAO review, 2018",
+    "max": 190,
+    "format": "pourcent",
+    "decimales": 0,
+    "source": "",
+    "barres": [
+     {
+      "nom": "Resale sites",
+      "detail": "average",
+      "valeur": 74,
+      "a": 0,
+      "couleur": "#FF2E88"
+     },
+     {
+      "nom": "Copycat sites",
+      "detail": "look like official venue pages",
+      "valeur": 180,
+      "a": 139,
+      "couleur": "#FF3B3B"
+     }
+    ],
+    "palette": "rouge"
+   }
+  },
+  {
+   "debut": 9958,
+   "type": "carton",
+   "transition": "coupe",
+   "fondu": 0,
+   "sens": 1,
+   "secousses": [],
+   "props": {
+    "taille": 168,
+    "police": "affiche",
+    "anim": "pop",
+    "palette": "scene",
+    "mots": [
+     {
+      "texte": "Ticket limit:",
+      "a": 7
+     },
+     {
+      "texte": "4 per person.",
+      "a": 30
+     }
+    ]
+   }
+  },
+  {
+   "debut": 10049,
+   "type": "plaque",
+   "transition": "glisse",
+   "fondu": 9,
+   "sens": 1,
+   "secousses": [],
+   "props": {
+    "src": "c14_broker_ecrans.jpg",
+    "mouvement": "arriere",
+    "foyer": [
+     70,
+     50
+    ],
+    "palette": "rouge"
+   }
+  },
+  {
+   "debut": 10251,
+   "type": "carton",
+   "transition": "coupe",
+   "fondu": 0,
+   "sens": 1,
+   "secousses": [],
+   "props": {
+    "taille": 153,
+    "police": "tampon",
+    "anim": "tampon",
+    "palette": "billet",
+    "mots": [
+     {
+      "texte": "5 brokers.",
+      "a": 8
+     }
+    ]
+   }
+  },
+  {
+   "debut": 10326,
+   "type": "stats",
+   "transition": "zoom",
+   "fondu": 12,
+   "sens": 1,
+   "secousses": [],
+   "props": {
+    "titre": "Five brokers · one internal review cited by the FTC",
+    "stats": [
+     {
+      "texte": "6,345",
+      "legende": "accounts",
+      "a": 0
+     },
+     {
+      "texte": "246,407",
+      "legende": "concert tickets",
+      "a": 86
+     }
+    ],
+    "palette": "rouge"
+   }
+  },
+  {
+   "debut": 10502,
+   "type": "stats",
+   "transition": "coupe",
+   "fondu": 0,
+   "sens": 1,
+   "secousses": [],
+   "props": {
+    "titre": "Five brokers · one internal review cited by the FTC",
+    "stats": [
+     {
+      "texte": "6,345",
+      "legende": "accounts",
+      "a": 0
+     },
+     {
+      "texte": "246,407",
+      "legende": "concert tickets",
+      "a": 0
+     },
+     {
+      "texte": "2,594",
+      "legende": "events",
+      "a": 32
+     }
+    ],
+    "palette": "rouge"
+   }
+  },
+  {
+   "debut": 10588,
+   "type": "document",
+   "transition": "zoom",
+   "fondu": 12,
+   "sens": 1,
+   "secousses": [],
+   "props": {
+    "src": "doc-ftc-09.png",
+    "ratio": 1.2636363636363637,
+    "largeurSrc": 1390,
+    "lignes": [
+     {
+      "y": 0.0664,
+      "h": 0.0382
+     },
+     {
+      "y": 0.1473,
+      "h": 0.0382
+     },
+     {
+      "y": 0.2327,
+      "h": 0.0455
+     },
+     {
+      "y": 0.3136,
+      "h": 0.0455
+     },
+     {
+      "y": 0.3918,
+      "h": 0.0382
+     },
+     {
+      "y": 0.4727,
+      "h": 0.0382
+     },
+     {
+      "y": 0.5582,
+      "h": 0.0455
+     },
+     {
+      "y": 0.6355,
+      "h": 0.0382
+     },
+     {
+      "y": 0.7168,
+      "h": 0.0391
+     },
+     {
+      "y": 0.8018,
+      "h": 0.0455
+     },
+     {
+      "y": 0.8827,
+      "h": 0.0455
+     },
+     {
+      "y": 0.9645,
+      "h": 0.0455
+     }
+    ],
+    "etapes": [
+     {
+      "a": 0,
+      "ligne": 5,
+      "zoom": 1.15
+     },
+     {
+      "a": 192,
+      "ligne": 6,
+      "zoom": 1.4
+     }
+    ],
+    "source": "",
+    "cercle": null,
+    "palette": "rouge"
+   }
+  },
+  {
+   "debut": 10855,
+   "type": "carton",
+   "transition": "coupe",
+   "fondu": 0,
+   "sens": 1,
+   "secousses": [],
+   "props": {
+    "taille": 126,
+    "police": "playfair",
+    "anim": "masque",
+    "palette": "billet",
+    "mots": [
+     {
+      "texte": "Why",
+      "a": 0
+     },
+     {
+      "texte": "tolerate it?",
+      "a": 31
+     }
+    ]
+   }
+  },
+  {
+   "debut": 10925,
+   "type": "plaque",
+   "transition": "glisse",
+   "fondu": 9,
+   "sens": 1,
+   "secousses": [],
+   "props": {
+    "src": "c08_billet_velours.jpg",
+    "mouvement": "gauche",
+    "foyer": [
+     50,
+     50
+    ],
+    "palette": "rouge"
+   }
+  },
+  {
+   "debut": 11100,
+   "type": "neon",
+   "transition": "coupe",
+   "fondu": 0,
+   "sens": 1,
+   "secousses": [],
+   "props": {
+    "lignes": [
+     {
+      "texte": "Triple dip",
+      "a": 12,
+      "police": "neon",
+      "taille": 170
+     }
+    ],
+    "sous": {
+     "texte": "AS ALLEGED BY THE FTC",
+     "a": 24
+    },
+    "palette": "rouge"
+   }
+  },
+  {
+   "debut": 11152,
+   "type": "tripledip",
+   "transition": "zoom",
+   "fondu": 12,
+   "sens": 1,
+   "secousses": [],
+   "props": {
+    "palette": "rouge",
+    "caisse": "TICKETMASTER",
+    "titre": "THE SAME TICKET · THREE FEES · FTC ALLEGATION",
+    "etapes": [
+     {
+      "titre": "The broker buys",
+      "detail": "fees on the first sale",
+      "a": 17
+     },
+     {
+      "titre": "The broker relists",
+      "detail": "seller fee · 5–8% for brokers",
+      "a": 88
+     },
+     {
+      "titre": "A fan buys it",
+      "detail": "buyer fees · 17–23%",
+      "a": 193
+     }
+    ]
+   }
+  },
+  {
+   "debut": 11459,
+   "type": "stat",
+   "transition": "coupe",
+   "fondu": 0,
+   "sens": 1,
+   "secousses": [],
+   "props": {
+    "valeur": 3.7,
+    "legende": "in resale fees, 2019 to 2024 (FTC allegation)",
+    "decimales": 1,
+    "prefixe": "$",
+    "suffixe": "B",
+    "palette": "rouge"
+   }
+  },
+  {
+   "debut": 11700,
+   "type": "compare",
+   "transition": "glisse",
+   "fondu": 9,
+   "sens": 1,
+   "secousses": [],
+   "props": {
+    "titre": "Concert tickets resold on Ticketmaster · millions per year (FTC)",
+    "max": 22,
+    "format": "nombre",
+    "decimales": 1,
+    "source": "",
+    "barres": [
+     {
+      "nom": "2019",
+      "detail": "resold",
+      "valeur": 3.8,
+      "a": 110,
+      "couleur": "#21D4FD"
+     },
+     {
+      "nom": "2024",
+      "detail": "resold · more than",
+      "valeur": 20,
+      "a": 170,
+      "couleur": "#FF3B3B"
+     }
+    ],
+    "palette": "rouge"
+   }
+  },
+  {
+   "debut": 11911,
+   "type": "carton",
+   "transition": "coupe",
+   "fondu": 0,
+   "sens": 1,
+   "secousses": [],
+   "props": {
+    "taille": 101,
+    "police": "spacemono",
+    "anim": "machine",
+    "palette": "cyan",
+    "mots": [
+     {
+      "texte": "Live Nation",
+      "a": 0
+     },
+     {
+      "texte": "disputes the claims.",
+      "a": 20
+     }
+    ]
+   }
+  },
+  {
+   "debut": 12023,
+   "type": "plaque",
+   "transition": "zoom",
+   "fondu": 12,
+   "sens": 1,
+   "secousses": [],
+   "props": {
+    "src": "c17_londres.jpg",
+    "mouvement": "avant",
+    "palette": "rouge"
+   }
+  },
+  {
+   "debut": 12116,
+   "type": "plaque",
+   "transition": "glisse",
+   "fondu": 9,
+   "sens": 1,
+   "secousses": [],
+   "props": {
+    "src": "c16_stade_uk_pluie.jpg",
+    "mouvement": "avant",
+    "palette": "rouge"
+   }
+  },
+  {
+   "debut": 12246,
+   "type": "carton",
+   "transition": "coupe",
+   "fondu": 0,
+   "sens": 1,
+   "secousses": [],
+   "props": {
+    "taille": 161,
+    "police": "setlist",
+    "anim": "glisse",
+    "palette": "projo",
+    "mots": [
+     {
+      "texte": "Same standing ticket.",
+      "a": 0
+     },
+     {
+      "texte": "Two prices.",
+      "a": 62
+     }
+    ]
+   }
+  },
+  {
+   "debut": 12356,
+   "type": "plaque",
+   "transition": "glisse",
+   "fondu": 9,
+   "sens": 1,
+   "secousses": [],
+   "props": {
+    "src": "c03_file_nuit.jpg",
+    "mouvement": "avant",
+    "foyer": [
+     50,
+     55
+    ],
+    "ampleur": 0.2,
+    "palette": "rouge"
+   }
+  },
+  {
+   "debut": 12550,
+   "type": "stat",
+   "transition": "coupe",
+   "fondu": 0,
+   "sens": 1,
+   "secousses": [],
+   "props": {
+    "valeur": 2.5,
+    "legende": "“platinum” seats, with no extra benefit (CMA)",
+    "decimales": 1,
+    "prefixe": "~",
+    "suffixe": "×",
+    "palette": "rouge"
+   }
+  },
+  {
+   "debut": 12725,
+   "type": "plaque",
+   "transition": "glisse",
+   "fondu": 9,
+   "sens": 1,
+   "secousses": [],
+   "props": {
+    "src": "c17_londres.jpg",
+    "mouvement": "droite",
+    "foyer": [
+     50,
+     40
+    ],
+    "palette": "rouge"
+   }
+  },
+  {
+   "debut": 12822,
+   "type": "carton",
+   "transition": "coupe",
+   "fondu": 0,
+   "sens": 1,
+   "secousses": [],
+   "props": {
+    "taille": 144,
+    "police": "affiche",
+    "anim": "neon",
+    "palette": "scene",
+    "mots": [
+     {
+      "texte": "No evidence",
+      "a": 7
+     },
+     {
+      "texte": "of a real-time algorithm.",
+      "a": 31
+     }
+    ]
+   }
+  },
+  {
+   "debut": 12953,
+   "type": "dateline",
+   "transition": "coupe",
+   "fondu": 0,
+   "sens": 1,
+   "secousses": [],
+   "props": {
+    "taille": 108,
+    "palette": "rouge",
+    "lignes": [
+     "September 2025.",
+     "Ticketmaster commits",
+     "to warn fans in advance."
+    ]
+   }
+  },
+  {
+   "debut": 13104,
+   "type": "plaque",
+   "transition": "glisse",
+   "fondu": 9,
+   "sens": 1,
+   "secousses": [],
+   "props": {
+    "src": "c16_stade_uk_pluie.jpg",
+    "mouvement": "droite",
+    "foyer": [
+     50,
+     60
+    ],
+    "palette": "rouge"
+   }
+  },
+  {
+   "debut": 13160,
+   "type": "billet",
+   "transition": "coupe",
+   "fondu": 0,
+   "sens": 1,
+   "secousses": [],
+   "props": {
+    "titre": "YOUR TICKET",
+    "sous": "THREE LAYERS",
+    "talon": "3 LAYERS",
+    "libelleTotal": "",
+    "lignes": [
+     {
+      "libelle": "Face value",
+      "montant": "$100",
+      "valeur": 100,
+      "a": 80
+     },
+     {
+      "libelle": "Fees",
+      "montant": "avg +27%",
+      "a": 111,
+      "style": "frais"
+     },
+     {
+      "libelle": "Resale markup",
+      "montant": "avg +74%",
+      "a": 207,
+      "style": "revente"
+     },
+     {
+      "libelle": "GAO averages, 2018",
+      "a": 219,
+      "style": "note"
+     }
+    ],
+    "palette": "rouge"
+   }
+  },
+  {
+   "debut": 13433,
+   "type": "carton",
+   "transition": "coupe",
+   "fondu": 0,
+   "sens": 1,
+   "secousses": [],
+   "props": {
+    "taille": 168,
+    "police": "affiche",
+    "anim": "neon",
+    "palette": "scene",
+    "mots": [
+     {
+      "texte": "The company",
+      "a": 8
+     },
+     {
+      "texte": "in the middle.",
+      "a": 22
+     }
+    ]
+   }
+  },
+  {
+   "debut": 13529,
+   "type": "neon",
+   "transition": "coupe",
+   "fondu": 0,
+   "sens": 1,
+   "secousses": [],
+   "props": {
+    "lignes": [
+     {
+      "texte": "Live Nation",
+      "a": 12,
+      "police": "affiche",
+      "taille": 220
+     }
+    ],
+    "sous": {
+     "texte": "NOT JUST A TICKET SELLER",
+     "a": 32
+    },
+    "palette": "scene"
+   }
+  },
+  {
+   "debut": 13600,
+   "type": "plaque",
+   "transition": "glisse",
+   "fondu": 9,
+   "sens": 1,
+   "secousses": [],
+   "props": {
+    "src": "c01_arene_vide.jpg",
+    "mouvement": "avant",
+    "foyer": [
+     50,
+     45
+    ],
+    "palette": "scene"
+   }
+  },
+  {
+   "debut": 13686,
+   "type": "plaque",
+   "transition": "glisse",
+   "fondu": 9,
+   "sens": 1,
+   "secousses": [],
+   "props": {
+    "src": "c18_amphitheatre.jpg",
+    "mouvement": "gauche",
+    "palette": "scene"
+   }
+  },
+  {
+   "debut": 13812,
+   "type": "stats",
+   "transition": "zoom",
+   "fondu": 12,
+   "sens": 1,
+   "secousses": [],
+   "props": {
+    "palette": "projo",
+    "titre": "Live Nation · 2025",
+    "stats": [
+     {
+      "texte": "55,000",
+      "legende": "events",
+      "a": 66
+     },
+     {
+      "texte": "159 million",
+      "legende": "fans",
+      "a": 131
+     }
+    ]
+   }
+  },
+  {
+   "debut": 14047,
+   "type": "stats",
+   "transition": "coupe",
+   "fondu": 0,
+   "sens": 1,
+   "secousses": [],
+   "props": {
+    "palette": "projo",
+    "titre": "Live Nation · 2025",
+    "stats": [
+     {
+      "texte": "55,000",
+      "legende": "events",
+      "a": 0
+     },
+     {
+      "texte": "159 million",
+      "legende": "fans",
+      "a": 0
+     },
+     {
+      "texte": "460",
+      "legende": "venues",
+      "a": 100
+     }
+    ]
+   }
+  },
+  {
+   "debut": 14227,
+   "type": "stat",
+   "transition": "zoom",
+   "fondu": 12,
+   "sens": 1,
+   "secousses": [],
+   "props": {
+    "valeur": 646,
+    "legende": "tickets processed through Ticketmaster in 2025",
+    "src": "c04_telephone_nuit.jpg",
+    "suffixe": " million",
+    "palette": "scene"
+   }
+  },
+  {
+   "debut": 14374,
+   "type": "document",
+   "transition": "zoom",
+   "fondu": 12,
+   "sens": 1,
+   "secousses": [],
+   "props": {
+    "src": "doc-doj-006.png",
+    "ratio": 1.1313868613138687,
+    "largeurSrc": 1550,
+    "lignes": [
+     {
+      "y": 0.0223,
+      "h": 0.027
+     },
+     {
+      "y": 0.0781,
+      "h": 0.0321
+     },
+     {
+      "y": 0.1343,
+      "h": 0.0321
+     },
+     {
+      "y": 0.1905,
+      "h": 0.0321
+     },
+     {
+      "y": 0.246,
+      "h": 0.0321
+     },
+     {
+      "y": 0.3022,
+      "h": 0.0321
+     },
+     {
+      "y": 0.3562,
+      "h": 0.0277
+     },
+     {
+      "y": 0.4139,
+      "h": 0.0321
+     },
+     {
+      "y": 0.4701,
+      "h": 0.0321
+     },
+     {
+      "y": 0.5263,
+      "h": 0.0321
+     },
+     {
+      "y": 0.5818,
+      "h": 0.0321
+     },
+     {
+      "y": 0.6358,
+      "h": 0.0277
+     },
+     {
+      "y": 0.6942,
+      "h": 0.0321
+     },
+     {
+      "y": 0.7478,
+      "h": 0.0285
+     },
+     {
+      "y": 0.804,
+      "h": 0.0285
+     },
+     {
+      "y": 0.862,
+      "h": 0.0321
+     },
+     {
+      "y": 0.9175,
+      "h": 0.0321
+     },
+     {
+      "y": 0.9737,
+      "h": 0.0321
+     }
+    ],
+    "etapes": [
+     {
+      "a": 0,
+      "ligne": 12,
+      "zoom": 1.3
+     }
+    ],
+    "source": "",
+    "cercle": null,
+    "palette": "scene"
+   }
+  },
+  {
+   "debut": 14515,
+   "type": "document",
+   "transition": "glisse",
+   "fondu": 9,
+   "sens": 1,
+   "secousses": [],
+   "props": {
+    "src": "doc-doj-006.png",
+    "ratio": 1.1313868613138687,
+    "largeurSrc": 1550,
+    "lignes": [
+     {
+      "y": 0.0223,
+      "h": 0.027
+     },
+     {
+      "y": 0.0781,
+      "h": 0.0321
+     },
+     {
+      "y": 0.1343,
+      "h": 0.0321
+     },
+     {
+      "y": 0.1905,
+      "h": 0.0321
+     },
+     {
+      "y": 0.246,
+      "h": 0.0321
+     },
+     {
+      "y": 0.3022,
+      "h": 0.0321
+     },
+     {
+      "y": 0.3562,
+      "h": 0.0277
+     },
+     {
+      "y": 0.4139,
+      "h": 0.0321
+     },
+     {
+      "y": 0.4701,
+      "h": 0.0321
+     },
+     {
+      "y": 0.5263,
+      "h": 0.0321
+     },
+     {
+      "y": 0.5818,
+      "h": 0.0321
+     },
+     {
+      "y": 0.6358,
+      "h": 0.0277
+     },
+     {
+      "y": 0.6942,
+      "h": 0.0321
+     },
+     {
+      "y": 0.7478,
+      "h": 0.0285
+     },
+     {
+      "y": 0.804,
+      "h": 0.0285
+     },
+     {
+      "y": 0.862,
+      "h": 0.0321
+     },
+     {
+      "y": 0.9175,
+      "h": 0.0321
+     },
+     {
+      "y": 0.9737,
+      "h": 0.0321
+     }
+    ],
+    "etapes": [
+     {
+      "a": 0,
+      "ligne": 13,
+      "zoom": 1.2
+     },
+     {
+      "a": 66,
+      "ligne": 17,
+      "zoom": 1.3
+     }
+    ],
+    "source": "",
+    "cercle": null,
+    "palette": "scene"
+   }
+  },
+  {
+   "debut": 14706,
+   "type": "volant",
+   "transition": "zoom",
+   "fondu": 12,
+   "sens": 1,
+   "secousses": [],
+   "props": {
+    "centre": "LIVE NATION",
+    "titre": "THE “FLYWHEEL” · DOJ COMPLAINT",
+    "segments": [
+     {
+      "texte": "Promoter",
+      "a": 0
+     },
+     {
+      "texte": "Venue",
+      "a": 22
+     },
+     {
+      "texte": "Ticket seller",
+      "a": 35
+     },
+     {
+      "texte": "Artist manager",
+      "a": 56
+     }
+    ],
+    "rotation": 151,
+    "palette": "scene"
+   }
+  },
+  {
+   "debut": 14959,
+   "type": "carton",
+   "transition": "coupe",
+   "fondu": 0,
+   "sens": 1,
+   "secousses": [],
+   "props": {
+    "taille": 119,
+    "police": "grotesk",
+    "anim": "surligne",
+    "palette": "verdict",
+    "mots": [
+     {
+      "texte": "Where is",
+      "a": 7
+     },
+     {
+      "texte": "the money made?",
+      "a": 16
+     }
+    ]
+   }
+  },
+  {
+   "debut": 15019,
+   "type": "document",
+   "transition": "glisse",
+   "fondu": 9,
+   "sens": 1,
+   "secousses": [],
+   "props": {
+    "src": "doc-lyv-concerts.png",
+    "ratio": 3.951473136915078,
+    "largeurSrc": 2280,
+    "lignes": [
+     {
+      "y": 0.0295,
+      "h": 0.0797
+     },
+     {
+      "y": 0.3744,
+      "h": 0.0589
+     },
+     {
+      "y": 0.4333,
+      "h": 0.0607
+     },
+     {
+      "y": 0.4939,
+      "h": 0.0607
+     },
+     {
+      "y": 0.5546,
+      "h": 0.0589
+     },
+     {
+      "y": 0.6135,
+      "h": 0.0607
+     },
+     {
+      "y": 0.6742,
+      "h": 0.0693
+     },
+     {
+      "y": 0.7435,
+      "h": 0.0659
+     },
+     {
+      "y": 0.8094,
+      "h": 0.0607
+     },
+     {
+      "y": 0.87,
+      "h": 0.0607
+     }
+    ],
+    "etapes": [
+     {
+      "a": 0,
+      "ligne": 0,
+      "zoom": 0.95
+     }
+    ],
+    "source": "",
+    "cercle": null,
+    "palette": "scene"
+   }
+  },
+  {
+   "debut": 15162,
+   "type": "plaque",
+   "transition": "glisse",
+   "fondu": 9,
+   "sens": 1,
+   "secousses": [],
+   "props": {
+    "src": "c15_stade_complet.jpg",
+    "mouvement": "avant",
+    "foyer": [
+     65,
+     45
+    ],
+    "palette": "scene"
+   }
+  },
+  {
+   "debut": 15238,
+   "type": "document",
+   "transition": "zoom",
+   "fondu": 12,
+   "sens": 1,
+   "secousses": [],
+   "props": {
+    "src": "doc-lyv-concerts.png",
+    "ratio": 3.951473136915078,
+    "largeurSrc": 2280,
+    "lignes": [
+     {
+      "y": 0.0295,
+      "h": 0.0797
+     },
+     {
+      "y": 0.3744,
+      "h": 0.0589
+     },
+     {
+      "y": 0.4333,
+      "h": 0.0607
+     },
+     {
+      "y": 0.4939,
+      "h": 0.0607
+     },
+     {
+      "y": 0.5546,
+      "h": 0.0589
+     },
+     {
+      "y": 0.6135,
+      "h": 0.0607
+     },
+     {
+      "y": 0.6742,
+      "h": 0.0693
+     },
+     {
+      "y": 0.7435,
+      "h": 0.0659
+     },
+     {
+      "y": 0.8094,
+      "h": 0.0607
+     },
+     {
+      "y": 0.87,
+      "h": 0.0607
+     }
+    ],
+    "etapes": [
+     {
+      "a": 0,
+      "ligne": 1,
+      "zoom": 1.05,
+      "x": 0.45
+     },
+     {
+      "a": 34,
+      "ligne": 1,
+      "zoom": 1.3,
+      "x": 0.4
+     }
+    ],
+    "source": "",
+    "cercle": null,
+    "palette": "scene"
+   }
+  },
+  {
+   "debut": 15366,
+   "type": "document",
+   "transition": "coupe",
+   "fondu": 0,
+   "sens": 1,
+   "secousses": [],
+   "props": {
+    "src": "doc-lyv-concerts.png",
+    "ratio": 3.951473136915078,
+    "largeurSrc": 2280,
+    "lignes": [
+     {
+      "y": 0.0295,
+      "h": 0.0797
+     },
+     {
+      "y": 0.3744,
+      "h": 0.0589
+     },
+     {
+      "y": 0.4333,
+      "h": 0.0607
+     },
+     {
+      "y": 0.4939,
+      "h": 0.0607
+     },
+     {
+      "y": 0.5546,
+      "h": 0.0589
+     },
+     {
+      "y": 0.6135,
+      "h": 0.0607
+     },
+     {
+      "y": 0.6742,
+      "h": 0.0693
+     },
+     {
+      "y": 0.7435,
+      "h": 0.0659
+     },
+     {
+      "y": 0.8094,
+      "h": 0.0607
+     },
+     {
+      "y": 0.87,
+      "h": 0.0607
+     }
+    ],
+    "etapes": [
+     {
+      "a": 0,
+      "ligne": 9,
+      "zoom": 1.35,
+      "x": 0.4
+     }
+    ],
+    "source": "",
+    "cercle": null,
+    "palette": "scene"
+   }
+  },
+  {
+   "debut": 15469,
+   "type": "stat",
+   "transition": "coupe",
+   "fondu": 0,
+   "sens": 1,
+   "secousses": [],
+   "props": {
+    "valeur": 3,
+    "legende": "of adjusted operating profit per $1 of concert revenue",
+    "prefixe": "~",
+    "suffixe": "¢",
+    "palette": "projo"
+   }
+  },
+  {
+   "debut": 15567,
+   "type": "plaque",
+   "transition": "glisse",
+   "fondu": 9,
+   "sens": 1,
+   "secousses": [],
+   "props": {
+    "src": "c04_telephone_nuit.jpg",
+    "mouvement": "droite",
+    "foyer": [
+     55,
+     55
+    ],
+    "palette": "scene"
+   }
+  },
+  {
+   "debut": 15634,
+   "type": "document",
+   "transition": "zoom",
+   "fondu": 12,
+   "sens": 1,
+   "secousses": [],
+   "props": {
+    "src": "doc-lyv-ticketing.png",
+    "ratio": 3.9721254355400695,
+    "largeurSrc": 2280,
+    "lignes": [
+     {
+      "y": 0.0296,
+      "h": 0.0801
+     },
+     {
+      "y": 0.3711,
+      "h": 0.061
+     },
+     {
+      "y": 0.4321,
+      "h": 0.0592
+     },
+     {
+      "y": 0.4913,
+      "h": 0.061
+     },
+     {
+      "y": 0.5523,
+      "h": 0.061
+     },
+     {
+      "y": 0.6132,
+      "h": 0.0592
+     },
+     {
+      "y": 0.6725,
+      "h": 0.0697
+     },
+     {
+      "y": 0.7422,
+      "h": 0.0679
+     },
+     {
+      "y": 0.8101,
+      "h": 0.0592
+     },
+     {
+      "y": 0.8693,
+      "h": 0.061
+     }
+    ],
+    "etapes": [
+     {
+      "a": 0,
+      "ligne": 1,
+      "zoom": 1.3,
+      "x": 0.4
+     }
+    ],
+    "source": "",
+    "cercle": null,
+    "palette": "scene"
+   }
+  },
+  {
+   "debut": 15726,
+   "type": "document",
+   "transition": "coupe",
+   "fondu": 0,
+   "sens": 1,
+   "secousses": [],
+   "props": {
+    "src": "doc-lyv-ticketing.png",
+    "ratio": 3.9721254355400695,
+    "largeurSrc": 2280,
+    "lignes": [
+     {
+      "y": 0.0296,
+      "h": 0.0801
+     },
+     {
+      "y": 0.3711,
+      "h": 0.061
+     },
+     {
+      "y": 0.4321,
+      "h": 0.0592
+     },
+     {
+      "y": 0.4913,
+      "h": 0.061
+     },
+     {
+      "y": 0.5523,
+      "h": 0.061
+     },
+     {
+      "y": 0.6132,
+      "h": 0.0592
+     },
+     {
+      "y": 0.6725,
+      "h": 0.0697
+     },
+     {
+      "y": 0.7422,
+      "h": 0.0679
+     },
+     {
+      "y": 0.8101,
+      "h": 0.0592
+     },
+     {
+      "y": 0.8693,
+      "h": 0.061
+     }
+    ],
+    "etapes": [
+     {
+      "a": 0,
+      "ligne": 9,
+      "zoom": 1.2,
+      "x": 0.42
+     },
+     {
+      "a": 58,
+      "ligne": 9,
+      "zoom": 1.45,
+      "x": 0.4
+     }
+    ],
+    "source": "",
+    "cercle": null,
+    "palette": "scene"
+   }
+  },
+  {
+   "debut": 15832,
+   "type": "plaque",
+   "transition": "glisse",
+   "fondu": 9,
+   "sens": 1,
+   "secousses": [],
+   "props": {
+    "src": "c02_foule_mains.jpg",
+    "mouvement": "avant",
+    "foyer": [
+     50,
+     30
+    ],
+    "ampleur": 0.2,
+    "palette": "scene"
+   }
+  },
+  {
+   "debut": 15943,
+   "type": "plaque",
+   "transition": "glisse",
+   "fondu": 9,
+   "sens": 1,
+   "secousses": [],
+   "props": {
+    "src": "c01_arene_vide.jpg",
+    "mouvement": "droite",
+    "foyer": [
+     50,
+     40
+    ],
+    "palette": "scene"
+   }
+  },
+  {
+   "debut": 16050,
+   "type": "stats",
+   "transition": "zoom",
+   "fondu": 12,
+   "sens": 1,
+   "secousses": [],
+   "props": {
+    "palette": "projo",
+    "titre": "Sponsorship & advertising · 2025",
+    "stats": [
+     {
+      "texte": "$1.3B",
+      "legende": "revenue",
+      "a": 0
+     },
+     {
+      "texte": "$845M",
+      "legende": "adjusted operating income",
+      "a": 94
+     }
+    ]
+   }
+  },
+  {
+   "debut": 16260,
+   "type": "compare",
+   "transition": "glisse",
+   "fondu": 9,
+   "sens": 1,
+   "secousses": [],
+   "props": {
+    "titre": "Live Nation revenue, 2025 · $ billions",
+    "max": 22,
+    "format": "nombre",
+    "decimales": 1,
+    "source": "",
+    "barres": [
+     {
+      "nom": "Concerts",
+      "detail": "putting on shows",
+      "valeur": 20.9,
+      "a": 0,
+      "couleur": "#21D4FD"
+     },
+     {
+      "nom": "Ticketing",
+      "detail": "Ticketmaster",
+      "valeur": 3.1,
+      "a": 6,
+      "couleur": "#FF2E88"
+     },
+     {
+      "nom": "Sponsorship",
+      "detail": "brands & ads",
+      "valeur": 1.3,
+      "a": 12,
+      "couleur": "#FFB000"
+     }
+    ],
+    "palette": "scene"
+   }
+  },
+  {
+   "debut": 16466,
+   "type": "compare",
+   "transition": "glisse",
+   "fondu": 9,
+   "sens": 1,
+   "secousses": [],
+   "props": {
+    "titre": "Adjusted operating income, 2025 · $ billions",
+    "max": 1.3,
+    "format": "nombre",
+    "decimales": 2,
+    "source": "",
+    "barres": [
+     {
+      "nom": "Concerts",
+      "detail": "most of the revenue",
+      "valeur": 0.69,
+      "a": 0,
+      "couleur": "#21D4FD"
+     },
+     {
+      "nom": "Ticketing",
+      "detail": "margin 36.8%",
+      "valeur": 1.13,
+      "a": 5,
+      "couleur": "#FF2E88"
+     },
+     {
+      "nom": "Sponsorship",
+      "detail": "the brands",
+      "valeur": 0.85,
+      "a": 27,
+      "couleur": "#FFB000"
+     }
+    ],
+    "palette": "scene"
+   }
+  },
+  {
+   "debut": 16592,
+   "type": "plaque",
+   "transition": "glisse",
+   "fondu": 9,
+   "sens": 1,
+   "secousses": [],
+   "props": {
+    "src": "c18_amphitheatre.jpg",
+    "mouvement": "avant",
+    "foyer": [
+     40,
+     55
+    ],
+    "palette": "scene"
+   }
+  },
+  {
+   "debut": 16672,
+   "type": "stat",
+   "transition": "coupe",
+   "fondu": 0,
+   "sens": 1,
+   "secousses": [],
+   "props": {
+    "valeur": 45,
+    "legende": "spent on site per fan · Live Nation US amphitheaters, 2025",
+    "prefixe": "$",
+    "suffixe": "+",
+    "palette": "projo"
+   }
+  },
+  {
+   "debut": 16843,
+   "type": "carton",
+   "transition": "coupe",
+   "fondu": 0,
+   "sens": 1,
+   "secousses": [],
+   "props": {
+    "taille": 161,
+    "police": "setlist",
+    "anim": "pop",
+    "palette": "billet",
+    "mots": [
+     {
+      "texte": "Parking.",
+      "a": 0
+     },
+     {
+      "texte": "Drinks.",
+      "a": 17
+     },
+     {
+      "texte": "Food.",
+      "a": 30
+     },
+     {
+      "texte": "Merch.",
+      "a": 44
+     }
+    ]
+   }
+  },
+  {
+   "debut": 16984,
+   "type": "carton",
+   "transition": "coupe",
+   "fondu": 0,
+   "sens": 1,
+   "secousses": [],
+   "props": {
+    "taille": 126,
+    "police": "playfair",
+    "anim": "masque",
+    "palette": "scene",
+    "mots": [
+     {
+      "texte": "The honest answer:",
+      "a": 8
+     },
+     {
+      "texte": "layered.",
+      "a": 33
+     }
+    ]
+   }
+  },
+  {
+   "debut": 17048,
+   "type": "billet",
+   "transition": "coupe",
+   "fondu": 0,
+   "sens": 1,
+   "secousses": [],
+   "props": {
+    "titre": "WHO GETS PAID",
+    "sous": "FROM ONE TICKET",
+    "talon": "LAYERED",
+    "libelleTotal": "",
+    "lignes": [
+     {
+      "libelle": "The artist",
+      "montant": "via the promoter",
+      "a": 5
+     },
+     {
+      "libelle": "The venue",
+      "montant": "its cut",
+      "a": 121
+     }
+    ],
+    "palette": "scene"
+   }
+  },
+  {
+   "debut": 17207,
+   "type": "volant",
+   "transition": "zoom",
+   "fondu": 12,
+   "sens": 1,
+   "secousses": [],
+   "props": {
+    "centre": "ONE GROUP",
+    "titre": "ALL AT ONCE",
+    "segments": [
+     {
+      "texte": "Promoter",
+      "a": 32
+     },
+     {
+      "texte": "Venue",
+      "a": 55
+     },
+     {
+      "texte": "Ticket seller",
+      "a": 74
+     },
+     {
+      "texte": "Resale market",
+      "a": 114
+     }
+    ],
+    "rotation": 140,
+    "palette": "scene"
+   }
+  },
+  {
+   "debut": 17384,
+   "type": "plaque",
+   "transition": "glisse",
+   "fondu": 9,
+   "sens": 1,
+   "secousses": [],
+   "props": {
+    "src": "c07_audition_senat.jpg",
+    "mouvement": "gauche",
+    "foyer": [
+     50,
+     60
+    ],
+    "palette": "scene"
+   }
+  },
+  {
+   "debut": 17478,
+   "type": "abonnement",
+   "transition": "zoom",
+   "fondu": 12,
+   "sens": 1,
+   "secousses": [],
+   "props": {
+    "lignesA": [
+     18,
+     185
+    ],
+    "clic": 153,
+    "palette": "scene"
+   }
+  },
+  {
+   "debut": 17747,
+   "type": "dateline",
+   "transition": "coupe",
+   "fondu": 0,
+   "sens": 1,
+   "secousses": [],
+   "props": {
+    "taille": 108,
+    "lignes": [
+     "May 23, 2024.",
+     "US Department of Justice."
+    ],
+    "palette": "verdict"
+   }
+  },
+  {
+   "debut": 17806,
+   "type": "plaque",
+   "transition": "zoom",
+   "fondu": 12,
+   "sens": 1,
+   "secousses": [],
+   "props": {
+    "src": "c06_capitole.jpg",
+    "mouvement": "avant",
+    "foyer": [
+     50,
+     35
+    ],
+    "palette": "verdict"
+   }
+  },
+  {
+   "debut": 17949,
+   "type": "carton",
+   "transition": "coupe",
+   "fondu": 0,
+   "sens": 1,
+   "secousses": [],
+   "props": {
+    "taille": 119,
+    "police": "grotesk",
+    "anim": "surligne",
+    "palette": "verdict",
+    "mots": [
+     {
+      "texte": "The charge:",
+      "a": 6
+     },
+     {
+      "texte": "monopoly.",
+      "a": 48
+     }
+    ]
+   }
+  },
+  {
+   "debut": 18067,
+   "type": "stat",
+   "transition": "zoom",
+   "fondu": 12,
+   "sens": 1,
+   "secousses": [],
+   "props": {
+    "valeur": 128,
+    "legende": "pages in the complaint",
+    "palette": "verdict"
+   }
+  },
+  {
+   "debut": 18149,
+   "type": "document",
+   "transition": "zoom",
+   "fondu": 12,
+   "sens": 1,
+   "secousses": [],
+   "props": {
+    "src": "doc-doj-006.png",
+    "ratio": 1.1313868613138687,
+    "largeurSrc": 1550,
+    "lignes": [
+     {
+      "y": 0.0223,
+      "h": 0.027
+     },
+     {
+      "y": 0.0781,
+      "h": 0.0321
+     },
+     {
+      "y": 0.1343,
+      "h": 0.0321
+     },
+     {
+      "y": 0.1905,
+      "h": 0.0321
+     },
+     {
+      "y": 0.246,
+      "h": 0.0321
+     },
+     {
+      "y": 0.3022,
+      "h": 0.0321
+     },
+     {
+      "y": 0.3562,
+      "h": 0.0277
+     },
+     {
+      "y": 0.4139,
+      "h": 0.0321
+     },
+     {
+      "y": 0.4701,
+      "h": 0.0321
+     },
+     {
+      "y": 0.5263,
+      "h": 0.0321
+     },
+     {
+      "y": 0.5818,
+      "h": 0.0321
+     },
+     {
+      "y": 0.6358,
+      "h": 0.0277
+     },
+     {
+      "y": 0.6942,
+      "h": 0.0321
+     },
+     {
+      "y": 0.7478,
+      "h": 0.0285
+     },
+     {
+      "y": 0.804,
+      "h": 0.0285
+     },
+     {
+      "y": 0.862,
+      "h": 0.0321
+     },
+     {
+      "y": 0.9175,
+      "h": 0.0321
+     },
+     {
+      "y": 0.9737,
+      "h": 0.0321
+     }
+    ],
+    "etapes": [
+     {
+      "a": 0,
+      "ligne": 0,
+      "zoom": 1.05
+     },
+     {
+      "a": 56,
+      "ligne": 1,
+      "zoom": 1.3
+     },
+     {
+      "a": 191,
+      "ligne": 2,
+      "zoom": 1.3
+     }
+    ],
+    "source": "",
+    "cercle": null,
+    "palette": "verdict"
+   }
+  },
+  {
+   "debut": 18384,
+   "type": "plaque",
+   "transition": "glisse",
+   "fondu": 9,
+   "sens": 1,
+   "secousses": [],
+   "props": {
+    "src": "c07_audition_senat.jpg",
+    "mouvement": "avant",
+    "foyer": [
+     50,
+     50
+    ],
+    "palette": "verdict"
+   }
+  },
+  {
+   "debut": 18497,
+   "type": "frise",
+   "transition": "zoom",
+   "fondu": 12,
+   "sens": 1,
+   "secousses": [],
+   "props": {
+    "anDebut": 2008,
+    "anFin": 2027,
+    "titre": "Live Nation and Ticketmaster",
+    "source": "",
+    "evenements": [
+     {
+      "annee": 2010,
+      "libelle": "Merger, with conditions",
+      "a": 74,
+      "genre": "licence"
+     }
+    ],
+    "palette": "verdict"
+   }
+  },
+  {
+   "debut": 18696,
+   "type": "frise",
+   "transition": "coupe",
+   "fondu": 0,
+   "sens": 1,
+   "secousses": [],
+   "props": {
+    "anDebut": 2008,
+    "anFin": 2027,
+    "titre": "Live Nation and Ticketmaster",
+    "source": "",
+    "evenements": [
+     {
+      "annee": 2010,
+      "libelle": "Merger, with conditions",
+      "a": 0,
+      "genre": "licence"
+     },
+     {
+      "annee": 2024,
+      "libelle": "“The conditions did not work”",
+      "a": 0,
+      "genre": "achat"
+     }
+    ],
+    "palette": "verdict"
+   }
+  },
+  {
+   "debut": 18823,
+   "type": "plaque",
+   "transition": "glisse",
+   "fondu": 9,
+   "sens": 1,
+   "secousses": [],
+   "props": {
+    "src": "c07_audition_senat.jpg",
+    "mouvement": "droite",
+    "foyer": [
+     50,
+     60
+    ],
+    "palette": "verdict"
+   }
+  },
+  {
+   "debut": 18958,
+   "type": "carton",
+   "transition": "coupe",
+   "fondu": 0,
+   "sens": 1,
+   "secousses": [],
+   "props": {
+    "taille": 126,
+    "police": "playfair",
+    "anim": "surligne",
+    "palette": "rouge",
+    "mots": [
+     {
+      "texte": "A few days in…",
+      "a": 7
+     },
+     {
+      "texte": "something unusual.",
+      "a": 49
+     }
+    ]
+   }
+  },
+  {
+   "debut": 19082,
+   "type": "carton",
+   "transition": "coupe",
+   "fondu": 0,
+   "sens": 1,
+   "secousses": [],
+   "props": {
+    "taille": 162,
+    "police": "tampon",
+    "anim": "tampon",
+    "palette": "verdict",
+    "mots": [
+     {
+      "texte": "SETTLED",
+      "a": 7
+     }
+    ]
+   }
+  },
+  {
+   "debut": 19118,
+   "type": "stat",
+   "transition": "coupe",
+   "fondu": 0,
+   "sens": 1,
+   "secousses": [],
+   "props": {
+    "valeur": 280,
+    "legende": "paid under the DOJ settlement",
+    "prefixe": "$",
+    "suffixe": "M",
+    "palette": "verdict"
+   }
+  },
+  {
+   "debut": 19230,
+   "type": "billet",
+   "transition": "coupe",
+   "fondu": 0,
+   "sens": 1,
+   "secousses": [],
+   "props": {
+    "titre": "THE SETTLEMENT",
+    "sous": "US DEPARTMENT OF JUSTICE · MARCH 2026",
+    "talon": "DOJ",
+    "libelleTotal": "",
+    "palette": "verdict",
+    "lignes": [
+     {
+      "libelle": "Paid",
+      "montant": "$280M",
+      "a": 0
+     },
+     {
+      "libelle": "Service fee cap",
+      "montant": "15%",
+      "a": 49
+     },
+     {
+      "libelle": "at some amphitheaters",
+      "a": 98,
+      "style": "note"
+     },
+     {
+      "libelle": "Exclusive contracts",
+      "montant": "loosened",
+      "a": 141
+     },
+     {
+      "libelle": "Court monitor",
+      "montant": "8 years",
+      "a": 243
+     }
+    ]
+   }
+  },
+  {
+   "debut": 19525,
+   "type": "plaque",
+   "transition": "glisse",
+   "fondu": 9,
+   "sens": 1,
+   "secousses": [],
+   "props": {
+    "src": "c06_capitole.jpg",
+    "mouvement": "arriere",
+    "foyer": [
+     50,
+     40
+    ],
+    "palette": "verdict"
+   }
+  },
+  {
+   "debut": 19600,
+   "type": "stat",
+   "transition": "zoom",
+   "fondu": 12,
+   "sens": 1,
+   "secousses": [],
+   "props": {
+    "valeur": 33,
+    "legende": "states, plus D.C., refused the deal",
+    "palette": "verdict"
+   }
+  },
+  {
+   "debut": 19709,
+   "type": "plaque",
+   "transition": "glisse",
+   "fondu": 9,
+   "sens": 1,
+   "secousses": [],
+   "props": {
+    "src": "c07_audition_senat.jpg",
+    "mouvement": "avant",
+    "foyer": [
+     45,
+     65
+    ],
+    "ampleur": 0.2,
+    "palette": "verdict"
+   }
+  },
+  {
+   "debut": 19765,
+   "type": "stats",
+   "transition": "glisse",
+   "fondu": 9,
+   "sens": 1,
+   "secousses": [],
+   "props": {
+    "palette": "verdict",
+    "titre": "The states’ trial",
+    "stats": [
+     {
+      "texte": "50",
+      "legende": "witnesses",
+      "a": 40
+     },
+     {
+      "texte": "5",
+      "legende": "weeks of testimony",
+      "a": 85
+     }
+    ]
+   }
+  },
+  {
+   "debut": 19906,
+   "type": "dateline",
+   "transition": "coupe",
+   "fondu": 0,
+   "sens": 1,
+   "secousses": [],
+   "props": {
+    "taille": 108,
+    "palette": "verdict",
+    "lignes": [
+     "April 15, 2026.",
+     "Four days of deliberation.",
+     "The jury is back."
+    ]
+   }
+  },
+  {
+   "debut": 20102,
+   "type": "neon",
+   "transition": "coupe",
+   "fondu": 0,
+   "sens": 1,
+   "secousses": [],
+   "props": {
+    "lignes": [
+     {
+      "texte": "Unanimous",
+      "a": 12,
+      "police": "neon",
+      "taille": 180
+     }
+    ],
+    "sous": null,
+    "palette": "verdict"
+   }
+  },
+  {
+   "debut": 20147,
+   "type": "carton",
+   "transition": "coupe",
+   "fondu": 0,
+   "sens": 1,
+   "secousses": [],
+   "props": {
+    "taille": 119,
+    "police": "grotesk",
+    "anim": "surligne",
+    "palette": "verdict",
+    "mots": [
+     {
+      "texte": "Ticketmaster:",
+      "a": 0
+     },
+     {
+      "texte": "monopoly",
+      "a": 24
+     },
+     {
+      "texte": "in ticketing.",
+      "a": 63
+     }
+    ]
+   }
+  },
+  {
+   "debut": 20280,
+   "type": "plaque",
+   "transition": "glisse",
+   "fondu": 9,
+   "sens": 1,
+   "secousses": [],
+   "props": {
+    "src": "c18_amphitheatre.jpg",
+    "mouvement": "avant",
+    "foyer": [
+     30,
+     45
+    ],
+    "palette": "verdict"
+   }
+  },
+  {
+   "debut": 20376,
+   "type": "plaque",
+   "transition": "glisse",
+   "fondu": 9,
+   "sens": 1,
+   "secousses": [],
+   "props": {
+    "src": "c08_billet_velours.jpg",
+    "mouvement": "avant",
+    "foyer": [
+     50,
+     50
+    ],
+    "ampleur": 0.25,
+    "palette": "verdict"
+   }
+  },
+  {
+   "debut": 20456,
+   "type": "stat",
+   "transition": "coupe",
+   "fondu": 0,
+   "sens": 1,
+   "secousses": [
+    0
+   ],
+   "props": {
+    "valeur": 1.72,
+    "legende": "overcharged on every ticket covered by the case",
+    "decimales": 2,
+    "prefixe": "$",
+    "palette": "verdict"
+   }
+  },
+  {
+   "debut": 20624,
+   "type": "carton",
+   "transition": "coupe",
+   "fondu": 0,
+   "sens": 1,
+   "secousses": [],
+   "props": {
+    "taille": 168,
+    "police": "affiche",
+    "anim": "masque",
+    "palette": "cyan",
+    "mots": [
+     {
+      "texte": "Only certain",
+      "a": 7
+     },
+     {
+      "texte": "venues and states.",
+      "a": 33
+     }
+    ]
+   }
+  },
+  {
+   "debut": 20708,
+   "type": "stat",
+   "transition": "coupe",
+   "fondu": 0,
+   "sens": 1,
+   "secousses": [],
+   "props": {
+    "valeur": 150,
+    "legende": "in damages, per Live Nation — before tripling",
+    "prefixe": "< $",
+    "suffixe": "M",
+    "palette": "verdict"
+   }
+  },
+  {
+   "debut": 20860,
+   "type": "plaque",
+   "transition": "glisse",
+   "fondu": 9,
+   "sens": 1,
+   "secousses": [],
+   "props": {
+    "src": "c07_audition_senat.jpg",
+    "mouvement": "gauche",
+    "foyer": [
+     50,
+     55
+    ],
+    "palette": "verdict"
+   }
+  },
+  {
+   "debut": 20969,
+   "type": "dateline",
+   "transition": "coupe",
+   "fondu": 0,
+   "sens": 1,
+   "secousses": [],
+   "props": {
+    "taille": 108,
+    "palette": "verdict",
+    "lignes": [
+     "June 2026.",
+     "The next phase:",
+     "paused."
+    ]
+   }
+  },
+  {
+   "debut": 21119,
+   "type": "carton",
+   "transition": "coupe",
+   "fondu": 0,
+   "sens": 1,
+   "secousses": [],
+   "props": {
+    "taille": 126,
+    "police": "playfair",
+    "anim": "masque",
+    "palette": "verdict",
+    "mots": [
+     {
+      "texte": "The big question:",
+      "a": 8
+     }
+    ]
+   }
+  },
+  {
+   "debut": 21210,
+   "type": "carton",
+   "transition": "coupe",
+   "fondu": 0,
+   "sens": 1,
+   "secousses": [],
+   "props": {
+    "taille": 168,
+    "police": "affiche",
+    "anim": "pop",
+    "palette": "verdict",
+    "mots": [
+     {
+      "texte": "Split",
+      "a": 8
+     },
+     {
+      "texte": "Ticketmaster",
+      "a": 0
+     },
+     {
+      "texte": "from Live Nation?",
+      "a": 29
+     }
+    ]
+   }
+  },
+  {
+   "debut": 21324,
+   "type": "carton",
+   "transition": "coupe",
+   "fondu": 0,
+   "sens": 1,
+   "secousses": [],
+   "props": {
+    "taille": 135,
+    "police": "tampon",
+    "anim": "tampon",
+    "palette": "verdict",
+    "mots": [
+     {
+      "texte": "NOT YET RULED",
+      "a": 8
+     }
+    ]
+   }
+  },
+  {
+   "debut": 21380,
+   "type": "neon",
+   "transition": "zoom",
+   "fondu": 12,
+   "sens": 1,
+   "secousses": [],
+   "props": {
+    "lignes": [
+     {
+      "texte": "So, why are concert tickets",
+      "a": 0,
+      "police": "affiche",
+      "taille": 130
+     },
+     {
+      "texte": "so expensive?",
+      "a": 24,
+      "police": "neon",
+      "taille": 140
+     }
+    ],
+    "sous": null,
+    "palette": "scene"
+   }
+  },
+  {
+   "debut": 21479,
+   "type": "plaque",
+   "transition": "glisse",
+   "fondu": 9,
+   "sens": 1,
+   "secousses": [],
+   "props": {
+    "src": "c02_foule_mains.jpg",
+    "mouvement": "avant",
+    "palette": "scene"
+   }
+  },
+  {
+   "debut": 21539,
+   "type": "plaque",
+   "transition": "glisse",
+   "fondu": 9,
+   "sens": 1,
+   "secousses": [],
+   "props": {
+    "src": "c15_stade_complet.jpg",
+    "mouvement": "arriere",
+    "palette": "scene"
+   }
+  },
+  {
+   "debut": 21649,
+   "type": "plaque",
+   "transition": "glisse",
+   "fondu": 9,
+   "sens": 1,
+   "secousses": [],
+   "props": {
+    "src": "c01_arene_vide.jpg",
+    "mouvement": "avant",
+    "foyer": [
+     50,
+     50
+    ],
+    "ampleur": 0.22,
+    "palette": "scene"
+   }
+  },
+  {
+   "debut": 21781,
+   "type": "billet",
+   "transition": "coupe",
+   "fondu": 0,
+   "sens": 1,
+   "secousses": [],
+   "props": {
+    "titre": "YOUR TICKET",
+    "sous": "WHAT THE NUMBERS SHOW",
+    "talon": "THE RECEIPT",
+    "libelleTotal": "",
+    "lignes": [
+     {
+      "libelle": "Face value",
+      "montant": "$100",
+      "valeur": 100,
+      "a": 0
+     },
+     {
+      "libelle": "Fees that grow with the price",
+      "a": 116,
+      "style": "frais"
+     }
+    ],
+    "palette": "scene"
+   }
+  },
+  {
+   "debut": 21997,
+   "type": "plaque",
+   "transition": "glisse",
+   "fondu": 9,
+   "sens": 1,
+   "secousses": [],
+   "props": {
+    "src": "c13_ferme_telephones.jpg",
+    "mouvement": "avant",
+    "palette": "scene"
+   }
+  },
+  {
+   "debut": 22125,
+   "type": "volant",
+   "transition": "zoom",
+   "fondu": 12,
+   "sens": 1,
+   "secousses": [],
+   "props": {
+    "centre": "ONE COMPANY",
+    "titre": "",
+    "segments": [
+     {
+      "texte": "Promoter’s desk",
+      "a": 80
+     },
+     {
+      "texte": "Venue’s door",
+      "a": 125
+     },
+     {
+      "texte": "Ticket counter",
+      "a": 168
+     }
+    ],
+    "rotation": 188,
+    "palette": "scene"
+   }
+  },
+  {
+   "debut": 22327,
+   "type": "plaque",
+   "transition": "glisse",
+   "fondu": 9,
+   "sens": 1,
+   "secousses": [],
+   "props": {
+    "src": "c07_audition_senat.jpg",
+    "mouvement": "avant",
+    "foyer": [
+     50,
+     60
+    ],
+    "palette": "scene"
+   }
+  },
+  {
+   "debut": 22416,
+   "type": "stat",
+   "transition": "zoom",
+   "fondu": 12,
+   "sens": 1,
+   "secousses": [],
+   "props": {
+    "valeur": 1.72,
+    "legende": "is not the whole story",
+    "decimales": 2,
+    "prefixe": "$",
+    "palette": "scene"
+   }
+  },
+  {
+   "debut": 22518,
+   "type": "carton",
+   "transition": "coupe",
+   "fondu": 0,
+   "sens": 1,
+   "secousses": [],
+   "props": {
+    "taille": 126,
+    "police": "playfair",
+    "anim": "masque",
+    "palette": "billet",
+    "mots": [
+     {
+      "texte": "The part",
+      "a": 8
+     },
+     {
+      "texte": "a court could measure.",
+      "a": 23
+     }
+    ]
+   }
+  },
+  {
+   "debut": 22588,
+   "type": "billet",
+   "transition": "coupe",
+   "fondu": 0,
+   "sens": 1,
+   "secousses": [],
+   "props": {
+    "titre": "YOUR TICKET",
+    "sous": "THE REST IS WRITTEN HERE",
+    "talon": "ITEMIZED",
+    "libelleTotal": "",
+    "lignes": [
+     {
+      "libelle": "Face value",
+      "montant": "$100",
+      "valeur": 100,
+      "a": 0
+     },
+     {
+      "libelle": "Fees",
+      "montant": "avg +27%",
+      "a": 3,
+      "style": "frais"
+     },
+     {
+      "libelle": "Resale markup",
+      "montant": "avg +74%",
+      "a": 6,
+      "style": "revente"
+     },
+     {
+      "libelle": "On site",
+      "montant": "$45+",
+      "a": 9,
+      "style": "frais"
+     }
+    ],
+    "palette": "scene"
+   }
+  },
+  {
+   "debut": 22657,
+   "type": "neon",
+   "transition": "zoom",
+   "fondu": 12,
+   "sens": 1,
+   "secousses": [],
+   "props": {
+    "lignes": [
+     {
+      "texte": "ITEMIZED",
+      "a": 6,
+      "police": "affiche",
+      "taille": 230
+     }
+    ],
+    "sous": {
+     "texte": "EVERY PRICE HAS A RECEIPT.",
+     "a": 24
+    },
+    "palette": "scene"
+   }
+  },
+  {
+   "debut": 22728,
+   "type": "abonnement",
+   "transition": "glisse",
+   "fondu": 9,
+   "sens": 1,
+   "secousses": [],
+   "props": {
+    "lignesA": [
+     0,
+     33
+    ],
+    "clic": 97,
+    "palette": "scene"
+   }
+  },
+  {
+   "debut": 22932,
+   "type": "ecranfin",
+   "transition": "fondu",
+   "fondu": 12,
+   "sens": 1,
+   "secousses": [],
+   "props": {
+    "logo": "avatar.png",
+    "palette": "scene"
+   }
+  }
+ ],
+ "surcouches": [
+  {
+   "debut": 1289,
+   "fin": 1346,
+   "type": "projecteurs",
+   "props": {
+    "graine": 1
+   }
+  },
+  {
+   "debut": 1295,
+   "fin": 1361,
+   "type": "setlist",
+   "props": {
+    "numero": "01",
+    "titre": "The queue",
+    "pistes": [
+     "The queue",
+     "The receipt",
+     "The resale",
+     "The machine",
+     "The trial"
+    ],
+    "actif": 0,
+    "palette": "cyan"
+   }
+  },
+  {
+   "debut": 1386,
+   "fin": 1501,
+   "type": "bracelet",
+   "props": {
+    "nom": "The Eras Tour",
+    "fonction": "Taylor Swift · US ticket sale, November 2022"
+   }
+  },
+  {
+   "debut": 2422,
+   "fin": 2523,
+   "type": "bracelet",
+   "props": {
+    "nom": "A record",
+    "fonction": "The most tickets ever sold for one artist in one day"
+   }
+  },
+  {
+   "debut": 2918,
+   "fin": 2983,
+   "type": "bracelet",
+   "props": {
+    "nom": "January 24, 2023",
+    "fonction": "US Senate Judiciary Committee hearing"
+   }
+  },
+  {
+   "debut": 3507,
+   "fin": 3564,
+   "type": "projecteurs",
+   "props": {
+    "graine": 2
+   }
+  },
+  {
+   "debut": 3513,
+   "fin": 3579,
+   "type": "setlist",
+   "props": {
+    "numero": "02",
+    "titre": "The receipt",
+    "pistes": [
+     "The queue",
+     "The receipt",
+     "The resale",
+     "The machine",
+     "The trial"
+    ],
+    "actif": 1,
+    "palette": "billet"
+   }
+  },
+  {
+   "debut": 4195,
+   "fin": 4296,
+   "type": "bracelet",
+   "props": {
+    "nom": "Face value",
+    "fonction": "The number the whole tour is built around"
+   }
+  },
+  {
+   "debut": 4429,
+   "fin": 4520,
+   "type": "bracelet",
+   "props": {
+    "nom": "GAO · 2018",
+    "fonction": "US Government Accountability Office · a sample of events"
+   }
+  },
+  {
+   "debut": 6628,
+   "fin": 6663,
+   "type": "bracelet",
+   "props": {
+    "nom": "→ The promoter",
+    "fonction": "Part of the venue’s share often flows on, per the DOJ complaint"
+   }
+  },
+  {
+   "debut": 6788,
+   "fin": 6900,
+   "type": "bracelet",
+   "props": {
+    "nom": "FTC · September 18, 2025",
+    "fonction": "US Federal Trade Commission lawsuit (allegations)"
+   }
+  },
+  {
+   "debut": 8826,
+   "fin": 8883,
+   "type": "projecteurs",
+   "props": {
+    "graine": 3
+   }
+  },
+  {
+   "debut": 8832,
+   "fin": 8898,
+   "type": "setlist",
+   "props": {
+    "numero": "03",
+    "titre": "The resale",
+    "pistes": [
+     "The queue",
+     "The receipt",
+     "The resale",
+     "The machine",
+     "The trial"
+    ],
+    "actif": 2,
+    "palette": "rouge"
+   }
+  },
+  {
+   "debut": 9205,
+   "fin": 9238,
+   "type": "bracelet",
+   "props": {
+    "nom": "The broker",
+    "fonction": "A professional ticket reseller"
+   }
+  },
+  {
+   "debut": 10786,
+   "fin": 10795,
+   "type": "flash",
+   "props": {}
+  },
+  {
+   "debut": 12159,
+   "fin": 12246,
+   "type": "bracelet",
+   "props": {
+    "nom": "Oasis · 2024",
+    "fonction": "Reunion tour · UK ticket sale"
+   }
+  },
+  {
+   "debut": 12731,
+   "fin": 12846,
+   "type": "bracelet",
+   "props": {
+    "nom": "CMA",
+    "fonction": "UK Competition and Markets Authority"
+   }
+  },
+  {
+   "debut": 13508,
+   "fin": 13565,
+   "type": "projecteurs",
+   "props": {
+    "graine": 4
+   }
+  },
+  {
+   "debut": 13514,
+   "fin": 13580,
+   "type": "setlist",
+   "props": {
+    "numero": "04",
+    "titre": "The machine",
+    "pistes": [
+     "The queue",
+     "The receipt",
+     "The resale",
+     "The machine",
+     "The trial"
+    ],
+    "actif": 3,
+    "palette": "projo"
+   }
+  },
+  {
+   "debut": 13633,
+   "fin": 13686,
+   "type": "bracelet",
+   "props": {
+    "nom": "Live Nation",
+    "fonction": "The world’s largest concert promoter"
+   }
+  },
+  {
+   "debut": 15784,
+   "fin": 15793,
+   "type": "flash",
+   "props": {}
+  },
+  {
+   "debut": 17738,
+   "fin": 17795,
+   "type": "projecteurs",
+   "props": {
+    "graine": 5
+   }
+  },
+  {
+   "debut": 17744,
+   "fin": 17810,
+   "type": "setlist",
+   "props": {
+    "numero": "05",
+    "titre": "The trial",
+    "pistes": [
+     "The queue",
+     "The receipt",
+     "The resale",
+     "The machine",
+     "The trial"
+    ],
+    "actif": 4,
+    "palette": "verdict"
+   }
+  },
+  {
+   "debut": 17878,
+   "fin": 17979,
+   "type": "bracelet",
+   "props": {
+    "nom": "DOJ + 29 states + D.C.",
+    "fonction": "Antitrust lawsuit against Live Nation and Ticketmaster"
+   }
+  },
+  {
+   "debut": 18254,
+   "fin": 18263,
+   "type": "flash",
+   "props": {}
+  },
+  {
+   "debut": 18895,
+   "fin": 18950,
+   "type": "bracelet",
+   "props": {
+    "nom": "March 2026",
+    "fonction": "Jury trial · federal court, New York"
+   }
+  },
+  {
+   "debut": 20286,
+   "fin": 20376,
+   "type": "bracelet",
+   "props": {
+    "nom": "Live Nation",
+    "fonction": "Monopoly over large amphitheaters · jury verdict"
+   }
+  },
+  {
+   "debut": 20456,
+   "fin": 20465,
+   "type": "flash",
+   "props": {}
+  },
+  {
+   "debut": 21371,
+   "fin": 21422,
+   "type": "projecteurs",
+   "props": {
+    "graine": 6
+   }
+  }
+ ],
+ "sons": [
+  {
+   "src": "impact.mp3",
+   "a": 235,
+   "volume": 0.45
+  },
+  {
+   "src": "impact.mp3",
+   "a": 1112,
+   "volume": 0.5
+  },
+  {
+   "src": "riser.mp3",
+   "a": 1241,
+   "volume": 0.4
+  },
+  {
+   "src": "whoosh.mp3",
+   "a": 1294,
+   "volume": 0.5
+  },
+  {
+   "src": "impact.mp3",
+   "a": 2702,
+   "volume": 0.45
+  },
+  {
+   "src": "riser.mp3",
+   "a": 3459,
+   "volume": 0.4
+  },
+  {
+   "src": "whoosh.mp3",
+   "a": 3512,
+   "volume": 0.5
+  },
+  {
+   "src": "impact.mp3",
+   "a": 8128,
+   "volume": 0.55
+  },
+  {
+   "src": "riser.mp3",
+   "a": 8778,
+   "volume": 0.4
+  },
+  {
+   "src": "whoosh.mp3",
+   "a": 8831,
+   "volume": 0.5
+  },
+  {
+   "src": "impact.mp3",
+   "a": 10786,
+   "volume": 0.5
+  },
+  {
+   "src": "riser.mp3",
+   "a": 13460,
+   "volume": 0.4
+  },
+  {
+   "src": "whoosh.mp3",
+   "a": 13512,
+   "volume": 0.5
+  },
+  {
+   "src": "impact.mp3",
+   "a": 15784,
+   "volume": 0.55
+  },
+  {
+   "src": "whoosh.mp3",
+   "a": 17474,
+   "volume": 0.4
+  },
+  {
+   "src": "riser.mp3",
+   "a": 17690,
+   "volume": 0.4
+  },
+  {
+   "src": "whoosh.mp3",
+   "a": 17742,
+   "volume": 0.5
+  },
+  {
+   "src": "impact.mp3",
+   "a": 19089,
+   "volume": 0.45
+  },
+  {
+   "src": "impact.mp3",
+   "a": 20117,
+   "volume": 0.6
+  },
+  {
+   "src": "impact.mp3",
+   "a": 20456,
+   "volume": 0.6
+  },
+  {
+   "src": "whoosh.mp3",
+   "a": 21375,
+   "volume": 0.5
+  }
+ ]
+}

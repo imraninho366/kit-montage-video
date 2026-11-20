@@ -1,0 +1,3986 @@
+{
+ "fps": 30,
+ "duree": 19900,
+ "voix": {
+  "src": "voix.wav",
+  "a": 15
+ },
+ "musiques": [
+  {
+   "src": "musique-1-frontiere.mp3",
+   "debut": 15,
+   "fin": 5239,
+   "volume": 0.257,
+   "depart": 0
+  },
+  {
+   "src": "musique-2-comptes.mp3",
+   "debut": 5218,
+   "fin": 11529,
+   "volume": 0.263,
+   "depart": 0
+  },
+  {
+   "src": "musique-3-proprietaire.mp3",
+   "debut": 11508,
+   "fin": 17085,
+   "volume": 0.14,
+   "depart": 0
+  },
+  {
+   "src": "musique.mp3",
+   "debut": 17064,
+   "fin": 19900,
+   "volume": 0.191,
+   "depart": 23.46300000000008
+  }
+ ],
+ "coupes": [
+  [
+   8605,
+   8665
+  ],
+  [
+   9426,
+   9486
+  ],
+  [
+   11549,
+   11609
+  ],
+  [
+   15923,
+   15983
+  ],
+  [
+   17970,
+   18030
+  ]
+ ],
+ "plans": [
+  {
+   "debut": 0,
+   "type": "globe",
+   "transition": "fondu",
+   "fondu": 8,
+   "sens": 1,
+   "secousses": [],
+   "props": {
+    "cles": [
+     {
+      "f": 0,
+      "lon": 112,
+      "lat": 26,
+      "zoom": 1.75
+     },
+     {
+      "f": 135,
+      "lon": 245,
+      "lat": 33,
+      "zoom": 1.35
+     },
+     {
+      "f": 266,
+      "lon": 303,
+      "lat": 38,
+      "zoom": 1.28
+     }
+    ],
+    "routes": [
+     {
+      "de": [
+       114.1,
+       22.5
+      ],
+      "vers": [
+       -118.2,
+       33.8
+      ],
+      "a": 21,
+      "duree": 114
+     },
+     {
+      "de": [
+       12.2,
+       46.1
+      ],
+      "vers": [
+       -74.0,
+       40.7
+      ],
+      "a": 147,
+      "duree": 50
+     }
+    ],
+    "etiquettes": [
+     {
+      "pos": [
+       -98.0,
+       39.0
+      ],
+      "texte": "106 million",
+      "sous": "frames imported in 2024",
+      "a": 157,
+      "cote": "gauche"
+     }
+    ],
+    "palette": "nuit"
+   }
+  },
+  {
+   "debut": 269,
+   "type": "3d",
+   "transition": "glisse",
+   "fondu": 9,
+   "sens": 1,
+   "secousses": [],
+   "props": {
+    "source": "UN Comtrade, US imports, 2024 · declared value at the border",
+    "eclate": 183,
+    "rassemble": 260,
+    "monture": {
+     "texte": "$11.90",
+     "sous": "the frame"
+    },
+    "verres": {
+     "texte": "$8.50",
+     "sous": "both lenses",
+     "a": 187
+    },
+    "total": {
+     "texte": "$20.40",
+     "sous": "of parts, at the border",
+     "a": 268
+    },
+    "palette": "nuit"
+   }
+  },
+  {
+   "debut": 651,
+   "type": "plaque",
+   "transition": "fondu",
+   "fondu": 8,
+   "sens": 1,
+   "secousses": [],
+   "props": {
+    "src": "05_rue.jpg",
+    "mouvement": "avant",
+    "foyer": [
+     50,
+     60
+    ],
+    "palette": "nuit"
+   }
+  },
+  {
+   "debut": 805,
+   "type": "plaque",
+   "transition": "fondu",
+   "fondu": 8,
+   "sens": 1,
+   "secousses": [],
+   "props": {
+    "src": "17_route.jpg",
+    "mouvement": "avant",
+    "foyer": [
+     50,
+     56
+    ],
+    "ampleur": 0.16,
+    "palette": "nuit"
+   }
+  },
+  {
+   "debut": 956,
+   "type": "parallaxe",
+   "transition": "fondu",
+   "fondu": 8,
+   "sens": 1,
+   "secousses": [],
+   "props": {
+    "fond": "calques/06_rapport-fond.jpg",
+    "sujet": "calques/06_rapport-sujet.png",
+    "foyer": [
+     51,
+     43
+    ],
+    "mouvement": "avant",
+    "palette": "nuit"
+   }
+  },
+  {
+   "debut": 1017,
+   "type": "carton",
+   "transition": "coupe",
+   "fondu": 0,
+   "sens": 1,
+   "secousses": [],
+   "props": {
+    "taille": 140,
+    "police": "anton",
+    "anim": "pop",
+    "palette": "nuit",
+    "mots": [
+     {
+      "texte": "We",
+      "a": 0
+     },
+     {
+      "texte": "opened",
+      "a": 6
+     },
+     {
+      "texte": "the books.",
+      "a": 16
+     }
+    ]
+   }
+  },
+  {
+   "debut": 1063,
+   "type": "parallaxe",
+   "transition": "glisse",
+   "fondu": 9,
+   "sens": 1,
+   "secousses": [],
+   "props": {
+    "fond": "calques/00_hero-fond.jpg",
+    "sujet": "calques/00_hero-sujet.png",
+    "foyer": [
+     69,
+     71
+    ],
+    "mouvement": "gauche",
+    "palette": "nuit"
+   }
+  },
+  {
+   "debut": 1169,
+   "type": "plaque",
+   "transition": "fondu",
+   "fondu": 8,
+   "sens": 1,
+   "secousses": [],
+   "props": {
+    "src": "g14_luxe.jpg",
+    "mouvement": "avant",
+    "palette": "nuit"
+   }
+  },
+  {
+   "debut": 1318,
+   "type": "carton",
+   "transition": "coupe",
+   "fondu": 0,
+   "sens": 1,
+   "secousses": [],
+   "props": {
+    "taille": 140,
+    "police": "serif",
+    "anim": "masque",
+    "palette": "papier",
+    "mots": [
+     {
+      "texte": "Barely",
+      "a": 14
+     },
+     {
+      "texte": "a cent.",
+      "a": 34
+     }
+    ]
+   }
+  },
+  {
+   "debut": 1378,
+   "type": "carton",
+   "transition": "zoom",
+   "fondu": 12,
+   "sens": 1,
+   "secousses": [],
+   "props": {
+    "taille": 119,
+    "police": "machine",
+    "anim": "machine",
+    "palette": "nuit",
+    "mots": [
+     {
+      "texte": "The other",
+      "a": 6
+     },
+     {
+      "texte": "owns",
+      "a": 16
+     },
+     {
+      "texte": "the road.",
+      "a": 27
+     }
+    ]
+   }
+  },
+  {
+   "debut": 1433,
+   "type": "titre",
+   "transition": "zoom",
+   "fondu": 12,
+   "sens": 1,
+   "secousses": [],
+   "props": {
+    "titre": "Why are glasses so expensive?",
+    "sous": "ITEMIZED",
+    "palette": "nuit"
+   }
+  },
+  {
+   "debut": 1547,
+   "type": "plaque",
+   "transition": "zoom",
+   "fondu": 12,
+   "sens": 1,
+   "secousses": [],
+   "props": {
+    "src": "v2_b01_port.jpg",
+    "mouvement": "avant",
+    "palette": "bleu"
+   }
+  },
+  {
+   "debut": 1596,
+   "type": "plaque",
+   "transition": "fondu",
+   "fondu": 8,
+   "sens": 1,
+   "secousses": [],
+   "props": {
+    "src": "v2_b02_douane_main.jpg",
+    "mouvement": "droite",
+    "palette": "bleu"
+   }
+  },
+  {
+   "debut": 1753,
+   "type": "plaque",
+   "transition": "glisse",
+   "fondu": 9,
+   "sens": 1,
+   "secousses": [],
+   "props": {
+    "src": "v2_b03_rangees.jpg",
+    "mouvement": "avant",
+    "palette": "bleu"
+   }
+  },
+  {
+   "debut": 1880,
+   "type": "stat",
+   "transition": "zoom",
+   "fondu": 12,
+   "sens": 1,
+   "secousses": [],
+   "props": {
+    "src": "01_port.jpg",
+    "valeur": 106,
+    "prefixe": "",
+    "suffixe": " million",
+    "legende": "eyeglass frames imported into the US in 2024",
+    "source": "UN Comtrade, US imports, 2024",
+    "palette": "bleu",
+    "police": "anton"
+   }
+  },
+  {
+   "debut": 2042,
+   "type": "stat",
+   "transition": "coupe",
+   "fondu": 0,
+   "sens": 1,
+   "secousses": [],
+   "props": {
+    "valeur": 1.26,
+    "decimales": 2,
+    "prefixe": "$",
+    "suffixe": "B",
+    "legende": "their total declared value",
+    "source": "UN Comtrade, US imports, 2024",
+    "palette": "bleu",
+    "police": "serif"
+   }
+  },
+  {
+   "debut": 2162,
+   "type": "carton",
+   "transition": "coupe",
+   "fondu": 0,
+   "sens": 1,
+   "secousses": [],
+   "props": {
+    "taille": 150,
+    "police": "feutre",
+    "anim": "glisse",
+    "palette": "ambre",
+    "mots": [
+     {
+      "texte": "$1.26B",
+      "a": 0
+     },
+     {
+      "texte": "÷ 106M",
+      "a": 28
+     },
+     {
+      "texte": "= $11.90",
+      "a": 75
+     }
+    ]
+   }
+  },
+  {
+   "debut": 2277,
+   "type": "carte",
+   "transition": "zoom",
+   "fondu": 12,
+   "sens": 1,
+   "secousses": [],
+   "props": {
+    "zone": [
+     -22,
+     5,
+     150,
+     58
+    ],
+    "titre": "Declared value of one plastic frame, 2024",
+    "source": "UN Comtrade, US imports, 2024",
+    "pays": [
+     {
+      "id": "156",
+      "libelle": "China",
+      "valeur": "$7.10",
+      "a": 105
+     },
+     {
+      "id": "380",
+      "libelle": "Italy",
+      "valeur": "$47.53",
+      "a": 237,
+      "decal": [
+       0,
+       -30
+      ]
+     }
+    ],
+    "palette": "bleu"
+   }
+  },
+  {
+   "debut": 2628,
+   "type": "compare",
+   "transition": "glisse",
+   "fondu": 9,
+   "sens": 1,
+   "secousses": [],
+   "props": {
+    "titre": "Declared value of one plastic frame, 2024",
+    "max": 50,
+    "source": "UN Comtrade, US imports, 2024",
+    "format": "dollar",
+    "barres": [
+     {
+      "nom": "China",
+      "detail": "average",
+      "valeur": 7.1,
+      "a": 0,
+      "couleur": "#6FB3A7"
+     },
+     {
+      "nom": "Italy",
+      "detail": "6.5× more",
+      "valeur": 47.53,
+      "a": 8,
+      "couleur": "#D9A441"
+     }
+    ],
+    "palette": "bleu"
+   }
+  },
+  {
+   "debut": 2749,
+   "type": "plaque",
+   "transition": "fondu",
+   "fondu": 8,
+   "sens": 1,
+   "secousses": [],
+   "props": {
+    "src": "02_carton.jpg",
+    "mouvement": "arriere",
+    "palette": "bleu"
+   }
+  },
+  {
+   "debut": 2880,
+   "type": "carton",
+   "transition": "coupe",
+   "fondu": 0,
+   "sens": 1,
+   "secousses": [],
+   "props": {
+    "taille": 110,
+    "police": "bloc",
+    "anim": "surligne",
+    "palette": "nuit",
+    "mots": [
+     {
+      "texte": "Customs value",
+      "a": 5
+     },
+     {
+      "texte": "≠",
+      "a": 32
+     },
+     {
+      "texte": "factory cost",
+      "a": 44
+     }
+    ]
+   }
+  },
+  {
+   "debut": 2976,
+   "type": "plaque",
+   "transition": "fondu",
+   "fondu": 8,
+   "sens": 1,
+   "secousses": [],
+   "props": {
+    "src": "v2_b05_tours.jpg",
+    "mouvement": "avant",
+    "palette": "bleu"
+   }
+  },
+  {
+   "debut": 3207,
+   "type": "carton",
+   "transition": "coupe",
+   "fondu": 0,
+   "sens": 1,
+   "secousses": [],
+   "props": {
+    "taille": 120,
+    "police": "tampon",
+    "anim": "tampon",
+    "palette": "papier",
+    "mots": [
+     {
+      "texte": "A floor.",
+      "a": 27
+     },
+     {
+      "texte": "Not a factory cost.",
+      "a": 51
+     }
+    ]
+   }
+  },
+  {
+   "debut": 3311,
+   "type": "carton",
+   "transition": "zoom",
+   "fondu": 12,
+   "sens": 1,
+   "secousses": [],
+   "props": {
+    "taille": 130,
+    "police": "serif",
+    "anim": "surligne",
+    "palette": "bleu",
+    "mots": [
+     {
+      "texte": "Tens of dollars.",
+      "a": 92
+     },
+     {
+      "texte": "Not hundreds.",
+      "a": 133
+     }
+    ]
+   }
+  },
+  {
+   "debut": 3481,
+   "type": "plaque",
+   "transition": "glisse",
+   "fondu": 9,
+   "sens": 1,
+   "secousses": [],
+   "props": {
+    "src": "03_verres.jpg",
+    "mouvement": "droite",
+    "palette": "bleu"
+   }
+  },
+  {
+   "debut": 3545,
+   "type": "plaque",
+   "transition": "fondu",
+   "fondu": 8,
+   "sens": 1,
+   "secousses": [],
+   "props": {
+    "src": "v2_b04_pile_verres.jpg",
+    "mouvement": "avant",
+    "palette": "bleu"
+   }
+  },
+  {
+   "debut": 3772,
+   "type": "plaque",
+   "transition": "glisse",
+   "fondu": 9,
+   "sens": 1,
+   "secousses": [],
+   "props": {
+    "src": "g04_surfacage_b.jpg",
+    "mouvement": "avant",
+    "palette": "bleu"
+   }
+  },
+  {
+   "debut": 4000,
+   "type": "plaque",
+   "transition": "fondu",
+   "fondu": 8,
+   "sens": 1,
+   "secousses": [],
+   "props": {
+    "src": "07_labo.jpg",
+    "mouvement": "gauche",
+    "palette": "bleu"
+   }
+  },
+  {
+   "debut": 4147,
+   "type": "carton",
+   "transition": "coupe",
+   "fondu": 0,
+   "sens": 1,
+   "secousses": [],
+   "props": {
+    "taille": 102,
+    "police": "bloc",
+    "anim": "pop",
+    "palette": "rouge",
+    "mots": [
+     {
+      "texte": "None of it",
+      "a": 0
+     },
+     {
+      "texte": "is in the $4.25.",
+      "a": 30
+     }
+    ]
+   }
+  },
+  {
+   "debut": 4210,
+   "type": "parallaxe",
+   "transition": "fondu",
+   "fondu": 8,
+   "sens": 1,
+   "secousses": [],
+   "props": {
+    "fond": "calques/04_balance-fond.jpg",
+    "sujet": "calques/04_balance-sujet.png",
+    "foyer": [
+     49,
+     56
+    ],
+    "mouvement": "droite",
+    "palette": "bleu"
+   }
+  },
+  {
+   "debut": 4343,
+   "type": "plaque",
+   "transition": "glisse",
+   "fondu": 9,
+   "sens": 1,
+   "secousses": [],
+   "props": {
+    "src": "g06_boutique_moderne.jpg",
+    "mouvement": "avant",
+    "palette": "bleu"
+   }
+  },
+  {
+   "debut": 4462,
+   "type": "carte",
+   "transition": "zoom",
+   "fondu": 12,
+   "sens": 1,
+   "secousses": [],
+   "props": {
+    "zone": [
+     -10,
+     -5,
+     150,
+     55
+    ],
+    "titre": "Where Warby Parker sources its products",
+    "source": "Warby Parker Inc., Form 10-K FY2025 (SEC)",
+    "pays": [
+     {
+      "id": "156",
+      "libelle": "China",
+      "a": 122,
+      "decal": [
+       -40,
+       -30
+      ]
+     },
+     {
+      "id": "392",
+      "libelle": "Japan",
+      "a": 135,
+      "decal": [
+       70,
+       -10
+      ]
+     },
+     {
+      "id": "704",
+      "libelle": "Vietnam",
+      "a": 150,
+      "decal": [
+       40,
+       40
+      ]
+     },
+     {
+      "id": "380",
+      "libelle": "Italy",
+      "a": 170,
+      "decal": [
+       0,
+       -20
+      ]
+     },
+     {
+      "id": "764",
+      "libelle": "Thailand",
+      "a": 184,
+      "decal": [
+       -70,
+       30
+      ]
+     }
+    ],
+    "palette": "bleu"
+   }
+  },
+  {
+   "debut": 4680,
+   "type": "carte",
+   "transition": "glisse",
+   "fondu": 9,
+   "sens": 1,
+   "secousses": [],
+   "props": {
+    "zone": [
+     -125,
+     24,
+     -66,
+     50
+    ],
+    "titre": "Warby Parker's own optical labs",
+    "source": "Warby Parker Inc., Form 10-K FY2025 (SEC)",
+    "points": [
+     {
+      "lonlat": [
+       -74.19,
+       41.15
+      ],
+      "libelle": "Sloatsburg, NY",
+      "a": 84
+     },
+     {
+      "lonlat": [
+       -115.14,
+       36.17
+      ],
+      "libelle": "Las Vegas, NV",
+      "a": 126
+     }
+    ],
+    "palette": "bleu"
+   }
+  },
+  {
+   "debut": 4840,
+   "type": "carton",
+   "transition": "coupe",
+   "fondu": 0,
+   "sens": 1,
+   "secousses": [],
+   "props": {
+    "taille": 110,
+    "police": "anton",
+    "anim": "masque",
+    "palette": "route",
+    "mots": [
+     {
+      "texte": "Cheap frame.",
+      "a": 57
+     },
+     {
+      "texte": "Cheap blank lens.",
+      "a": 101
+     },
+     {
+      "texte": "A lot of work.",
+      "a": 154
+     }
+    ]
+   }
+  },
+  {
+   "debut": 5039,
+   "type": "plaque",
+   "transition": "fondu",
+   "fondu": 8,
+   "sens": 1,
+   "secousses": [],
+   "props": {
+    "src": "g07_salle_examen.jpg",
+    "mouvement": "avant",
+    "palette": "bleu"
+   }
+  },
+  {
+   "debut": 5143,
+   "type": "plaque",
+   "transition": "fondu",
+   "fondu": 8,
+   "sens": 1,
+   "secousses": [],
+   "props": {
+    "src": "g11_washington.jpg",
+    "mouvement": "arriere",
+    "palette": "bleu"
+   }
+  },
+  {
+   "debut": 5248,
+   "type": "dateline",
+   "transition": "zoom",
+   "fondu": 12,
+   "sens": 1,
+   "secousses": [],
+   "props": {
+    "lignes": [
+     "Warby Parker.",
+     "Founded 2010.",
+     "New York City."
+    ],
+    "palette": "papier"
+   }
+  },
+  {
+   "debut": 5378,
+   "type": "parallaxe",
+   "transition": "glisse",
+   "fondu": 9,
+   "sens": 1,
+   "secousses": [],
+   "props": {
+    "fond": "calques/00_hero-fond.jpg",
+    "sujet": "calques/00_hero-sujet.png",
+    "foyer": [
+     69,
+     71
+    ],
+    "mouvement": "gauche",
+    "palette": "papier"
+   }
+  },
+  {
+   "debut": 5546,
+   "type": "carton",
+   "transition": "coupe",
+   "fondu": 0,
+   "sens": 1,
+   "secousses": [],
+   "props": {
+    "taille": 140,
+    "police": "anton",
+    "anim": "pop",
+    "palette": "nuit",
+    "mots": [
+     {
+      "texte": "No middleman.",
+      "a": 0
+     }
+    ]
+   }
+  },
+  {
+   "debut": 5590,
+   "type": "plaque",
+   "transition": "glisse",
+   "fondu": 9,
+   "sens": 1,
+   "secousses": [],
+   "props": {
+    "src": "16_newyork.jpg",
+    "mouvement": "droite",
+    "palette": "papier"
+   }
+  },
+  {
+   "debut": 5669,
+   "type": "parallaxe",
+   "transition": "glisse",
+   "fondu": 9,
+   "sens": 1,
+   "secousses": [],
+   "props": {
+    "fond": "calques/09_livraison-fond.jpg",
+    "sujet": "calques/09_livraison-sujet.png",
+    "foyer": [
+     53,
+     67
+    ],
+    "mouvement": "avant",
+    "palette": "papier"
+   }
+  },
+  {
+   "debut": 5711,
+   "type": "plaque",
+   "transition": "fondu",
+   "fondu": 8,
+   "sens": 1,
+   "secousses": [],
+   "props": {
+    "src": "v2_w01_showroom.jpg",
+    "mouvement": "avant",
+    "palette": "papier"
+   }
+  },
+  {
+   "debut": 5897,
+   "type": "plaque",
+   "transition": "glisse",
+   "fondu": 9,
+   "sens": 1,
+   "secousses": [],
+   "props": {
+    "src": "g07_salle_examen.jpg",
+    "mouvement": "gauche",
+    "palette": "papier"
+   }
+  },
+  {
+   "debut": 6038,
+   "type": "plaque",
+   "transition": "fondu",
+   "fondu": 8,
+   "sens": 1,
+   "secousses": [],
+   "props": {
+    "src": "g11_washington.jpg",
+    "mouvement": "avant",
+    "palette": "papier"
+   }
+  },
+  {
+   "debut": 6158,
+   "type": "dateline",
+   "transition": "coupe",
+   "fondu": 0,
+   "sens": 1,
+   "secousses": [],
+   "props": {
+    "lignes": [
+     "February 26, 2026.",
+     "Annual report · Form 10-K.",
+     "US Securities and Exchange Commission."
+    ],
+    "palette": "papier"
+   }
+  },
+  {
+   "debut": 6315,
+   "type": "document",
+   "transition": "zoom",
+   "fondu": 12,
+   "sens": 1,
+   "secousses": [],
+   "props": {
+    "src": "10k-resultats.png",
+    "ratio": 4.1454545454545455,
+    "largeurSrc": 2280,
+    "lignes": [
+     {
+      "y": 0.4211,
+      "h": 0.062
+     },
+     {
+      "y": 0.48,
+      "h": 0.062
+     },
+     {
+      "y": 0.5411,
+      "h": 0.062
+     },
+     {
+      "y": 0.6,
+      "h": 0.062
+     },
+     {
+      "y": 0.6611,
+      "h": 0.062
+     },
+     {
+      "y": 0.7222,
+      "h": 0.062
+     },
+     {
+      "y": 0.7811,
+      "h": 0.062
+     },
+     {
+      "y": 0.8418,
+      "h": 0.062
+     },
+     {
+      "y": 0.9055,
+      "h": 0.062
+     }
+    ],
+    "source": "Warby Parker Inc., Form 10-K FY2025 (SEC)",
+    "etapes": [
+     {
+      "a": 0,
+      "ligne": null,
+      "zoom": 0.92
+     },
+     {
+      "a": 131,
+      "ligne": 0,
+      "zoom": 1.12
+     }
+    ],
+    "palette": "papier"
+   }
+  },
+  {
+   "debut": 6602,
+   "type": "ticket",
+   "transition": "zoom",
+   "fondu": 12,
+   "sens": 1,
+   "secousses": [],
+   "props": {
+    "titre": "WARBY PARKER",
+    "sous": "for every $100 of sales · FY2025",
+    "source": "Warby Parker Inc., Form 10-K FY2025 (SEC)",
+    "lignes": [
+     {
+      "libelle": "Cost of goods sold",
+      "montant": "46.03",
+      "a": 76
+     }
+    ],
+    "palette": "papier"
+   }
+  },
+  {
+   "debut": 6820,
+   "type": "document",
+   "transition": "zoom",
+   "fondu": 12,
+   "sens": 1,
+   "secousses": [],
+   "props": {
+    "src": "doc-10k-cogs.png",
+    "ratio": 3.595419847328244,
+    "largeurSrc": 1884,
+    "lignes": [
+     {
+      "y": 0.1279,
+      "h": 0.0916
+     },
+     {
+      "y": 0.2109,
+      "h": 0.0935
+     },
+     {
+      "y": 0.2929,
+      "h": 0.0935
+     },
+     {
+      "y": 0.3769,
+      "h": 0.0935
+     },
+     {
+      "y": 0.459,
+      "h": 0.0935
+     },
+     {
+      "y": 0.541,
+      "h": 0.0935
+     },
+     {
+      "y": 0.6231,
+      "h": 0.0935
+     },
+     {
+      "y": 0.7052,
+      "h": 0.0935
+     },
+     {
+      "y": 0.7891,
+      "h": 0.0935
+     },
+     {
+      "y": 0.8712,
+      "h": 0.0897
+     }
+    ],
+    "etapes": [
+     {
+      "a": 0,
+      "ligne": 0,
+      "zoom": 1.05
+     },
+     {
+      "a": 69,
+      "ligne": 2,
+      "zoom": 1.2
+     }
+    ],
+    "source": "Warby Parker Inc., Form 10-K FY2025 (SEC)",
+    "cercle": null,
+    "palette": "papier"
+   }
+  },
+  {
+   "debut": 7018,
+   "type": "plaque",
+   "transition": "glisse",
+   "fondu": 9,
+   "sens": 1,
+   "secousses": [],
+   "props": {
+    "src": "v2_w02_labo_main.jpg",
+    "mouvement": "gauche",
+    "palette": "papier"
+   }
+  },
+  {
+   "debut": 7140,
+   "type": "plaque",
+   "transition": "glisse",
+   "fondu": 9,
+   "sens": 1,
+   "secousses": [],
+   "props": {
+    "src": "v2_w03_colis.jpg",
+    "mouvement": "droite",
+    "palette": "papier"
+   }
+  },
+  {
+   "debut": 7233,
+   "type": "document",
+   "transition": "glisse",
+   "fondu": 9,
+   "sens": 1,
+   "secousses": [],
+   "props": {
+    "src": "doc-10k-cogs.png",
+    "ratio": 3.595419847328244,
+    "largeurSrc": 1884,
+    "lignes": [
+     {
+      "y": 0.1279,
+      "h": 0.0916
+     },
+     {
+      "y": 0.2109,
+      "h": 0.0935
+     },
+     {
+      "y": 0.2929,
+      "h": 0.0935
+     },
+     {
+      "y": 0.3769,
+      "h": 0.0935
+     },
+     {
+      "y": 0.459,
+      "h": 0.0935
+     },
+     {
+      "y": 0.541,
+      "h": 0.0935
+     },
+     {
+      "y": 0.6231,
+      "h": 0.0935
+     },
+     {
+      "y": 0.7052,
+      "h": 0.0935
+     },
+     {
+      "y": 0.7891,
+      "h": 0.0935
+     },
+     {
+      "y": 0.8712,
+      "h": 0.0897
+     }
+    ],
+    "etapes": [
+     {
+      "a": 0,
+      "ligne": 3,
+      "zoom": 1.2
+     },
+     {
+      "a": 102,
+      "ligne": 4,
+      "zoom": 1.2
+     }
+    ],
+    "source": "Warby Parker Inc., Form 10-K FY2025 (SEC)",
+    "cercle": null,
+    "palette": "papier"
+   }
+  },
+  {
+   "debut": 7375,
+   "type": "stat",
+   "transition": "zoom",
+   "fondu": 12,
+   "sens": 1,
+   "secousses": [],
+   "props": {
+    "src": "04_balance.jpg",
+    "valeur": 20,
+    "prefixe": "$",
+    "legende": "frame + lenses, at the border",
+    "source": "UN Comtrade, US imports, 2024",
+    "palette": "papier",
+    "police": "bloc"
+   }
+  },
+  {
+   "debut": 7492,
+   "type": "carton",
+   "transition": "coupe",
+   "fondu": 0,
+   "sens": 1,
+   "secousses": [],
+   "props": {
+    "taille": 130,
+    "police": "serif",
+    "anim": "masque",
+    "palette": "papier",
+    "mots": [
+     {
+      "texte": "People.",
+      "a": 47
+     },
+     {
+      "texte": "Labs.",
+      "a": 61
+     },
+     {
+      "texte": "Logistics.",
+      "a": 76
+     },
+     {
+      "texte": "Rent.",
+      "a": 105
+     }
+    ]
+   }
+  },
+  {
+   "debut": 7625,
+   "type": "ticket",
+   "transition": "zoom",
+   "fondu": 12,
+   "sens": 1,
+   "secousses": [],
+   "props": {
+    "titre": "WARBY PARKER",
+    "sous": "for every $100 of sales · FY2025",
+    "source": "Warby Parker Inc., Form 10-K FY2025 (SEC)",
+    "lignes": [
+     {
+      "libelle": "Cost of goods sold",
+      "montant": "46.03",
+      "a": 0
+     },
+     {
+      "libelle": "What's left",
+      "montant": "53.97",
+      "a": 25,
+      "style": "sous-total"
+     },
+     {
+      "libelle": "= the gross margin",
+      "a": 118,
+      "style": "note"
+     }
+    ],
+    "palette": "papier"
+   }
+  },
+  {
+   "debut": 7786,
+   "type": "stat",
+   "transition": "coupe",
+   "fondu": 0,
+   "sens": 1,
+   "secousses": [],
+   "props": {
+    "valeur": 54,
+    "suffixe": "%",
+    "legende": "gross margin — not a profit",
+    "source": "Warby Parker Inc., Form 10-K FY2025 (SEC)",
+    "palette": "papier",
+    "police": "anton"
+   }
+  },
+  {
+   "debut": 7941,
+   "type": "carton",
+   "transition": "coupe",
+   "fondu": 0,
+   "sens": 1,
+   "secousses": [],
+   "props": {
+    "taille": 119,
+    "police": "machine",
+    "anim": "machine",
+    "palette": "nuit",
+    "mots": [
+     {
+      "texte": "Not",
+      "a": 10
+     },
+     {
+      "texte": "a profit.",
+      "a": 18
+     }
+    ]
+   }
+  },
+  {
+   "debut": 8076,
+   "type": "plaque",
+   "transition": "fondu",
+   "fondu": 8,
+   "sens": 1,
+   "secousses": [],
+   "props": {
+    "src": "v2_w05_imprimante.jpg",
+    "mouvement": "avant",
+    "palette": "papier"
+   }
+  },
+  {
+   "debut": 8139,
+   "type": "plaque",
+   "transition": "zoom",
+   "fondu": 12,
+   "sens": 1,
+   "secousses": [],
+   "props": {
+    "src": "10_pub.jpg",
+    "mouvement": "avant",
+    "foyer": [
+     46,
+     36
+    ],
+    "ampleur": 0.12,
+    "panneau": {
+     "texte": "$13.06",
+     "sous": "ADVERTISING",
+     "x": 46.6,
+     "y": 36,
+     "a": 0
+    },
+    "palette": "nuit"
+   }
+  },
+  {
+   "debut": 8267,
+   "type": "plaque",
+   "transition": "glisse",
+   "fondu": 9,
+   "sens": 1,
+   "secousses": [],
+   "props": {
+    "src": "g09_essai_maison.jpg",
+    "mouvement": "avant",
+    "palette": "nuit"
+   }
+  },
+  {
+   "debut": 8318,
+   "type": "plaque",
+   "transition": "glisse",
+   "fondu": 9,
+   "sens": 1,
+   "secousses": [],
+   "props": {
+    "src": "11_bureau.jpg",
+    "mouvement": "droite",
+    "palette": "nuit"
+   }
+  },
+  {
+   "debut": 8462,
+   "type": "plaque",
+   "transition": "glisse",
+   "fondu": 9,
+   "sens": 1,
+   "secousses": [],
+   "props": {
+    "src": "g10_serveurs.jpg",
+    "mouvement": "avant",
+    "palette": "nuit"
+   }
+  },
+  {
+   "debut": 8538,
+   "type": "pile",
+   "transition": "zoom",
+   "fondu": 12,
+   "sens": 1,
+   "secousses": [],
+   "props": {
+    "source": "Warby Parker Inc., Form 10-K FY2025 (SEC)",
+    "tranches": [
+     {
+      "libelle": "Cost of goods sold",
+      "montant": 46.03,
+      "couleur": "#2E7D72",
+      "a": 38
+     },
+     {
+      "libelle": "Everything else",
+      "montant": 41.52,
+      "couleur": "#5B6B7A",
+      "a": 91
+     },
+     {
+      "libelle": "Advertising",
+      "montant": 13.06,
+      "couleur": "#D9A441",
+      "a": 66
+     }
+    ],
+    "total": {
+     "texte": "$100.61",
+     "a": 127
+    },
+    "palette": "nuit"
+   }
+  },
+  {
+   "debut": 8738,
+   "type": "carton",
+   "transition": "coupe",
+   "fondu": 0,
+   "sens": 1,
+   "secousses": [],
+   "props": {
+    "taille": 150,
+    "police": "feutre",
+    "anim": "glisse",
+    "palette": "ambre",
+    "mots": [
+     {
+      "texte": "$100 in.",
+      "a": 12
+     },
+     {
+      "texte": "$100.61 out.",
+      "a": 82
+     }
+    ]
+   }
+  },
+  {
+   "debut": 8872,
+   "type": "stat",
+   "transition": "coupe",
+   "fondu": 0,
+   "sens": 1,
+   "secousses": [
+    9
+   ],
+   "props": {
+    "valeur": 0.61,
+    "decimales": 2,
+    "prefixe": "−$",
+    "couleur": "#E0685C",
+    "legende": "per $100 of sales, before interest",
+    "source": "Warby Parker Inc., Form 10-K FY2025 (SEC) · loss from operations −$5.3M",
+    "palette": "nuit",
+    "police": "serif"
+   }
+  },
+  {
+   "debut": 8952,
+   "type": "parallaxe",
+   "transition": "fondu",
+   "fondu": 8,
+   "sens": 1,
+   "secousses": [],
+   "props": {
+    "fond": "calques/06_rapport-fond.jpg",
+    "sujet": "calques/06_rapport-sujet.png",
+    "foyer": [
+     51,
+     43
+    ],
+    "mouvement": "gauche",
+    "palette": "nuit"
+   }
+  },
+  {
+   "debut": 9042,
+   "type": "document",
+   "transition": "zoom",
+   "fondu": 12,
+   "sens": 1,
+   "secousses": [],
+   "props": {
+    "src": "10k-resultats.png",
+    "ratio": 4.1454545454545455,
+    "largeurSrc": 2280,
+    "lignes": [
+     {
+      "y": 0.4211,
+      "h": 0.062
+     },
+     {
+      "y": 0.48,
+      "h": 0.062
+     },
+     {
+      "y": 0.5411,
+      "h": 0.062
+     },
+     {
+      "y": 0.6,
+      "h": 0.062
+     },
+     {
+      "y": 0.6611,
+      "h": 0.062
+     },
+     {
+      "y": 0.7222,
+      "h": 0.062
+     },
+     {
+      "y": 0.7811,
+      "h": 0.062
+     },
+     {
+      "y": 0.8418,
+      "h": 0.062
+     },
+     {
+      "y": 0.9055,
+      "h": 0.062
+     }
+    ],
+    "source": "Warby Parker Inc., Form 10-K FY2025 (SEC)",
+    "etapes": [
+     {
+      "a": 0,
+      "ligne": 4,
+      "zoom": 1.12
+     },
+     {
+      "a": 70,
+      "ligne": 5,
+      "zoom": 1.16
+     }
+    ],
+    "palette": "nuit"
+   }
+  },
+  {
+   "debut": 9217,
+   "type": "document",
+   "transition": "glisse",
+   "fondu": 9,
+   "sens": 1,
+   "secousses": [],
+   "props": {
+    "src": "doc-10k-interet.png",
+    "ratio": 7.0534351145038165,
+    "largeurSrc": 1848,
+    "lignes": [
+     {
+      "y": 0.2576,
+      "h": 0.187
+     },
+     {
+      "y": 0.4218,
+      "h": 0.187
+     },
+     {
+      "y": 0.5725,
+      "h": 0.1603
+     },
+     {
+      "y": 0.7424,
+      "h": 0.1565
+     }
+    ],
+    "etapes": [
+     {
+      "a": 0,
+      "ligne": 0,
+      "zoom": 1.15
+     },
+     {
+      "a": 91,
+      "ligne": 0,
+      "zoom": 1.25
+     }
+    ],
+    "source": "Warby Parker Inc., Form 10-K FY2025 (SEC)",
+    "cercle": null,
+    "palette": "nuit"
+   }
+  },
+  {
+   "debut": 9334,
+   "type": "plaque",
+   "transition": "fondu",
+   "fondu": 8,
+   "sens": 1,
+   "secousses": [],
+   "props": {
+    "src": "12_coffre.jpg",
+    "mouvement": "avant",
+    "palette": "nuit"
+   }
+  },
+  {
+   "debut": 9393,
+   "type": "document",
+   "transition": "coupe",
+   "fondu": 0,
+   "sens": 1,
+   "secousses": [],
+   "props": {
+    "src": "10k-resultats.png",
+    "ratio": 4.1454545454545455,
+    "largeurSrc": 2280,
+    "lignes": [
+     {
+      "y": 0.4211,
+      "h": 0.062
+     },
+     {
+      "y": 0.48,
+      "h": 0.062
+     },
+     {
+      "y": 0.5411,
+      "h": 0.062
+     },
+     {
+      "y": 0.6,
+      "h": 0.062
+     },
+     {
+      "y": 0.6611,
+      "h": 0.062
+     },
+     {
+      "y": 0.7222,
+      "h": 0.062
+     },
+     {
+      "y": 0.7811,
+      "h": 0.062
+     },
+     {
+      "y": 0.8418,
+      "h": 0.062
+     },
+     {
+      "y": 0.9055,
+      "h": 0.062
+     }
+    ],
+    "source": "Warby Parker Inc., Form 10-K FY2025 (SEC)",
+    "etapes": [
+     {
+      "a": 0,
+      "ligne": 8,
+      "zoom": 1.16
+     }
+    ],
+    "cercle": {
+     "a": 25,
+     "cx": 1522,
+     "cy": 498,
+     "rx": 105,
+     "ry": 30
+    },
+    "palette": "nuit"
+   }
+  },
+  {
+   "debut": 9480,
+   "type": "stat",
+   "transition": "coupe",
+   "fondu": 0,
+   "sens": 1,
+   "secousses": [
+    6
+   ],
+   "props": {
+    "valeur": 0.19,
+    "decimales": 2,
+    "prefixe": "$",
+    "couleur": "#D9A441",
+    "legende": "net profit, per $100 of sales",
+    "source": "Warby Parker Inc., Form 10-K FY2025 (SEC)",
+    "palette": "nuit",
+    "police": "bloc"
+   }
+  },
+  {
+   "debut": 9579,
+   "type": "carton",
+   "transition": "coupe",
+   "fondu": 0,
+   "sens": 1,
+   "secousses": [],
+   "props": {
+    "taille": 102,
+    "police": "bloc",
+    "anim": "surligne",
+    "palette": "nuit",
+    "mots": [
+     {
+      "texte": "And that was",
+      "a": 0
+     },
+     {
+      "texte": "the good year.",
+      "a": 19
+     }
+    ]
+   }
+  },
+  {
+   "debut": 9627,
+   "type": "courbe",
+   "transition": "zoom",
+   "fondu": 12,
+   "sens": 1,
+   "secousses": [],
+   "props": {
+    "titre": "Warby Parker · net income, per year",
+    "unite": "M",
+    "min": -160,
+    "max": 40,
+    "apparitions": [
+     161,
+     213,
+     260,
+     295,
+     319,
+     447
+    ],
+    "final": "2020–2024: −$394M in total",
+    "source": "Warby Parker Inc., Forms 10-K 2021–2025 (SEC EDGAR)",
+    "points": [
+     {
+      "etiquette": "2020",
+      "valeur": -55.9
+     },
+     {
+      "etiquette": "2021",
+      "valeur": -144.3
+     },
+     {
+      "etiquette": "2022",
+      "valeur": -110.4
+     },
+     {
+      "etiquette": "2023",
+      "valeur": -63.2
+     },
+     {
+      "etiquette": "2024",
+      "valeur": -20.4
+     },
+     {
+      "etiquette": "2025",
+      "valeur": 1.6
+     }
+    ],
+    "palette": "nuit"
+   }
+  },
+  {
+   "debut": 9963,
+   "type": "stat",
+   "transition": "coupe",
+   "fondu": 0,
+   "sens": 1,
+   "secousses": [],
+   "props": {
+    "valeur": 394,
+    "prefixe": "−$",
+    "suffixe": "M",
+    "couleur": "#E0685C",
+    "legende": "of losses, 2020 to 2024",
+    "source": "Warby Parker Inc., Forms 10-K (SEC EDGAR)",
+    "palette": "nuit",
+    "police": "anton"
+   }
+  },
+  {
+   "debut": 10065,
+   "type": "courbe",
+   "transition": "coupe",
+   "fondu": 0,
+   "sens": 1,
+   "secousses": [],
+   "props": {
+    "titre": "Warby Parker · net income, per year",
+    "unite": "M",
+    "min": -160,
+    "max": 40,
+    "apparitions": [
+     0,
+     1,
+     2,
+     3,
+     4,
+     6
+    ],
+    "final": "2020–2024: −$394M in total",
+    "source": "Warby Parker Inc., Forms 10-K 2021–2025 (SEC EDGAR)",
+    "points": [
+     {
+      "etiquette": "2020",
+      "valeur": -55.9
+     },
+     {
+      "etiquette": "2021",
+      "valeur": -144.3
+     },
+     {
+      "etiquette": "2022",
+      "valeur": -110.4
+     },
+     {
+      "etiquette": "2023",
+      "valeur": -63.2
+     },
+     {
+      "etiquette": "2024",
+      "valeur": -20.4
+     },
+     {
+      "etiquette": "2025",
+      "valeur": 1.6
+     }
+    ],
+    "palette": "nuit"
+   }
+  },
+  {
+   "debut": 10159,
+   "type": "parallaxe",
+   "transition": "fondu",
+   "fondu": 8,
+   "sens": 1,
+   "secousses": [],
+   "props": {
+    "fond": "calques/00_hero-fond.jpg",
+    "sujet": "calques/00_hero-sujet.png",
+    "foyer": [
+     69,
+     71
+    ],
+    "mouvement": "droite",
+    "palette": "nuit"
+   }
+  },
+  {
+   "debut": 10281,
+   "type": "plaque",
+   "transition": "glisse",
+   "fondu": 9,
+   "sens": 1,
+   "secousses": [],
+   "props": {
+    "src": "g15_galerie.jpg",
+    "mouvement": "avant",
+    "palette": "nuit"
+   }
+  },
+  {
+   "debut": 10382,
+   "type": "plaque",
+   "transition": "fondu",
+   "fondu": 8,
+   "sens": 1,
+   "secousses": [],
+   "props": {
+    "src": "g12_discount.jpg",
+    "mouvement": "gauche",
+    "foyer": [
+     30,
+     50
+    ],
+    "palette": "nuit"
+   }
+  },
+  {
+   "debut": 10542,
+   "type": "stat",
+   "transition": "zoom",
+   "fondu": 12,
+   "sens": 1,
+   "secousses": [],
+   "props": {
+    "valeur": 1.99,
+    "decimales": 2,
+    "prefixe": "$",
+    "suffixe": "B",
+    "legende": "National Vision revenue, 2025",
+    "source": "National Vision Holdings, Form 10-K FY2025",
+    "palette": "nuit",
+    "police": "serif"
+   }
+  },
+  {
+   "debut": 10668,
+   "type": "compare",
+   "transition": "glisse",
+   "fondu": 9,
+   "sens": 1,
+   "secousses": [],
+   "props": {
+    "titre": "Gross margin, 2025",
+    "max": 70,
+    "format": "pourcent",
+    "decimales": 1,
+    "source": "National Vision and Warby Parker, Forms 10-K FY2025",
+    "barres": [
+     {
+      "nom": "National Vision",
+      "detail": "the discounter",
+      "valeur": 58.8,
+      "a": 37,
+      "couleur": "#D9A441"
+     },
+     {
+      "nom": "Warby Parker",
+      "detail": "the disruptor",
+      "valeur": 54.0,
+      "a": 97,
+      "couleur": "#6FB3A7"
+     }
+    ],
+    "palette": "nuit"
+   }
+  },
+  {
+   "debut": 10830,
+   "type": "carton",
+   "transition": "coupe",
+   "fondu": 0,
+   "sens": 1,
+   "secousses": [],
+   "props": {
+    "taille": 130,
+    "police": "tampon",
+    "anim": "tampon",
+    "palette": "papier",
+    "mots": [
+     {
+      "texte": "The discounter",
+      "a": 6
+     },
+     {
+      "texte": "keeps more.",
+      "a": 22
+     }
+    ]
+   }
+  },
+  {
+   "debut": 10942,
+   "type": "plaque",
+   "transition": "fondu",
+   "fondu": 8,
+   "sens": 1,
+   "secousses": [],
+   "props": {
+    "src": "g06_boutique_moderne.jpg",
+    "mouvement": "arriere",
+    "palette": "nuit"
+   }
+  },
+  {
+   "debut": 11054,
+   "type": "carton",
+   "transition": "zoom",
+   "fondu": 12,
+   "sens": 1,
+   "secousses": [],
+   "props": {
+    "taille": 140,
+    "police": "serif",
+    "anim": "surligne",
+    "palette": "bleu",
+    "mots": [
+     {
+      "texte": "So who",
+      "a": 8
+     },
+     {
+      "texte": "is making",
+      "a": 19
+     },
+     {
+      "texte": "the money?",
+      "a": 28
+     }
+    ]
+   }
+  },
+  {
+   "debut": 11131,
+   "type": "plaque",
+   "transition": "glisse",
+   "fondu": 9,
+   "sens": 1,
+   "secousses": [],
+   "props": {
+    "src": "g03_palets_verres.jpg",
+    "mouvement": "avant",
+    "palette": "nuit"
+   }
+  },
+  {
+   "debut": 11248,
+   "type": "abonnement",
+   "transition": "zoom",
+   "fondu": 12,
+   "sens": 1,
+   "secousses": [],
+   "props": {
+    "lignesA": [
+     18,
+     211
+    ],
+    "clic": 181,
+    "palette": "nuit"
+   }
+  },
+  {
+   "debut": 11538,
+   "type": "plaque",
+   "transition": "zoom",
+   "fondu": 12,
+   "sens": 1,
+   "secousses": [
+    71
+   ],
+   "props": {
+    "src": "v2_o03_conseil.jpg",
+    "mouvement": "avant",
+    "assombrir": 0.35,
+    "titre": {
+     "texte": "EssilorLuxottica",
+     "a": 71
+    },
+    "palette": "rouge"
+   }
+  },
+  {
+   "debut": 11669,
+   "type": "carte",
+   "transition": "glisse",
+   "fondu": 9,
+   "sens": 1,
+   "secousses": [],
+   "props": {
+    "zone": [
+     -6,
+     36,
+     19,
+     52
+    ],
+    "titre": "EssilorLuxottica",
+    "source": "EssilorLuxottica, FY2024 results · Universal Registration Document 2024",
+    "pays": [
+     {
+      "id": "250",
+      "libelle": "France",
+      "a": 9
+     },
+     {
+      "id": "380",
+      "libelle": "Italy",
+      "a": 36
+     }
+    ],
+    "palette": "rouge"
+   }
+  },
+  {
+   "debut": 11735,
+   "type": "stat",
+   "transition": "zoom",
+   "fondu": 12,
+   "sens": 1,
+   "secousses": [],
+   "props": {
+    "src": "g13_paris.jpg",
+    "valeur": 26.5,
+    "decimales": 1,
+    "prefixe": "€",
+    "suffixe": "B",
+    "legende": "revenue in 2024",
+    "source": "EssilorLuxottica, FY2024 results · Universal Registration Document 2024",
+    "palette": "rouge",
+    "police": "bloc"
+   }
+  },
+  {
+   "debut": 11874,
+   "type": "plaque",
+   "transition": "glisse",
+   "fondu": 9,
+   "sens": 1,
+   "secousses": [],
+   "props": {
+    "src": "v2_o01_flagship.jpg",
+    "mouvement": "avant",
+    "palette": "rouge"
+   }
+  },
+  {
+   "debut": 11927,
+   "type": "mur",
+   "transition": "zoom",
+   "fondu": 12,
+   "sens": 1,
+   "secousses": [],
+   "props": {
+    "titre": "Owned by EssilorLuxottica",
+    "source": "EssilorLuxottica, FY2024 results · Universal Registration Document 2024",
+    "noms": [
+     {
+      "texte": "Ray-Ban",
+      "detail": "bought in 1999",
+      "a": 13
+     },
+     {
+      "texte": "Oakley",
+      "detail": "bought in 2007",
+      "a": 135
+     },
+     {
+      "texte": "Persol",
+      "detail": "bought in 1995",
+      "a": 169
+     },
+     {
+      "texte": "Oliver Peoples",
+      "a": 214
+     }
+    ],
+    "palette": "rouge"
+   }
+  },
+  {
+   "debut": 12185,
+   "type": "plaque",
+   "transition": "fondu",
+   "fondu": 8,
+   "sens": 1,
+   "secousses": [],
+   "props": {
+    "src": "g14_luxe.jpg",
+    "mouvement": "gauche",
+    "foyer": [
+     70,
+     40
+    ],
+    "palette": "rouge"
+   }
+  },
+  {
+   "debut": 12264,
+   "type": "mur",
+   "transition": "zoom",
+   "fondu": 12,
+   "sens": 1,
+   "secousses": [],
+   "props": {
+    "titre": "Made under license by EssilorLuxottica",
+    "source": "EssilorLuxottica, FY2024 results · Universal Registration Document 2024",
+    "noms": [
+     {
+      "texte": "Chanel",
+      "a": 16
+     },
+     {
+      "texte": "Prada",
+      "a": 47
+     },
+     {
+      "texte": "Versace",
+      "a": 66
+     },
+     {
+      "texte": "Armani",
+      "a": 96
+     }
+    ],
+    "palette": "rouge"
+   }
+  },
+  {
+   "debut": 12504,
+   "type": "frise",
+   "transition": "zoom",
+   "fondu": 12,
+   "sens": 1,
+   "secousses": [],
+   "props": {
+    "anDebut": 1985,
+    "anFin": 2012,
+    "titre": "Licensing deals",
+    "source": "EssilorLuxottica, FY2024 results · Universal Registration Document 2024",
+    "evenements": [
+     {
+      "annee": 1988,
+      "libelle": "Giorgio Armani",
+      "a": 35,
+      "genre": "licence"
+     }
+    ],
+    "palette": "rouge"
+   }
+  },
+  {
+   "debut": 12649,
+   "type": "carton",
+   "transition": "coupe",
+   "fondu": 0,
+   "sens": 1,
+   "secousses": [],
+   "props": {
+    "taille": 121,
+    "police": "citation",
+    "anim": "masque",
+    "palette": "papier",
+    "mots": [
+     {
+      "texte": "“Eyeglasses",
+      "a": 106
+     },
+     {
+      "texte": "began to evolve",
+      "a": 135
+     },
+     {
+      "texte": "into eyewear.”",
+      "a": 153
+     }
+    ]
+   }
+  },
+  {
+   "debut": 12833,
+   "type": "plaque",
+   "transition": "glisse",
+   "fondu": 9,
+   "sens": 1,
+   "secousses": [],
+   "props": {
+    "src": "13_solaires.jpg",
+    "mouvement": "gauche",
+    "palette": "rouge"
+   }
+  },
+  {
+   "debut": 12933,
+   "type": "frise",
+   "transition": "coupe",
+   "fondu": 0,
+   "sens": 1,
+   "secousses": [],
+   "props": {
+    "anDebut": 1985,
+    "anFin": 2012,
+    "titre": "Licensing deals",
+    "source": "EssilorLuxottica, FY2024 results · Universal Registration Document 2024",
+    "evenements": [
+     {
+      "annee": 1988,
+      "libelle": "Giorgio Armani",
+      "a": 0,
+      "genre": "licence"
+     },
+     {
+      "annee": 1999,
+      "libelle": "Chanel",
+      "a": 39,
+      "genre": "licence"
+     },
+     {
+      "annee": 2003,
+      "libelle": "Prada & Versace",
+      "a": 119,
+      "genre": "licence"
+     },
+     {
+      "annee": 2006,
+      "libelle": "Burberry",
+      "a": 175,
+      "genre": "licence"
+     },
+     {
+      "annee": 2007,
+      "libelle": "Ralph Lauren",
+      "a": 197,
+      "genre": "licence"
+     },
+     {
+      "annee": 2008,
+      "libelle": "Tiffany",
+      "a": 223,
+      "genre": "licence"
+     }
+    ],
+    "palette": "rouge"
+   }
+  },
+  {
+   "debut": 13189,
+   "type": "stat",
+   "transition": "zoom",
+   "fondu": 12,
+   "sens": 1,
+   "secousses": [],
+   "props": {
+    "valeur": 18,
+    "legende": "fashion houses under license, 2025",
+    "source": "EssilorLuxottica, Universal Registration Document 2025",
+    "palette": "rouge",
+    "police": "anton"
+   }
+  },
+  {
+   "debut": 13290,
+   "type": "plaque",
+   "transition": "glisse",
+   "fondu": 9,
+   "sens": 1,
+   "secousses": [],
+   "props": {
+    "src": "g03_palets_verres.jpg",
+    "mouvement": "droite",
+    "palette": "rouge"
+   }
+  },
+  {
+   "debut": 13462,
+   "type": "stats",
+   "transition": "zoom",
+   "fondu": 12,
+   "sens": 1,
+   "secousses": [],
+   "props": {
+    "titre": "EssilorLuxottica, 2024",
+    "source": "EssilorLuxottica, FY2024 results · Universal Registration Document 2024",
+    "stats": [
+     {
+      "texte": "33",
+      "legende": "lens factories",
+      "a": 14
+     },
+     {
+      "texte": "14",
+      "legende": "frame factories",
+      "a": 74
+     },
+     {
+      "texte": "562",
+      "legende": "prescription labs",
+      "a": 141
+     }
+    ],
+    "palette": "rouge"
+   }
+  },
+  {
+   "debut": 13689,
+   "type": "plaque",
+   "transition": "glisse",
+   "fondu": 9,
+   "sens": 1,
+   "secousses": [],
+   "props": {
+    "src": "v2_o02_usine_echelle.jpg",
+    "mouvement": "arriere",
+    "palette": "rouge"
+   }
+  },
+  {
+   "debut": 13754,
+   "type": "plaque",
+   "transition": "glisse",
+   "fondu": 9,
+   "sens": 1,
+   "secousses": [],
+   "props": {
+    "src": "g15_galerie.jpg",
+    "mouvement": "avant",
+    "palette": "rouge"
+   }
+  },
+  {
+   "debut": 13796,
+   "type": "compare",
+   "transition": "zoom",
+   "fondu": 12,
+   "sens": 1,
+   "secousses": [],
+   "props": {
+    "titre": "Stores, end of 2024",
+    "max": 3500,
+    "format": "nombre",
+    "decimales": 0,
+    "source": "EssilorLuxottica, FY2024 results · Universal Registration Document 2024",
+    "barres": [
+     {
+      "nom": "LensCrafters",
+      "detail": "owned",
+      "valeur": 1102,
+      "a": 0,
+      "couleur": "#6FB3A7"
+     },
+     {
+      "nom": "Sunglass Hut",
+      "detail": "owned",
+      "valeur": 3168,
+      "a": 167,
+      "couleur": "#D9A441"
+     }
+    ],
+    "palette": "rouge"
+   }
+  },
+  {
+   "debut": 14075,
+   "type": "plaque",
+   "transition": "glisse",
+   "fondu": 9,
+   "sens": 1,
+   "secousses": [],
+   "props": {
+    "src": "13_solaires.jpg",
+    "mouvement": "droite",
+    "palette": "rouge"
+   }
+  },
+  {
+   "debut": 14199,
+   "type": "stat",
+   "transition": "zoom",
+   "fondu": 12,
+   "sens": 1,
+   "secousses": [],
+   "props": {
+    "valeur": 17638,
+    "legende": "stores worldwide, end of 2024",
+    "source": "EssilorLuxottica, FY2024 results · Universal Registration Document 2024",
+    "palette": "rouge",
+    "police": "serif"
+   }
+  },
+  {
+   "debut": 14317,
+   "type": "globe",
+   "transition": "glisse",
+   "fondu": 9,
+   "sens": 1,
+   "secousses": [],
+   "props": {
+    "cles": [
+     {
+      "f": 0,
+      "lon": 10,
+      "lat": 30,
+      "zoom": 1.1
+     },
+     {
+      "f": 140,
+      "lon": -60,
+      "lat": 25,
+      "zoom": 1.15
+     }
+    ],
+    "routes": [],
+    "etiquettes": [],
+    "palette": "rouge"
+   }
+  },
+  {
+   "debut": 14444,
+   "type": "carton",
+   "transition": "coupe",
+   "fondu": 0,
+   "sens": 1,
+   "secousses": [],
+   "props": {
+    "taille": 94,
+    "police": "bloc",
+    "anim": "pop",
+    "palette": "rouge",
+    "mots": [
+     {
+      "texte": "The part",
+      "a": 24
+     },
+     {
+      "texte": "that surprises",
+      "a": 34
+     },
+     {
+      "texte": "people most.",
+      "a": 62
+     }
+    ]
+   }
+  },
+  {
+   "debut": 14534,
+   "type": "plaque",
+   "transition": "zoom",
+   "fondu": 12,
+   "sens": 1,
+   "secousses": [],
+   "props": {
+    "src": "18_assurance.jpg",
+    "mouvement": "avant",
+    "flou": 10,
+    "assombrir": 0.3,
+    "titre": {
+     "texte": "EyeMed",
+     "a": 84
+    },
+    "palette": "rouge"
+   }
+  },
+  {
+   "debut": 14736,
+   "type": "carton",
+   "transition": "coupe",
+   "fondu": 0,
+   "sens": 1,
+   "secousses": [],
+   "props": {
+    "taille": 120,
+    "police": "anton",
+    "anim": "masque",
+    "palette": "route",
+    "mots": [
+     {
+      "texte": "Think about it.",
+      "a": 0
+     }
+    ]
+   }
+  },
+  {
+   "debut": 14777,
+   "type": "route",
+   "transition": "zoom",
+   "fondu": 12,
+   "sens": 1,
+   "secousses": [],
+   "props": {
+    "source": "EssilorLuxottica, FY2024 results · Universal Registration Document 2024",
+    "etapes": [
+     {
+      "titre": "Design",
+      "exemple": "Ray-Ban",
+      "a": 24
+     },
+     {
+      "titre": "Lenses",
+      "exemple": "Varilux",
+      "a": 71
+     },
+     {
+      "titre": "Labs",
+      "exemple": "562 labs",
+      "a": 100
+     },
+     {
+      "titre": "Stores",
+      "exemple": "LensCrafters",
+      "a": 129
+     },
+     {
+      "titre": "Insurance",
+      "exemple": "EyeMed",
+      "a": 163
+     }
+    ],
+    "groupe": {
+     "texte": "One group",
+     "a": 188
+    },
+    "palette": "rouge"
+   }
+  },
+  {
+   "debut": 15007,
+   "type": "anneaux",
+   "transition": "glisse",
+   "fondu": 9,
+   "sens": 1,
+   "secousses": [],
+   "props": {
+    "source": "Warby Parker Inc., Form 10-K FY2025 (SEC)",
+    "anneaux": [
+     {
+      "valeur": 60,
+      "legende": "of US vision care purchases use insurance",
+      "a": 97
+     }
+    ],
+    "palette": "rouge"
+   }
+  },
+  {
+   "debut": 15222,
+   "type": "document",
+   "transition": "zoom",
+   "fondu": 12,
+   "sens": 1,
+   "secousses": [],
+   "props": {
+    "src": "doc-10k-assurance.png",
+    "ratio": 6.781132075471698,
+    "largeurSrc": 1797,
+    "lignes": [
+     {
+      "y": 0.2547,
+      "h": 0.1849
+     },
+     {
+      "y": 0.4151,
+      "h": 0.1811
+     },
+     {
+      "y": 0.5811,
+      "h": 0.1811
+     },
+     {
+      "y": 0.7472,
+      "h": 0.1811
+     }
+    ],
+    "etapes": [
+     {
+      "a": 0,
+      "ligne": 0,
+      "zoom": 1.1
+     },
+     {
+      "a": 87,
+      "ligne": 1,
+      "zoom": 1.22
+     }
+    ],
+    "source": "Warby Parker Inc., Form 10-K FY2025 (SEC)",
+    "cercle": null,
+    "palette": "rouge"
+   }
+  },
+  {
+   "debut": 15407,
+   "type": "carton",
+   "transition": "coupe",
+   "fondu": 0,
+   "sens": 1,
+   "secousses": [],
+   "props": {
+    "taille": 110,
+    "police": "anton",
+    "anim": "pop",
+    "palette": "nuit",
+    "mots": [
+     {
+      "texte": "So how",
+      "a": 10
+     },
+     {
+      "texte": "does it show up",
+      "a": 33
+     },
+     {
+      "texte": "in the numbers?",
+      "a": 50
+     }
+    ]
+   }
+  },
+  {
+   "debut": 15487,
+   "type": "document",
+   "transition": "zoom",
+   "fondu": 12,
+   "sens": 1,
+   "secousses": [],
+   "props": {
+    "src": "doc-el-fy2024.png",
+    "ratio": 2.857142857142857,
+    "largeurSrc": 1600,
+    "lignes": [
+     {
+      "y": 0.075,
+      "h": 0.0821
+     },
+     {
+      "y": 0.2491,
+      "h": 0.1839
+     },
+     {
+      "y": 0.3705,
+      "h": 0.0518
+     },
+     {
+      "y": 0.4634,
+      "h": 0.0518
+     },
+     {
+      "y": 0.5563,
+      "h": 0.0518
+     },
+     {
+      "y": 0.6545,
+      "h": 0.0589
+     },
+     {
+      "y": 0.7438,
+      "h": 0.0518
+     },
+     {
+      "y": 0.8375,
+      "h": 0.0536
+     },
+     {
+      "y": 0.9313,
+      "h": 0.0518
+     }
+    ],
+    "etapes": [
+     {
+      "a": 0,
+      "ligne": 3,
+      "zoom": 1.0
+     },
+     {
+      "a": 111,
+      "ligne": 4,
+      "zoom": 1.15
+     }
+    ],
+    "source": "EssilorLuxottica, FY2024 results · Universal Registration Document 2024",
+    "cercle": null,
+    "palette": "rouge"
+   }
+  },
+  {
+   "debut": 15732,
+   "type": "stat",
+   "transition": "glisse",
+   "fondu": 9,
+   "sens": 1,
+   "secousses": [],
+   "props": {
+    "valeur": 3.1,
+    "decimales": 1,
+    "prefixe": "€",
+    "suffixe": "B",
+    "legende": "adjusted net profit, 2024",
+    "source": "EssilorLuxottica, FY2024 results · Universal Registration Document 2024",
+    "palette": "rouge",
+    "police": "bloc"
+   }
+  },
+  {
+   "debut": 15888,
+   "type": "compare",
+   "transition": "zoom",
+   "fondu": 12,
+   "sens": 1,
+   "secousses": [],
+   "props": {
+    "titre": "Profit kept on every 100 of sales",
+    "max": 12,
+    "format": "nombre",
+    "decimales": 2,
+    "source": "EssilorLuxottica FY2024 (adjusted, €) · Warby Parker 10-K FY2025 ($)",
+    "barres": [
+     {
+      "nom": "EssilorLuxottica",
+      "detail": "2024 · adjusted · €",
+      "valeur": 11.8,
+      "a": 0,
+      "couleur": "#D9A441"
+     },
+     {
+      "nom": "Warby Parker",
+      "detail": "2025 · $",
+      "valeur": 0.19,
+      "a": 95,
+      "couleur": "#B3463C"
+     }
+    ],
+    "palette": "rouge"
+   }
+  },
+  {
+   "debut": 16067,
+   "type": "plaque",
+   "transition": "zoom",
+   "fondu": 12,
+   "sens": 1,
+   "secousses": [],
+   "props": {
+    "src": "g16_bruxelles.jpg",
+    "mouvement": "avant",
+    "palette": "rouge"
+   }
+  },
+  {
+   "debut": 16235,
+   "type": "plaque",
+   "transition": "glisse",
+   "fondu": 9,
+   "sens": 1,
+   "secousses": [],
+   "props": {
+    "src": "g15_galerie.jpg",
+    "mouvement": "gauche",
+    "palette": "rouge"
+   }
+  },
+  {
+   "debut": 16349,
+   "type": "stat",
+   "transition": "coupe",
+   "fondu": 0,
+   "sens": 1,
+   "secousses": [],
+   "props": {
+    "src": "g15_galerie.jpg",
+    "valeur": 7095,
+    "legende": "GrandVision stores",
+    "source": "European Commission, case M.9569 EssilorLuxottica / GrandVision",
+    "palette": "rouge",
+    "police": "anton"
+   }
+  },
+  {
+   "debut": 16448,
+   "type": "carton",
+   "transition": "zoom",
+   "fondu": 12,
+   "sens": 1,
+   "secousses": [],
+   "props": {
+    "taille": 154,
+    "police": "citation",
+    "anim": "surligne",
+    "palette": "rouge",
+    "mots": [
+     {
+      "texte": "“Significant",
+      "a": 61
+     },
+     {
+      "texte": "market power”",
+      "a": 85
+     }
+    ]
+   }
+  },
+  {
+   "debut": 16644,
+   "type": "carton",
+   "transition": "coupe",
+   "fondu": 0,
+   "sens": 1,
+   "secousses": [],
+   "props": {
+    "taille": 132,
+    "police": "citation",
+    "anim": "masque",
+    "palette": "papier",
+    "mots": [
+     {
+      "texte": "Ray-Ban:",
+      "a": 15
+     },
+     {
+      "texte": "“the strongest",
+      "a": 33
+     },
+     {
+      "texte": "eyewear brand”",
+      "a": 49
+     }
+    ]
+   }
+  },
+  {
+   "debut": 16733,
+   "type": "plaque",
+   "transition": "glisse",
+   "fondu": 9,
+   "sens": 1,
+   "secousses": [],
+   "props": {
+    "src": "g16_bruxelles.jpg",
+    "mouvement": "droite",
+    "palette": "rouge"
+   }
+  },
+  {
+   "debut": 16813,
+   "type": "document",
+   "transition": "zoom",
+   "fondu": 12,
+   "sens": 1,
+   "secousses": [],
+   "props": {
+    "src": "doc-ue-m9569.png",
+    "ratio": 2.1232876712328768,
+    "largeurSrc": 1550,
+    "lignes": [
+     {
+      "y": 0.1932,
+      "h": 0.0603
+     },
+     {
+      "y": 0.2473,
+      "h": 0.0507
+     },
+     {
+      "y": 0.3589,
+      "h": 0.0603
+     },
+     {
+      "y": 0.413,
+      "h": 0.0507
+     },
+     {
+      "y": 0.4712,
+      "h": 0.0521
+     },
+     {
+      "y": 0.5329,
+      "h": 0.0603
+     },
+     {
+      "y": 0.5904,
+      "h": 0.0603
+     },
+     {
+      "y": 0.6986,
+      "h": 0.0603
+     },
+     {
+      "y": 0.7562,
+      "h": 0.0603
+     },
+     {
+      "y": 0.8137,
+      "h": 0.0603
+     },
+     {
+      "y": 0.8664,
+      "h": 0.0507
+     }
+    ],
+    "etapes": [
+     {
+      "a": 0,
+      "ligne": 0,
+      "zoom": 1.0
+     },
+     {
+      "a": 165,
+      "ligne": 2,
+      "zoom": 1.12
+     },
+     {
+      "a": 177,
+      "ligne": 6,
+      "zoom": 1.12
+     },
+     {
+      "a": 195,
+      "ligne": 7,
+      "zoom": 1.12
+     }
+    ],
+    "source": "European Commission, case M.9569 EssilorLuxottica / GrandVision · letter of 30 March 2022",
+    "cercle": null,
+    "palette": "rouge"
+   }
+  },
+  {
+   "debut": 17042,
+   "type": "carte",
+   "transition": "glisse",
+   "fondu": 9,
+   "sens": 1,
+   "secousses": [],
+   "props": {
+    "zone": [
+     2,
+     36,
+     19,
+     54
+    ],
+    "titre": "Stores EssilorLuxottica had to sell",
+    "source": "European Commission, case M.9569 EssilorLuxottica / GrandVision",
+    "pays": [
+     {
+      "id": "380",
+      "libelle": "Italy",
+      "valeur": "174",
+      "a": 0
+     },
+     {
+      "id": "056",
+      "libelle": "Belgium",
+      "valeur": "35",
+      "a": 4,
+      "decal": [
+       -150,
+       40
+      ]
+     },
+     {
+      "id": "528",
+      "libelle": "Netherlands",
+      "valeur": "142",
+      "a": 8,
+      "decal": [
+       120,
+       -70
+      ]
+     }
+    ],
+    "palette": "rouge"
+   }
+  },
+  {
+   "debut": 17094,
+   "type": "titre",
+   "transition": "zoom",
+   "fondu": 12,
+   "sens": 1,
+   "secousses": [],
+   "props": {
+    "titre": "So, why are glasses so expensive?",
+    "palette": "route"
+   }
+  },
+  {
+   "debut": 17171,
+   "type": "ticket",
+   "transition": "zoom",
+   "fondu": 12,
+   "sens": 1,
+   "secousses": [],
+   "props": {
+    "titre": "YOUR GLASSES",
+    "sous": "what the numbers show",
+    "source": "UN Comtrade, US imports, 2024 · Warby Parker Inc., Form 10-K FY2025 (SEC)",
+    "lignes": [
+     {
+      "libelle": "Frame, at the border",
+      "montant": "11.90",
+      "a": 21
+     },
+     {
+      "libelle": "Lenses, at the border",
+      "montant": "8.50",
+      "a": 140
+     }
+    ],
+    "palette": "route"
+   }
+  },
+  {
+   "debut": 17397,
+   "type": "plaque",
+   "transition": "glisse",
+   "fondu": 9,
+   "sens": 1,
+   "secousses": [],
+   "props": {
+    "src": "g04_surfacage_b.jpg",
+    "mouvement": "avant",
+    "palette": "route"
+   }
+  },
+  {
+   "debut": 17476,
+   "type": "plaque",
+   "transition": "glisse",
+   "fondu": 9,
+   "sens": 1,
+   "secousses": [],
+   "props": {
+    "src": "g07_salle_examen.jpg",
+    "mouvement": "gauche",
+    "palette": "route"
+   }
+  },
+  {
+   "debut": 17501,
+   "type": "plaque",
+   "transition": "glisse",
+   "fondu": 9,
+   "sens": 1,
+   "secousses": [],
+   "props": {
+    "src": "g06_boutique_moderne.jpg",
+    "mouvement": "droite",
+    "palette": "route"
+   }
+  },
+  {
+   "debut": 17520,
+   "type": "plaque",
+   "transition": "glisse",
+   "fondu": 9,
+   "sens": 1,
+   "secousses": [],
+   "props": {
+    "src": "11_bureau.jpg",
+    "mouvement": "avant",
+    "palette": "route"
+   }
+  },
+  {
+   "debut": 17550,
+   "type": "parallaxe",
+   "transition": "fondu",
+   "fondu": 8,
+   "sens": 1,
+   "secousses": [],
+   "props": {
+    "fond": "calques/00_hero-fond.jpg",
+    "sujet": "calques/00_hero-sujet.png",
+    "foyer": [
+     69,
+     71
+    ],
+    "mouvement": "gauche",
+    "palette": "route"
+   }
+  },
+  {
+   "debut": 17684,
+   "type": "plaque",
+   "transition": "fondu",
+   "fondu": 8,
+   "sens": 1,
+   "secousses": [],
+   "props": {
+    "src": "17_route.jpg",
+    "mouvement": "avant",
+    "foyer": [
+     50,
+     56
+    ],
+    "ampleur": 0.16,
+    "palette": "route"
+   }
+  },
+  {
+   "debut": 17746,
+   "type": "route",
+   "transition": "zoom",
+   "fondu": 12,
+   "sens": 1,
+   "secousses": [],
+   "props": {
+    "source": "EssilorLuxottica, FY2024 results · Universal Registration Document 2024",
+    "etapes": [
+     {
+      "titre": "Brands",
+      "exemple": "Ray-Ban",
+      "a": 16
+     },
+     {
+      "titre": "Factories",
+      "exemple": "33 + 14",
+      "a": 48
+     },
+     {
+      "titre": "Stores",
+      "exemple": "17,638",
+      "a": 68
+     },
+     {
+      "titre": "Insurance",
+      "exemple": "EyeMed",
+      "a": 103
+     }
+    ],
+    "groupe": {
+     "texte": "EssilorLuxottica",
+     "a": 123
+    },
+    "palette": "route"
+   }
+  },
+  {
+   "debut": 17943,
+   "type": "plaque",
+   "transition": "fondu",
+   "fondu": 8,
+   "sens": 1,
+   "secousses": [],
+   "props": {
+    "src": "17_route.jpg",
+    "mouvement": "avant",
+    "foyer": [
+     50,
+     56
+    ],
+    "ampleur": 0.2,
+    "palette": "route"
+   }
+  },
+  {
+   "debut": 18027,
+   "type": "plaque",
+   "transition": "coupe",
+   "fondu": 0,
+   "sens": 1,
+   "secousses": [
+    9
+   ],
+   "props": {
+    "src": "g17_ordonnance.jpg",
+    "mouvement": "avant",
+    "flou": 12,
+    "assombrir": 0.25,
+    "titre": {
+     "texte": "Your prescription.",
+     "a": 0
+    },
+    "palette": "route"
+   }
+  },
+  {
+   "debut": 18203,
+   "type": "plaque",
+   "transition": "glisse",
+   "fondu": 9,
+   "sens": 1,
+   "secousses": [],
+   "props": {
+    "src": "g07_salle_examen.jpg",
+    "mouvement": "avant",
+    "palette": "route"
+   }
+  },
+  {
+   "debut": 18309,
+   "type": "carton",
+   "transition": "coupe",
+   "fondu": 0,
+   "sens": 1,
+   "secousses": [],
+   "props": {
+    "taille": 140,
+    "police": "serif",
+    "anim": "masque",
+    "palette": "papier",
+    "mots": [
+     {
+      "texte": "Not every",
+      "a": 0
+     },
+     {
+      "texte": "doctor did.",
+      "a": 13
+     }
+    ]
+   }
+  },
+  {
+   "debut": 18359,
+   "type": "compare",
+   "transition": "zoom",
+   "fondu": 12,
+   "sens": 1,
+   "secousses": [],
+   "props": {
+    "titre": "FTC warning letters to eye doctors",
+    "max": 40,
+    "format": "nombre",
+    "decimales": 0,
+    "source": "US Federal Trade Commission, Eyeglass Rule (June 2024)",
+    "barres": [
+     {
+      "nom": "2020",
+      "detail": "warning letters",
+      "valeur": 28,
+      "a": 50,
+      "couleur": "#6FB3A7"
+     },
+     {
+      "nom": "2023",
+      "detail": "warning letters",
+      "valeur": 37,
+      "a": 120,
+      "couleur": "#D9A441"
+     }
+    ],
+    "palette": "route"
+   }
+  },
+  {
+   "debut": 18544,
+   "type": "plaque",
+   "transition": "glisse",
+   "fondu": 9,
+   "sens": 1,
+   "secousses": [],
+   "props": {
+    "src": "g11_washington.jpg",
+    "mouvement": "avant",
+    "palette": "route"
+   }
+  },
+  {
+   "debut": 18715,
+   "type": "plaque",
+   "transition": "glisse",
+   "fondu": 9,
+   "sens": 1,
+   "secousses": [],
+   "props": {
+    "src": "g06_boutique_moderne.jpg",
+    "mouvement": "avant",
+    "palette": "route"
+   }
+  },
+  {
+   "debut": 18808,
+   "type": "parallaxe",
+   "transition": "fondu",
+   "fondu": 8,
+   "sens": 1,
+   "secousses": [],
+   "props": {
+    "fond": "calques/04_balance-fond.jpg",
+    "sujet": "calques/04_balance-sujet.png",
+    "foyer": [
+     49,
+     56
+    ],
+    "mouvement": "avant",
+    "palette": "route"
+   }
+  },
+  {
+   "debut": 18868,
+   "type": "plaque",
+   "transition": "fondu",
+   "fondu": 8,
+   "sens": 1,
+   "secousses": [],
+   "props": {
+    "src": "17_route.jpg",
+    "mouvement": "avant",
+    "foyer": [
+     50,
+     56
+    ],
+    "ampleur": 0.24,
+    "palette": "route"
+   }
+  },
+  {
+   "debut": 19048,
+   "type": "titre",
+   "transition": "zoom",
+   "fondu": 12,
+   "sens": 1,
+   "secousses": [],
+   "props": {
+    "titre": "ITEMIZED",
+    "sous": "Every price has a receipt.",
+    "palette": "route"
+   }
+  },
+  {
+   "debut": 19186,
+   "type": "abonnement",
+   "transition": "glisse",
+   "fondu": 9,
+   "sens": 1,
+   "secousses": [],
+   "props": {
+    "lignesA": [
+     75,
+     104
+    ],
+    "clic": 164,
+    "palette": "route"
+   }
+  },
+  {
+   "debut": 19450,
+   "type": "ecranfin",
+   "transition": "fondu",
+   "fondu": 12,
+   "sens": 1,
+   "secousses": [],
+   "props": {
+    "logo": "avatar.png",
+    "palette": "route"
+   }
+  }
+ ],
+ "surcouches": [
+  {
+   "debut": 21,
+   "fin": 120,
+   "type": "kicker",
+   "props": {
+    "numero": "2024",
+    "titre": "US imports",
+    "duree": 99
+   }
+  },
+  {
+   "debut": 24,
+   "fin": 269,
+   "type": "source",
+   "props": {
+    "texte": "UN Comtrade, US imports, 2024"
+   }
+  },
+  {
+   "debut": 733,
+   "fin": 805,
+   "type": "lowerthird",
+   "props": {
+    "nom": "$70 billion",
+    "fonction": "The US eyewear market, per year",
+    "source": "The Vision Council, cited in Warby Parker Inc., Form 10-K FY2025 (SEC)"
+   }
+  },
+  {
+   "debut": 1405,
+   "fin": 1414,
+   "type": "flash",
+   "props": {}
+  },
+  {
+   "debut": 1538,
+   "fin": 1577,
+   "type": "lumiere",
+   "props": {
+    "graine": "p1"
+   }
+  },
+  {
+   "debut": 1544,
+   "fin": 1598,
+   "type": "chapitre",
+   "props": {
+    "numero": "01",
+    "titre": "The border",
+    "palette": "bleu",
+    "police": "serif"
+   }
+  },
+  {
+   "debut": 1753,
+   "fin": 1880,
+   "type": "lowerthird",
+   "props": {
+    "nom": "UN Comtrade",
+    "fonction": "Customs declarations, compiled by the United Nations",
+    "source": "UN Comtrade, US imports, 2024"
+   }
+  },
+  {
+   "debut": 3080,
+   "fin": 3207,
+   "type": "chips",
+   "props": {
+    "noms": [
+     {
+      "texte": "Subsidiary A",
+      "a": 0
+     },
+     {
+      "texte": "→ Subsidiary B",
+      "a": 10
+     }
+    ]
+   }
+  },
+  {
+   "debut": 3634,
+   "fin": 3702,
+   "type": "lowerthird",
+   "props": {
+    "nom": "$4.25",
+    "fonction": "One plastic lens, average declared value",
+    "source": "UN Comtrade, US imports, 2024"
+   }
+  },
+  {
+   "debut": 3702,
+   "fin": 3772,
+   "type": "lowerthird",
+   "props": {
+    "nom": "$2.10",
+    "fonction": "One plastic lens from China",
+    "source": "UN Comtrade, US imports, 2024"
+   }
+  },
+  {
+   "debut": 3880,
+   "fin": 4000,
+   "type": "chips",
+   "props": {
+    "noms": [
+     {
+      "texte": "Ground",
+      "a": 0
+     },
+     {
+      "texte": "Coated",
+      "a": 42
+     },
+     {
+      "texte": "Cut to fit",
+      "a": 71
+     }
+    ]
+   }
+  },
+  {
+   "debut": 5239,
+   "fin": 5278,
+   "type": "lumiere",
+   "props": {
+    "graine": "p2"
+   }
+  },
+  {
+   "debut": 5245,
+   "fin": 5299,
+   "type": "chapitre",
+   "props": {
+    "numero": "02",
+    "titre": "The disruptor",
+    "palette": "papier",
+    "police": "bloc"
+   }
+  },
+  {
+   "debut": 5446,
+   "fin": 5546,
+   "type": "lowerthird",
+   "props": {
+    "nom": "$95",
+    "fonction": "Prescription glasses, lenses included",
+    "source": "Warby Parker Inc., Form 10-K FY2025 (SEC)"
+   }
+  },
+  {
+   "debut": 5740,
+   "fin": 5897,
+   "type": "lowerthird",
+   "props": {
+    "nom": "323 stores",
+    "fonction": "2.7 million active customers",
+    "source": "Warby Parker Inc., Form 10-K FY2025 (SEC)"
+   }
+  },
+  {
+   "debut": 5911,
+   "fin": 6038,
+   "type": "lowerthird",
+   "props": {
+    "nom": "88%",
+    "fonction": "of Warby Parker stores offer eye exams",
+    "source": "Warby Parker Inc., Form 10-K FY2025 (SEC)"
+   }
+  },
+  {
+   "debut": 8130,
+   "fin": 8169,
+   "type": "lumiere",
+   "props": {
+    "graine": "p3"
+   }
+  },
+  {
+   "debut": 8136,
+   "fin": 8190,
+   "type": "chapitre",
+   "props": {
+    "numero": "03",
+    "titre": "The receipt",
+    "palette": "nuit",
+    "police": "machine"
+   }
+  },
+  {
+   "debut": 8148,
+   "fin": 8267,
+   "type": "source",
+   "props": {
+    "texte": "Warby Parker Inc., Form 10-K FY2025 (SEC) · advertising $113.9M"
+   }
+  },
+  {
+   "debut": 8321,
+   "fin": 8411,
+   "type": "lowerthird",
+   "props": {
+    "nom": "$41.52",
+    "fonction": "Everything else: salaries, head office, technology",
+    "source": "Warby Parker Inc., Form 10-K FY2025 (SEC) · SG&A minus advertising"
+   }
+  },
+  {
+   "debut": 9486,
+   "fin": 9495,
+   "type": "flash",
+   "props": {}
+  },
+  {
+   "debut": 10382,
+   "fin": 10542,
+   "type": "lowerthird",
+   "props": {
+    "nom": "National Vision",
+    "fonction": "Discount optical chains",
+    "source": "National Vision Holdings, Form 10-K FY2025"
+   }
+  },
+  {
+   "debut": 11529,
+   "fin": 11568,
+   "type": "lumiere",
+   "props": {
+    "graine": "p4"
+   }
+  },
+  {
+   "debut": 11535,
+   "fin": 11589,
+   "type": "chapitre",
+   "props": {
+    "numero": "04",
+    "titre": "The owner",
+    "palette": "rouge",
+    "police": "citation"
+   }
+  },
+  {
+   "debut": 11609,
+   "fin": 11618,
+   "type": "flash",
+   "props": {}
+  },
+  {
+   "debut": 12655,
+   "fin": 12833,
+   "type": "source",
+   "props": {
+    "texte": "EssilorLuxottica, FY2024 results · Universal Registration Document 2024"
+   }
+  },
+  {
+   "debut": 12833,
+   "fin": 12933,
+   "type": "chips",
+   "props": {
+    "noms": [
+     {
+      "texte": "Medical device",
+      "a": 0
+     },
+     {
+      "texte": "→ Fashion accessory",
+      "a": 50
+     }
+    ]
+   }
+  },
+  {
+   "debut": 13349,
+   "fin": 13462,
+   "type": "chips",
+   "props": {
+    "titre": "Lens brands",
+    "noms": [
+     {
+      "texte": "Varilux",
+      "a": 0
+     },
+     {
+      "texte": "Crizal",
+      "a": 33
+     },
+     {
+      "texte": "Transitions",
+      "a": 70
+     }
+    ],
+    "source": "EssilorLuxottica, FY2024 results · Universal Registration Document 2024"
+   }
+  },
+  {
+   "debut": 14075,
+   "fin": 14199,
+   "type": "chips",
+   "props": {
+    "noms": [
+     {
+      "texte": "Pearle Vision",
+      "a": 0
+     },
+     {
+      "texte": "Target Optical · under license",
+      "a": 39
+     }
+    ],
+    "source": "EssilorLuxottica, FY2024 results · Universal Registration Document 2024"
+   }
+  },
+  {
+   "debut": 14323,
+   "fin": 14444,
+   "type": "lowerthird",
+   "props": {
+    "nom": "200,000+",
+    "fonction": "employees, in 150 countries",
+    "source": "EssilorLuxottica, FY2024 results · Universal Registration Document 2024"
+   }
+  },
+  {
+   "debut": 14677,
+   "fin": 14736,
+   "type": "lowerthird",
+   "props": {
+    "nom": "85 million",
+    "fonction": "people served by EyeMed Vision Care",
+    "source": "EssilorLuxottica, Universal Registration Document 2025"
+   }
+  },
+  {
+   "debut": 16235,
+   "fin": 16349,
+   "type": "lowerthird",
+   "props": {
+    "nom": "GrandVision",
+    "fonction": "Europe's largest optical retailer",
+    "source": "European Commission, case M.9569 EssilorLuxottica / GrandVision"
+   }
+  },
+  {
+   "debut": 16454,
+   "fin": 16644,
+   "type": "source",
+   "props": {
+    "texte": "European Commission, case M.9569 EssilorLuxottica / GrandVision"
+   }
+  },
+  {
+   "debut": 16650,
+   "fin": 16733,
+   "type": "source",
+   "props": {
+    "texte": "European Commission, case M.9569 EssilorLuxottica / GrandVision"
+   }
+  },
+  {
+   "debut": 17085,
+   "fin": 17124,
+   "type": "lumiere",
+   "props": {
+    "graine": "p5"
+   }
+  },
+  {
+   "debut": 17091,
+   "fin": 17145,
+   "type": "chapitre",
+   "props": {
+    "numero": "05",
+    "titre": "The road",
+    "palette": "route",
+    "police": "anton"
+   }
+  },
+  {
+   "debut": 18068,
+   "fin": 18309,
+   "type": "lowerthird",
+   "props": {
+    "nom": "Since 1978",
+    "fonction": "Eye doctors must give you your prescription, free, right after the exam",
+    "source": "US Federal Trade Commission, Eyeglass Rule (June 2024)"
+   }
+  },
+  {
+   "debut": 18662,
+   "fin": 18715,
+   "type": "lowerthird",
+   "props": {
+    "nom": "Since 2024",
+    "fonction": "Signed confirmation that you received it, kept 3 years",
+    "source": "US Federal Trade Commission, Eyeglass Rule (June 2024)"
+   }
+  }
+ ],
+ "sons": [
+  {
+   "src": "impact.mp3",
+   "a": 1033,
+   "volume": 0.45
+  },
+  {
+   "src": "impact.mp3",
+   "a": 1405,
+   "volume": 0.5
+  },
+  {
+   "src": "riser.mp3",
+   "a": 1490,
+   "volume": 0.4
+  },
+  {
+   "src": "whoosh.mp3",
+   "a": 1542,
+   "volume": 0.5
+  },
+  {
+   "src": "riser.mp3",
+   "a": 5191,
+   "volume": 0.4
+  },
+  {
+   "src": "whoosh.mp3",
+   "a": 5243,
+   "volume": 0.5
+  },
+  {
+   "src": "riser.mp3",
+   "a": 8082,
+   "volume": 0.4
+  },
+  {
+   "src": "whoosh.mp3",
+   "a": 8134,
+   "volume": 0.5
+  },
+  {
+   "src": "impact.mp3",
+   "a": 8665,
+   "volume": 0.5
+  },
+  {
+   "src": "impact.mp3",
+   "a": 9486,
+   "volume": 0.6
+  },
+  {
+   "src": "whoosh.mp3",
+   "a": 11243,
+   "volume": 0.4
+  },
+  {
+   "src": "riser.mp3",
+   "a": 11481,
+   "volume": 0.4
+  },
+  {
+   "src": "whoosh.mp3",
+   "a": 11533,
+   "volume": 0.5
+  },
+  {
+   "src": "impact.mp3",
+   "a": 11609,
+   "volume": 0.6
+  },
+  {
+   "src": "impact.mp3",
+   "a": 16017,
+   "volume": 0.5
+  },
+  {
+   "src": "riser.mp3",
+   "a": 17037,
+   "volume": 0.4
+  },
+  {
+   "src": "whoosh.mp3",
+   "a": 17090,
+   "volume": 0.5
+  },
+  {
+   "src": "impact.mp3",
+   "a": 18030,
+   "volume": 0.5
+  }
+ ]
+}

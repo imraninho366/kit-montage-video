@@ -2,7 +2,7 @@
 
 Tout ce qu'il faut pour produire des vidéos YouTube / TikTok avec Claude Code, **sans tournage et avec des outils gratuits** :
 montage (ffmpeg), motion design (Remotion, Hyperframes), 3D (Blender), sous-titres (Whisper), voix locales (Kokoro, Supertonic),
-téléchargement de sources (yt-dlp), et un **dossier A-PUBLIER** prêt à copier-coller pour chaque chaîne et chaque vidéo.
+téléchargement de sources (yt-dlp), un **moteur Remotion complet** prêt à servir de modèle, et un **dossier A-PUBLIER** prêt à copier-coller pour chaque chaîne et chaque vidéo.
 
 Aucun compte GitHub n'est nécessaire : le dépôt est public.
 
@@ -73,6 +73,18 @@ Les paquets Python sont dans `~/.claude/video-venv` (`source ~/.claude/video-ven
 
 ### Serveur MCP
 - `remotion-documentation` : doc Remotion à jour, sans compte.
+
+## Le moteur Remotion (`moteur-remotion/`)
+
+Le moteur de montage qui a servi à produire les vidéos des chaînes : 44 composants (titres, chiffres clés, graphiques, cartes et globe,
+chronologies, captures d'articles, appel à s'abonner, écran de fin…), des dizaines de vidéos modèles (documentaire long, Shorts,
+séries interactives TikTok, leçons POV 3D, miniatures) et les scripts de voix et de bruitages.
+
+```bash
+cd ~/kit-montage-video/moteur-remotion && npm run studio
+```
+
+Les médias (voix, images, musiques) ne sont pas fournis : les compositions servent de modèles. Détails dans [moteur-remotion/README.md](moteur-remotion/README.md).
 
 ## Le dossier A-PUBLIER
 

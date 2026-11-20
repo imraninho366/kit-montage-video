@@ -1,0 +1,13 @@
+# T'ES BIEN RENTRÉE ? — Série 1 « Le Suiveur », partie 2 (vote A : elle entre dans le kebab). Format : ID PERSO | [balise] réplique
+# Persos : INES (toi), VENDEUR (derrière le comptoir), HOMME (dehors, ne parle pas ici)
+# HUD : 02:19 → 02:23, batterie 8 % → 5 %. Vote : « Il entre. Tu appelles le 17, ou tu te caches dans l'arrière-boutique ? »
+L01 INES | [tendu] Je pousse la porte du kebab. Lui, il reste dehors.
+L02 VENDEUR | [curieux] Bonsoir ! On ferme bientôt, hein.
+L03 INES | [chuchoté] Sur la vitre, il y a un autocollant… « Demandez Angela ».
+L04 INES | [chuchoté] Excusez-moi… Je cherche Angela.
+L05 VENDEUR | [sérieux] D'accord. Passe derrière le comptoir. Ici, tu es en sécurité.
+L06 INES | [tendu] Il traverse… Il s'assoit sur le banc, juste en face.
+L07 VENDEUR | [sérieux] Lui, ça fait une heure qu'il tourne dans le quartier.
+L08 INES | [tendu] Cinq pour cent. J'ai droit à un appel. Pas plus.
+L09 VENDEUR | [déterminé] J'appelle la police ? Ou je ferme, et je te raccompagne.
+L10 INES | [choqué] Attends… Il se lève. Il vient vers la porte.

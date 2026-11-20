@@ -1,0 +1,532 @@
+{
+ "lignes": [
+  {
+   "id": "L01",
+   "perso": "FEMME",
+   "texte": "Assieds-toi. Et surtout, ne te retourne pas.",
+   "fichier": "metro/ep02/L01.wav",
+   "duree": 3.64,
+   "mots": [
+    {
+     "t": "Assieds-toi.",
+     "a": 0.05,
+     "b": 0.69
+    },
+    {
+     "t": "Et",
+     "a": 1.09,
+     "b": 1.25
+    },
+    {
+     "t": "surtout,",
+     "a": 1.29,
+     "b": 2.05
+    },
+    {
+     "t": "ne",
+     "a": 2.13,
+     "b": 2.21
+    },
+    {
+     "t": "te",
+     "a": 2.29,
+     "b": 2.37
+    },
+    {
+     "t": "retourne",
+     "a": 2.45,
+     "b": 2.93
+    },
+    {
+     "t": "pas.",
+     "a": 3.01,
+     "b": 3.41
+    }
+   ]
+  },
+  {
+   "id": "L02",
+   "perso": "NAEL",
+   "texte": "Vous allez m'expliquer ? Qui m'écrit ?",
+   "fichier": "metro/ep02/L02.wav",
+   "duree": 2.6,
+   "mots": [
+    {
+     "t": "Vous",
+     "a": 0.05,
+     "b": 0.21
+    },
+    {
+     "t": "allez",
+     "a": 0.29,
+     "b": 0.397
+    },
+    {
+     "t": "m'expliquer",
+     "a": 0.423,
+     "b": 0.93
+    },
+    {
+     "t": "?",
+     "a": 1.41,
+     "b": 1.463
+    },
+    {
+     "t": "Qui",
+     "a": 1.517,
+     "b": 1.57
+    },
+    {
+     "t": "m'écrit",
+     "a": 1.61,
+     "b": 1.97
+    },
+    {
+     "t": "?",
+     "a": 2.21,
+     "b": 2.37
+    }
+   ]
+  },
+  {
+   "id": "L03",
+   "perso": "FEMME",
+   "texte": "Ce numéro m'écrit depuis trois nuits. Même métro. Même panne.",
+   "fichier": "metro/ep02/L03.wav",
+   "duree": 4.6,
+   "mots": [
+    {
+     "t": "Ce",
+     "a": 0.05,
+     "b": 0.13
+    },
+    {
+     "t": "numéro",
+     "a": 0.21,
+     "b": 0.53
+    },
+    {
+     "t": "m'écrit",
+     "a": 0.61,
+     "b": 0.93
+    },
+    {
+     "t": "depuis",
+     "a": 1.01,
+     "b": 1.25
+    },
+    {
+     "t": "trois",
+     "a": 1.33,
+     "b": 1.49
+    },
+    {
+     "t": "nuits.",
+     "a": 1.53,
+     "b": 2.05
+    },
+    {
+     "t": "Même",
+     "a": 2.29,
+     "b": 2.45
+    },
+    {
+     "t": "métro.",
+     "a": 2.49,
+     "b": 3.21
+    },
+    {
+     "t": "Même",
+     "a": 3.49,
+     "b": 3.65
+    },
+    {
+     "t": "panne.",
+     "a": 3.73,
+     "b": 4.37
+    }
+   ]
+  },
+  {
+   "id": "L04",
+   "perso": "FEMME",
+   "texte": "Et chaque nuit… quelqu'un descend dans le tunnel.",
+   "fichier": "metro/ep02/L04.wav",
+   "duree": 3.48,
+   "mots": [
+    {
+     "t": "Et",
+     "a": 0.05,
+     "b": 0.21
+    },
+    {
+     "t": "chaque",
+     "a": 0.29,
+     "b": 0.53
+    },
+    {
+     "t": "nuit…",
+     "a": 0.61,
+     "b": 1.41
+    },
+    {
+     "t": "quelqu'un",
+     "a": 1.49,
+     "b": 1.81
+    },
+    {
+     "t": "descend",
+     "a": 1.89,
+     "b": 2.21
+    },
+    {
+     "t": "dans",
+     "a": 2.25,
+     "b": 2.37
+    },
+    {
+     "t": "le",
+     "a": 2.41,
+     "b": 2.45
+    },
+    {
+     "t": "tunnel.",
+     "a": 2.53,
+     "b": 3.25
+    }
+   ]
+  },
+  {
+   "id": "L05",
+   "perso": "ADO",
+   "texte": "Y a quelqu'un dehors !",
+   "fichier": "metro/ep02/L05.wav",
+   "duree": 1.72,
+   "mots": [
+    {
+     "t": "Y",
+     "a": 0.05,
+     "b": 0.09
+    },
+    {
+     "t": "a",
+     "a": 0.13,
+     "b": 0.21
+    },
+    {
+     "t": "quelqu'un",
+     "a": 0.33,
+     "b": 0.61
+    },
+    {
+     "t": "dehors",
+     "a": 0.69,
+     "b": 1.09
+    },
+    {
+     "t": "!",
+     "a": 1.33,
+     "b": 1.49
+    }
+   ]
+  },
+  {
+   "id": "L06",
+   "perso": "FEMME",
+   "texte": "Ne regardez pas. Ce n'est pas lui.",
+   "fichier": "metro/ep02/L06.wav",
+   "duree": 2.52,
+   "mots": [
+    {
+     "t": "Ne",
+     "a": 0.05,
+     "b": 0.13
+    },
+    {
+     "t": "regardez",
+     "a": 0.21,
+     "b": 0.61
+    },
+    {
+     "t": "pas.",
+     "a": 0.73,
+     "b": 1.09
+    },
+    {
+     "t": "Ce",
+     "a": 1.33,
+     "b": 1.41
+    },
+    {
+     "t": "n'est",
+     "a": 1.45,
+     "b": 1.57
+    },
+    {
+     "t": "pas",
+     "a": 1.61,
+     "b": 1.65
+    },
+    {
+     "t": "lui.",
+     "a": 1.73,
+     "b": 2.29
+    }
+   ]
+  },
+  {
+   "id": "L07",
+   "perso": "NAEL",
+   "texte": "C'est… la lampe du monsieur ?",
+   "fichier": "metro/ep02/L07.wav",
+   "duree": 2.12,
+   "mots": [
+    {
+     "t": "C'est…",
+     "a": 0.05,
+     "b": 0.61
+    },
+    {
+     "t": "la",
+     "a": 0.69,
+     "b": 0.77
+    },
+    {
+     "t": "lampe",
+     "a": 0.85,
+     "b": 1.17
+    },
+    {
+     "t": "du",
+     "a": 1.21,
+     "b": 1.25
+    },
+    {
+     "t": "monsieur",
+     "a": 1.33,
+     "b": 1.65
+    },
+    {
+     "t": "?",
+     "a": 1.73,
+     "b": 1.89
+    }
+   ]
+  },
+  {
+   "id": "L08",
+   "perso": "FEMME",
+   "texte": "Il me l'a rendue. Comme chaque nuit.",
+   "fichier": "metro/ep02/L08.wav",
+   "duree": 2.68,
+   "mots": [
+    {
+     "t": "Il",
+     "a": 0.05,
+     "b": 0.13
+    },
+    {
+     "t": "me",
+     "a": 0.17,
+     "b": 0.21
+    },
+    {
+     "t": "l'a",
+     "a": 0.29,
+     "b": 0.37
+    },
+    {
+     "t": "rendue.",
+     "a": 0.45,
+     "b": 1.13
+    },
+    {
+     "t": "Comme",
+     "a": 1.41,
+     "b": 1.57
+    },
+    {
+     "t": "chaque",
+     "a": 1.65,
+     "b": 1.81
+    },
+    {
+     "t": "nuit.",
+     "a": 1.89,
+     "b": 2.45
+    }
+   ]
+  },
+  {
+   "id": "L09",
+   "perso": "ANNONCE",
+   "texte": "Reprise du trafic. Merci de votre patience.",
+   "fichier": "metro/ep02/L09.wav",
+   "duree": 3.73,
+   "mots": [
+    {
+     "t": "Reprise",
+     "a": 0.0,
+     "b": 0.48
+    },
+    {
+     "t": "du",
+     "a": 0.52,
+     "b": 0.56
+    },
+    {
+     "t": "trafic.",
+     "a": 0.64,
+     "b": 1.4
+    },
+    {
+     "t": "Merci",
+     "a": 1.6,
+     "b": 1.92
+    },
+    {
+     "t": "de",
+     "a": 1.96,
+     "b": 2.0
+    },
+    {
+     "t": "votre",
+     "a": 2.04,
+     "b": 2.24
+    },
+    {
+     "t": "patience.",
+     "a": 2.32,
+     "b": 3.12
+    }
+   ]
+  },
+  {
+   "id": "L10",
+   "perso": "NAEL",
+   "texte": "Attends… il est où, le petit ?",
+   "fichier": "metro/ep02/L10.wav",
+   "duree": 2.2,
+   "mots": [
+    {
+     "t": "Attends…",
+     "a": 0.05,
+     "b": 0.65
+    },
+    {
+     "t": "il",
+     "a": 0.93,
+     "b": 1.01
+    },
+    {
+     "t": "est",
+     "a": 1.09,
+     "b": 1.17
+    },
+    {
+     "t": "où,",
+     "a": 1.21,
+     "b": 1.303
+    },
+    {
+     "t": "le",
+     "a": 1.33,
+     "b": 1.41
+    },
+    {
+     "t": "petit",
+     "a": 1.49,
+     "b": 1.73
+    },
+    {
+     "t": "?",
+     "a": 1.81,
+     "b": 1.97
+    }
+   ]
+  },
+  {
+   "id": "L11",
+   "perso": "FEMME",
+   "texte": "Je t'avais dit de ne pas te retourner.",
+   "fichier": "metro/ep02/L11.wav",
+   "duree": 2.52,
+   "mots": [
+    {
+     "t": "Je",
+     "a": 0.05,
+     "b": 0.13
+    },
+    {
+     "t": "t'avais",
+     "a": 0.21,
+     "b": 0.53
+    },
+    {
+     "t": "dit",
+     "a": 0.61,
+     "b": 0.77
+    },
+    {
+     "t": "de",
+     "a": 0.81,
+     "b": 0.85
+    },
+    {
+     "t": "ne",
+     "a": 0.93,
+     "b": 1.09
+    },
+    {
+     "t": "pas",
+     "a": 1.13,
+     "b": 1.17
+    },
+    {
+     "t": "te",
+     "a": 1.25,
+     "b": 1.33
+    },
+    {
+     "t": "retourner.",
+     "a": 1.41,
+     "b": 2.29
+    }
+   ]
+  },
+  {
+   "id": "L12",
+   "perso": "NAEL",
+   "texte": "Je fais quoi, là ?",
+   "fichier": "metro/ep02/L12.wav",
+   "duree": 1.64,
+   "mots": [
+    {
+     "t": "Je",
+     "a": 0.05,
+     "b": 0.21
+    },
+    {
+     "t": "fais",
+     "a": 0.29,
+     "b": 0.45
+    },
+    {
+     "t": "quoi,",
+     "a": 0.57,
+     "b": 0.73
+    },
+    {
+     "t": "là",
+     "a": 0.77,
+     "b": 1.01
+    },
+    {
+     "t": "?",
+     "a": 1.09,
+     "b": 1.41
+    }
+   ]
+  }
+ ]
+}

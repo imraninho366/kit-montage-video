@@ -1,0 +1,603 @@
+{
+ "lignes": [
+  {
+   "id": "L01",
+   "perso": "INES",
+   "texte": "Je me cache dans l'arrière-boutique. Derrière moi, la clochette sonne.",
+   "fichier": "rentree/s01p3/L01.wav",
+   "duree": 4.6,
+   "mots": [
+    {
+     "t": "Je",
+     "a": 0.05,
+     "b": 0.13
+    },
+    {
+     "t": "me",
+     "a": 0.21,
+     "b": 0.29
+    },
+    {
+     "t": "cache",
+     "a": 0.37,
+     "b": 0.61
+    },
+    {
+     "t": "dans",
+     "a": 0.65,
+     "b": 0.77
+    },
+    {
+     "t": "l'arrière-boutique.",
+     "a": 0.797,
+     "b": 1.97
+    },
+    {
+     "t": "Derrière",
+     "a": 2.21,
+     "b": 2.53
+    },
+    {
+     "t": "moi,",
+     "a": 2.61,
+     "b": 3.01
+    },
+    {
+     "t": "la",
+     "a": 3.09,
+     "b": 3.17
+    },
+    {
+     "t": "clochette",
+     "a": 3.25,
+     "b": 3.65
+    },
+    {
+     "t": "sonne.",
+     "a": 3.73,
+     "b": 4.37
+    }
+   ]
+  },
+  {
+   "id": "L02",
+   "perso": "HOMME_P",
+   "texte": "Bonsoir… Elle est où, la fille qui était là ?",
+   "fichier": "rentree/s01p3/L02.wav",
+   "duree": 3.48,
+   "mots": [
+    {
+     "t": "Bonsoir…",
+     "a": 0.05,
+     "b": 1.09
+    },
+    {
+     "t": "Elle",
+     "a": 1.41,
+     "b": 1.53
+    },
+    {
+     "t": "est",
+     "a": 1.57,
+     "b": 1.65
+    },
+    {
+     "t": "où,",
+     "a": 1.69,
+     "b": 2.05
+    },
+    {
+     "t": "la",
+     "a": 2.13,
+     "b": 2.21
+    },
+    {
+     "t": "fille",
+     "a": 2.25,
+     "b": 2.37
+    },
+    {
+     "t": "qui",
+     "a": 2.45,
+     "b": 2.49
+    },
+    {
+     "t": "était",
+     "a": 2.53,
+     "b": 2.69
+    },
+    {
+     "t": "là",
+     "a": 2.77,
+     "b": 2.85
+    },
+    {
+     "t": "?",
+     "a": 2.93,
+     "b": 3.25
+    }
+   ]
+  },
+  {
+   "id": "L03",
+   "perso": "VENDEUR_P",
+   "texte": "Quelle fille ? Il n'y a personne. On ferme.",
+   "fichier": "rentree/s01p3/L03.wav",
+   "duree": 3.0,
+   "mots": [
+    {
+     "t": "Quelle",
+     "a": 0.05,
+     "b": 0.21
+    },
+    {
+     "t": "fille",
+     "a": 0.29,
+     "b": 0.53
+    },
+    {
+     "t": "?",
+     "a": 1.01,
+     "b": 1.037
+    },
+    {
+     "t": "Il",
+     "a": 1.063,
+     "b": 1.09
+    },
+    {
+     "t": "n'y",
+     "a": 1.13,
+     "b": 1.197
+    },
+    {
+     "t": "a",
+     "a": 1.223,
+     "b": 1.25
+    },
+    {
+     "t": "personne.",
+     "a": 1.33,
+     "b": 1.85
+    },
+    {
+     "t": "On",
+     "a": 1.97,
+     "b": 2.05
+    },
+    {
+     "t": "ferme.",
+     "a": 2.13,
+     "b": 2.77
+    }
+   ]
+  },
+  {
+   "id": "L04",
+   "perso": "INES",
+   "texte": "Il fait noir. Des cartons, un frigo… et une porte de service.",
+   "fichier": "rentree/s01p3/L04.wav",
+   "duree": 5.24,
+   "mots": [
+    {
+     "t": "Il",
+     "a": 0.05,
+     "b": 0.21
+    },
+    {
+     "t": "fait",
+     "a": 0.29,
+     "b": 0.37
+    },
+    {
+     "t": "noir.",
+     "a": 0.45,
+     "b": 1.17
+    },
+    {
+     "t": "Des",
+     "a": 1.41,
+     "b": 1.57
+    },
+    {
+     "t": "cartons,",
+     "a": 1.73,
+     "b": 2.37
+    },
+    {
+     "t": "un",
+     "a": 2.45,
+     "b": 2.53
+    },
+    {
+     "t": "frigo…",
+     "a": 2.57,
+     "b": 3.49
+    },
+    {
+     "t": "et",
+     "a": 3.53,
+     "b": 3.57
+    },
+    {
+     "t": "une",
+     "a": 3.65,
+     "b": 3.73
+    },
+    {
+     "t": "porte",
+     "a": 3.81,
+     "b": 3.97
+    },
+    {
+     "t": "de",
+     "a": 4.01,
+     "b": 4.05
+    },
+    {
+     "t": "service.",
+     "a": 4.13,
+     "b": 5.01
+    }
+   ]
+  },
+  {
+   "id": "L05",
+   "perso": "HOMME_P",
+   "texte": "Je l'ai vue entrer. Alors j'attends.",
+   "fichier": "rentree/s01p3/L05.wav",
+   "duree": 3.0,
+   "mots": [
+    {
+     "t": "Je",
+     "a": 0.05,
+     "b": 0.13
+    },
+    {
+     "t": "l'ai",
+     "a": 0.17,
+     "b": 0.37
+    },
+    {
+     "t": "vue",
+     "a": 0.45,
+     "b": 0.53
+    },
+    {
+     "t": "entrer.",
+     "a": 0.69,
+     "b": 1.37
+    },
+    {
+     "t": "Alors",
+     "a": 1.65,
+     "b": 1.89
+    },
+    {
+     "t": "j'attends.",
+     "a": 1.97,
+     "b": 2.77
+    }
+   ]
+  },
+  {
+   "id": "L06",
+   "perso": "INES",
+   "texte": "Il ne part pas. Il s'est assis au comptoir.",
+   "fichier": "rentree/s01p3/L06.wav",
+   "duree": 3.08,
+   "mots": [
+    {
+     "t": "Il",
+     "a": 0.05,
+     "b": 0.13
+    },
+    {
+     "t": "ne",
+     "a": 0.21,
+     "b": 0.29
+    },
+    {
+     "t": "part",
+     "a": 0.37,
+     "b": 0.61
+    },
+    {
+     "t": "pas.",
+     "a": 0.73,
+     "b": 1.05
+    },
+    {
+     "t": "Il",
+     "a": 1.25,
+     "b": 1.41
+    },
+    {
+     "t": "s'est",
+     "a": 1.49,
+     "b": 1.65
+    },
+    {
+     "t": "assis",
+     "a": 1.77,
+     "b": 1.89
+    },
+    {
+     "t": "au",
+     "a": 1.93,
+     "b": 1.97
+    },
+    {
+     "t": "comptoir.",
+     "a": 2.05,
+     "b": 2.85
+    }
+   ]
+  },
+  {
+   "id": "L07",
+   "perso": "INES",
+   "texte": "Deux pour cent. Si j'appelle, il va m'entendre.",
+   "fichier": "rentree/s01p3/L07.wav",
+   "duree": 3.64,
+   "mots": [
+    {
+     "t": "Deux",
+     "a": 0.05,
+     "b": 0.17
+    },
+    {
+     "t": "pour",
+     "a": 0.21,
+     "b": 0.37
+    },
+    {
+     "t": "cent.",
+     "a": 0.45,
+     "b": 0.85
+    },
+    {
+     "t": "Si",
+     "a": 1.33,
+     "b": 1.41
+    },
+    {
+     "t": "j'appelle,",
+     "a": 1.45,
+     "b": 2.21
+    },
+    {
+     "t": "il",
+     "a": 2.29,
+     "b": 2.37
+    },
+    {
+     "t": "va",
+     "a": 2.45,
+     "b": 2.53
+    },
+    {
+     "t": "m'entendre.",
+     "a": 2.557,
+     "b": 3.41
+    }
+   ]
+  },
+  {
+   "id": "L08",
+   "perso": "VENDEUR",
+   "texte": "Reste là. Je reste devant la porte.",
+   "fichier": "rentree/s01p3/L08.wav",
+   "duree": 2.84,
+   "mots": [
+    {
+     "t": "Reste",
+     "a": 0.05,
+     "b": 0.37
+    },
+    {
+     "t": "là.",
+     "a": 0.45,
+     "b": 0.81
+    },
+    {
+     "t": "Je",
+     "a": 1.09,
+     "b": 1.25
+    },
+    {
+     "t": "reste",
+     "a": 1.41,
+     "b": 1.57
+    },
+    {
+     "t": "devant",
+     "a": 1.65,
+     "b": 1.81
+    },
+    {
+     "t": "la",
+     "a": 1.89,
+     "b": 1.97
+    },
+    {
+     "t": "porte.",
+     "a": 2.13,
+     "b": 2.61
+    }
+   ]
+  },
+  {
+   "id": "L09",
+   "perso": "INES",
+   "texte": "La porte de service donne sur la ruelle. Soit je sors, seule, dans le noir…",
+   "fichier": "rentree/s01p3/L09.wav",
+   "duree": 5.96,
+   "mots": [
+    {
+     "t": "La",
+     "a": 0.05,
+     "b": 0.13
+    },
+    {
+     "t": "porte",
+     "a": 0.29,
+     "b": 0.53
+    },
+    {
+     "t": "de",
+     "a": 0.61,
+     "b": 0.69
+    },
+    {
+     "t": "service",
+     "a": 0.77,
+     "b": 1.25
+    },
+    {
+     "t": "donne",
+     "a": 1.33,
+     "b": 1.49
+    },
+    {
+     "t": "sur",
+     "a": 1.57,
+     "b": 1.65
+    },
+    {
+     "t": "la",
+     "a": 1.73,
+     "b": 1.81
+    },
+    {
+     "t": "ruelle.",
+     "a": 1.89,
+     "b": 2.61
+    },
+    {
+     "t": "Soit",
+     "a": 2.93,
+     "b": 3.09
+    },
+    {
+     "t": "je",
+     "a": 3.17,
+     "b": 3.25
+    },
+    {
+     "t": "sors,",
+     "a": 3.33,
+     "b": 3.93
+    },
+    {
+     "t": "seule,",
+     "a": 4.13,
+     "b": 4.65
+    },
+    {
+     "t": "dans",
+     "a": 4.85,
+     "b": 4.93
+    },
+    {
+     "t": "le",
+     "a": 4.97,
+     "b": 5.01
+    },
+    {
+     "t": "noir…",
+     "a": 5.09,
+     "b": 5.73
+    }
+   ]
+  },
+  {
+   "id": "L10",
+   "perso": "INES",
+   "texte": "Soit j'écris au cent quatorze. Sans un bruit.",
+   "fichier": "rentree/s01p3/L10.wav",
+   "duree": 3.24,
+   "mots": [
+    {
+     "t": "Soit",
+     "a": 0.05,
+     "b": 0.21
+    },
+    {
+     "t": "j'écris",
+     "a": 0.29,
+     "b": 0.61
+    },
+    {
+     "t": "au",
+     "a": 0.65,
+     "b": 0.69
+    },
+    {
+     "t": "cent",
+     "a": 0.77,
+     "b": 0.93
+    },
+    {
+     "t": "quatorze.",
+     "a": 0.97,
+     "b": 1.89
+    },
+    {
+     "t": "Sans",
+     "a": 1.97,
+     "b": 2.21
+    },
+    {
+     "t": "un",
+     "a": 2.29,
+     "b": 2.37
+    },
+    {
+     "t": "bruit.",
+     "a": 2.41,
+     "b": 3.01
+    }
+   ]
+  },
+  {
+   "id": "L11",
+   "perso": "HOMME_P",
+   "texte": "Hé, patron… Viens voir deux secondes.",
+   "fichier": "rentree/s01p3/L11.wav",
+   "duree": 2.92,
+   "mots": [
+    {
+     "t": "Hé,",
+     "a": 0.05,
+     "b": 0.41
+    },
+    {
+     "t": "patron…",
+     "a": 0.53,
+     "b": 1.25
+    },
+    {
+     "t": "Viens",
+     "a": 1.57,
+     "b": 1.73
+    },
+    {
+     "t": "voir",
+     "a": 1.81,
+     "b": 1.89
+    },
+    {
+     "t": "deux",
+     "a": 1.93,
+     "b": 2.05
+    },
+    {
+     "t": "secondes.",
+     "a": 2.17,
+     "b": 2.69
+    }
+   ]
+  }
+ ]
+}

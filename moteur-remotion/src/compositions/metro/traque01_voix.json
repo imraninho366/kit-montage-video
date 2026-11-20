@@ -1,0 +1,622 @@
+{
+ "lignes": [
+  {
+   "id": "L01",
+   "perso": "ALERTE",
+   "texte": "Avis à toute la population. À dix-neuf heures, la traque commence. Un million d'euros pour cette personne.",
+   "fichier": "metro/traque01/L01.wav",
+   "duree": 6.87,
+   "mots": [
+    {
+     "t": "Avis",
+     "a": 0.0,
+     "b": 0.4
+    },
+    {
+     "t": "à",
+     "a": 0.44,
+     "b": 0.48
+    },
+    {
+     "t": "toute",
+     "a": 0.64,
+     "b": 0.8
+    },
+    {
+     "t": "la",
+     "a": 0.88,
+     "b": 0.96
+    },
+    {
+     "t": "population.",
+     "a": 1.28,
+     "b": 2.0
+    },
+    {
+     "t": "À",
+     "a": 2.04,
+     "b": 2.08
+    },
+    {
+     "t": "dix-neuf",
+     "a": 2.16,
+     "b": 2.48
+    },
+    {
+     "t": "heures,",
+     "a": 2.56,
+     "b": 2.96
+    },
+    {
+     "t": "la",
+     "a": 3.04,
+     "b": 3.12
+    },
+    {
+     "t": "traque",
+     "a": 3.2,
+     "b": 3.52
+    },
+    {
+     "t": "commence.",
+     "a": 3.6,
+     "b": 4.56
+    },
+    {
+     "t": "Un",
+     "a": 4.64,
+     "b": 4.72
+    },
+    {
+     "t": "million",
+     "a": 4.8,
+     "b": 5.12
+    },
+    {
+     "t": "d'euros",
+     "a": 5.16,
+     "b": 5.44
+    },
+    {
+     "t": "pour",
+     "a": 5.52,
+     "b": 5.6
+    },
+    {
+     "t": "cette",
+     "a": 5.64,
+     "b": 5.84
+    },
+    {
+     "t": "personne.",
+     "a": 6.0,
+     "b": 6.64
+    }
+   ]
+  },
+  {
+   "id": "L02",
+   "perso": "NAEL",
+   "texte": "Attends… C'est moi. C'est ma photo !",
+   "fichier": "metro/traque01/L02.wav",
+   "duree": 3.16,
+   "mots": [
+    {
+     "t": "Attends…",
+     "a": 0.05,
+     "b": 0.65
+    },
+    {
+     "t": "C'est",
+     "a": 0.93,
+     "b": 1.09
+    },
+    {
+     "t": "moi.",
+     "a": 1.13,
+     "b": 1.57
+    },
+    {
+     "t": "C'est",
+     "a": 1.81,
+     "b": 1.97
+    },
+    {
+     "t": "ma",
+     "a": 2.05,
+     "b": 2.13
+    },
+    {
+     "t": "photo",
+     "a": 2.21,
+     "b": 2.53
+    },
+    {
+     "t": "!",
+     "a": 2.61,
+     "b": 2.93
+    }
+   ]
+  },
+  {
+   "id": "L03",
+   "perso": "PASSANT",
+   "texte": "Hé… C'est pas toi, là, sur l'écran ?",
+   "fichier": "metro/traque01/L03.wav",
+   "duree": 2.6,
+   "mots": [
+    {
+     "t": "Hé…",
+     "a": 0.05,
+     "b": 0.37
+    },
+    {
+     "t": "C'est",
+     "a": 0.85,
+     "b": 1.01
+    },
+    {
+     "t": "pas",
+     "a": 1.09,
+     "b": 1.17
+    },
+    {
+     "t": "toi,",
+     "a": 1.25,
+     "b": 1.37
+    },
+    {
+     "t": "là,",
+     "a": 1.41,
+     "b": 1.61
+    },
+    {
+     "t": "sur",
+     "a": 1.65,
+     "b": 1.73
+    },
+    {
+     "t": "l'écran",
+     "a": 1.77,
+     "b": 2.05
+    },
+    {
+     "t": "?",
+     "a": 2.29,
+     "b": 2.37
+    }
+   ]
+  },
+  {
+   "id": "L04",
+   "perso": "MAMAN",
+   "texte": "Ne rentre surtout pas à la maison ! Ils sont déjà devant la porte.",
+   "fichier": "metro/traque01/L04.wav",
+   "duree": 3.88,
+   "mots": [
+    {
+     "t": "Ne",
+     "a": 0.05,
+     "b": 0.13
+    },
+    {
+     "t": "rentre",
+     "a": 0.21,
+     "b": 0.53
+    },
+    {
+     "t": "surtout",
+     "a": 0.61,
+     "b": 0.93
+    },
+    {
+     "t": "pas",
+     "a": 1.01,
+     "b": 1.09
+    },
+    {
+     "t": "à",
+     "a": 1.13,
+     "b": 1.17
+    },
+    {
+     "t": "la",
+     "a": 1.21,
+     "b": 1.25
+    },
+    {
+     "t": "maison",
+     "a": 1.29,
+     "b": 1.57
+    },
+    {
+     "t": "!",
+     "a": 1.97,
+     "b": 1.997
+    },
+    {
+     "t": "Ils",
+     "a": 2.023,
+     "b": 2.13
+    },
+    {
+     "t": "sont",
+     "a": 2.17,
+     "b": 2.29
+    },
+    {
+     "t": "déjà",
+     "a": 2.37,
+     "b": 2.53
+    },
+    {
+     "t": "devant",
+     "a": 2.61,
+     "b": 2.77
+    },
+    {
+     "t": "la",
+     "a": 2.81,
+     "b": 2.85
+    },
+    {
+     "t": "porte.",
+     "a": 2.93,
+     "b": 3.65
+    }
+   ]
+  },
+  {
+   "id": "L05",
+   "perso": "NAEL",
+   "texte": "Qui ça, ils ? Maman ?",
+   "fichier": "metro/traque01/L05.wav",
+   "duree": 2.52,
+   "mots": [
+    {
+     "t": "Qui",
+     "a": 0.05,
+     "b": 0.21
+    },
+    {
+     "t": "ça,",
+     "a": 0.29,
+     "b": 0.61
+    },
+    {
+     "t": "ils",
+     "a": 0.69,
+     "b": 1.01
+    },
+    {
+     "t": "?",
+     "a": 1.49,
+     "b": 1.53
+    },
+    {
+     "t": "Maman",
+     "a": 1.57,
+     "b": 1.89
+    },
+    {
+     "t": "?",
+     "a": 1.97,
+     "b": 2.29
+    }
+   ]
+  },
+  {
+   "id": "L06",
+   "perso": "MAMAN",
+   "texte": "Tous les voisins. Ils attendent dix-neuf heures…",
+   "fichier": "metro/traque01/L06.wav",
+   "duree": 3.32,
+   "mots": [
+    {
+     "t": "Tous",
+     "a": 0.05,
+     "b": 0.21
+    },
+    {
+     "t": "les",
+     "a": 0.25,
+     "b": 0.29
+    },
+    {
+     "t": "voisins.",
+     "a": 0.37,
+     "b": 1.33
+    },
+    {
+     "t": "Ils",
+     "a": 1.37,
+     "b": 1.49
+    },
+    {
+     "t": "attendent",
+     "a": 1.57,
+     "b": 1.97
+    },
+    {
+     "t": "dix-neuf",
+     "a": 2.01,
+     "b": 2.37
+    },
+    {
+     "t": "heures…",
+     "a": 2.45,
+     "b": 3.09
+    }
+   ]
+  },
+  {
+   "id": "L07",
+   "perso": "ADO",
+   "texte": "Je l'ai trouvé ! Il est là, rue des Lilas !",
+   "fichier": "metro/traque01/L07.wav",
+   "duree": 2.84,
+   "mots": [
+    {
+     "t": "Je",
+     "a": 0.05,
+     "b": 0.077
+    },
+    {
+     "t": "l'ai",
+     "a": 0.103,
+     "b": 0.21
+    },
+    {
+     "t": "trouvé",
+     "a": 0.25,
+     "b": 0.61
+    },
+    {
+     "t": "!",
+     "a": 0.93,
+     "b": 0.957
+    },
+    {
+     "t": "Il",
+     "a": 0.983,
+     "b": 1.01
+    },
+    {
+     "t": "est",
+     "a": 1.09,
+     "b": 1.17
+    },
+    {
+     "t": "là,",
+     "a": 1.25,
+     "b": 1.57
+    },
+    {
+     "t": "rue",
+     "a": 1.65,
+     "b": 1.81
+    },
+    {
+     "t": "des",
+     "a": 1.85,
+     "b": 1.89
+    },
+    {
+     "t": "Lilas",
+     "a": 1.93,
+     "b": 2.21
+    },
+    {
+     "t": "!",
+     "a": 2.29,
+     "b": 2.61
+    }
+   ]
+  },
+  {
+   "id": "L08",
+   "perso": "NAEL",
+   "texte": "Ils me filment… Tout le monde me filme.",
+   "fichier": "metro/traque01/L08.wav",
+   "duree": 3.16,
+   "mots": [
+    {
+     "t": "Ils",
+     "a": 0.05,
+     "b": 0.13
+    },
+    {
+     "t": "me",
+     "a": 0.21,
+     "b": 0.37
+    },
+    {
+     "t": "filment…",
+     "a": 0.45,
+     "b": 1.17
+    },
+    {
+     "t": "Tout",
+     "a": 1.49,
+     "b": 1.65
+    },
+    {
+     "t": "le",
+     "a": 1.69,
+     "b": 1.73
+    },
+    {
+     "t": "monde",
+     "a": 1.81,
+     "b": 1.97
+    },
+    {
+     "t": "me",
+     "a": 2.05,
+     "b": 2.21
+    },
+    {
+     "t": "filme.",
+     "a": 2.37,
+     "b": 2.93
+    }
+   ]
+  },
+  {
+   "id": "L09",
+   "perso": "VOISINE",
+   "texte": "Hé, toi ! Viens, rentre chez moi. Vite !",
+   "fichier": "metro/traque01/L09.wav",
+   "duree": 3.56,
+   "mots": [
+    {
+     "t": "Hé,",
+     "a": 0.05,
+     "b": 0.33
+    },
+    {
+     "t": "toi",
+     "a": 0.45,
+     "b": 0.69
+    },
+    {
+     "t": "!",
+     "a": 1.09,
+     "b": 1.13
+    },
+    {
+     "t": "Viens,",
+     "a": 1.17,
+     "b": 1.73
+    },
+    {
+     "t": "rentre",
+     "a": 1.81,
+     "b": 1.97
+    },
+    {
+     "t": "chez",
+     "a": 2.05,
+     "b": 2.13
+    },
+    {
+     "t": "moi.",
+     "a": 2.17,
+     "b": 2.69
+    },
+    {
+     "t": "Vite",
+     "a": 2.73,
+     "b": 3.01
+    },
+    {
+     "t": "!",
+     "a": 3.09,
+     "b": 3.33
+    }
+   ]
+  },
+  {
+   "id": "L10",
+   "perso": "NAEL",
+   "texte": "Soit je la suis… une inconnue.",
+   "fichier": "metro/traque01/L10.wav",
+   "duree": 2.68,
+   "mots": [
+    {
+     "t": "Soit",
+     "a": 0.05,
+     "b": 0.21
+    },
+    {
+     "t": "je",
+     "a": 0.29,
+     "b": 0.33
+    },
+    {
+     "t": "la",
+     "a": 0.37,
+     "b": 0.45
+    },
+    {
+     "t": "suis…",
+     "a": 0.53,
+     "b": 1.41
+    },
+    {
+     "t": "une",
+     "a": 1.49,
+     "b": 1.57
+    },
+    {
+     "t": "inconnue.",
+     "a": 1.65,
+     "b": 2.45
+    }
+   ]
+  },
+  {
+   "id": "L11",
+   "perso": "NAEL",
+   "texte": "Soit je cours. Mais ils sont partout.",
+   "fichier": "metro/traque01/L11.wav",
+   "duree": 3.0,
+   "mots": [
+    {
+     "t": "Soit",
+     "a": 0.05,
+     "b": 0.21
+    },
+    {
+     "t": "je",
+     "a": 0.29,
+     "b": 0.37
+    },
+    {
+     "t": "cours.",
+     "a": 0.45,
+     "b": 0.85
+    },
+    {
+     "t": "Mais",
+     "a": 1.41,
+     "b": 1.49
+    },
+    {
+     "t": "ils",
+     "a": 1.57,
+     "b": 1.65
+    },
+    {
+     "t": "sont",
+     "a": 1.69,
+     "b": 1.89
+    },
+    {
+     "t": "partout.",
+     "a": 2.01,
+     "b": 2.77
+    }
+   ]
+  },
+  {
+   "id": "L12",
+   "perso": "PASSANT",
+   "texte": "Dix-neuf heures.",
+   "fichier": "metro/traque01/L12.wav",
+   "duree": 1.72,
+   "mots": [
+    {
+     "t": "Dix-neuf",
+     "a": 0.05,
+     "b": 0.45
+    },
+    {
+     "t": "heures.",
+     "a": 0.61,
+     "b": 1.49
+    }
+   ]
+  }
+ ]
+}

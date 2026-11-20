@@ -1,0 +1,554 @@
+{
+ "lignes": [
+  {
+   "id": "L01",
+   "perso": "INES",
+   "texte": "Je pousse la porte du kebab. Lui, il reste dehors.",
+   "fichier": "rentree/s01p2/L01.wav",
+   "duree": 3.88,
+   "mots": [
+    {
+     "t": "Je",
+     "a": 0.05,
+     "b": 0.13
+    },
+    {
+     "t": "pousse",
+     "a": 0.21,
+     "b": 0.45
+    },
+    {
+     "t": "la",
+     "a": 0.53,
+     "b": 0.61
+    },
+    {
+     "t": "porte",
+     "a": 0.73,
+     "b": 0.85
+    },
+    {
+     "t": "du",
+     "a": 0.93,
+     "b": 1.01
+    },
+    {
+     "t": "kebab.",
+     "a": 1.09,
+     "b": 1.89
+    },
+    {
+     "t": "Lui,",
+     "a": 1.93,
+     "b": 2.45
+    },
+    {
+     "t": "il",
+     "a": 2.53,
+     "b": 2.61
+    },
+    {
+     "t": "reste",
+     "a": 2.77,
+     "b": 2.93
+    },
+    {
+     "t": "dehors.",
+     "a": 3.01,
+     "b": 3.65
+    }
+   ]
+  },
+  {
+   "id": "L02",
+   "perso": "VENDEUR",
+   "texte": "Bonsoir ! On ferme bientôt, hein.",
+   "fichier": "rentree/s01p2/L02.wav",
+   "duree": 2.6,
+   "mots": [
+    {
+     "t": "Bonsoir",
+     "a": 0.05,
+     "b": 0.53
+    },
+    {
+     "t": "!",
+     "a": 0.93,
+     "b": 0.983
+    },
+    {
+     "t": "On",
+     "a": 1.037,
+     "b": 1.09
+    },
+    {
+     "t": "ferme",
+     "a": 1.17,
+     "b": 1.33
+    },
+    {
+     "t": "bientôt,",
+     "a": 1.41,
+     "b": 1.837
+    },
+    {
+     "t": "hein.",
+     "a": 1.863,
+     "b": 2.37
+    }
+   ]
+  },
+  {
+   "id": "L03",
+   "perso": "INES",
+   "texte": "Sur la vitre, il y a un autocollant… « Demandez Angela ».",
+   "fichier": "rentree/s01p2/L03.wav",
+   "duree": 4.04,
+   "mots": [
+    {
+     "t": "Sur",
+     "a": 0.05,
+     "b": 0.21
+    },
+    {
+     "t": "la",
+     "a": 0.29,
+     "b": 0.37
+    },
+    {
+     "t": "vitre,",
+     "a": 0.41,
+     "b": 1.01
+    },
+    {
+     "t": "il",
+     "a": 1.09,
+     "b": 1.17
+    },
+    {
+     "t": "y",
+     "a": 1.197,
+     "b": 1.223
+    },
+    {
+     "t": "a",
+     "a": 1.25,
+     "b": 1.29
+    },
+    {
+     "t": "un",
+     "a": 1.33,
+     "b": 1.41
+    },
+    {
+     "t": "autocollant…",
+     "a": 1.49,
+     "b": 2.53
+    },
+    {
+     "t": "«",
+     "a": 2.61,
+     "b": 2.69
+    },
+    {
+     "t": "Demandez",
+     "a": 2.77,
+     "b": 3.01
+    },
+    {
+     "t": "Angela",
+     "a": 3.09,
+     "b": 3.41
+    },
+    {
+     "t": "».",
+     "a": 3.53,
+     "b": 3.81
+    }
+   ]
+  },
+  {
+   "id": "L04",
+   "perso": "INES",
+   "texte": "Excusez-moi… Je cherche Angela.",
+   "fichier": "rentree/s01p2/L04.wav",
+   "duree": 3.08,
+   "mots": [
+    {
+     "t": "Excusez-moi…",
+     "a": 0.05,
+     "b": 1.25
+    },
+    {
+     "t": "Je",
+     "a": 1.33,
+     "b": 1.49
+    },
+    {
+     "t": "cherche",
+     "a": 1.57,
+     "b": 1.89
+    },
+    {
+     "t": "Angela.",
+     "a": 1.97,
+     "b": 2.85
+    }
+   ]
+  },
+  {
+   "id": "L05",
+   "perso": "VENDEUR",
+   "texte": "D'accord. Passe derrière le comptoir. Ici, tu es en sécurité.",
+   "fichier": "rentree/s01p2/L05.wav",
+   "duree": 4.2,
+   "mots": [
+    {
+     "t": "D'accord.",
+     "a": 0.05,
+     "b": 0.69
+    },
+    {
+     "t": "Passe",
+     "a": 0.93,
+     "b": 1.09
+    },
+    {
+     "t": "derrière",
+     "a": 1.17,
+     "b": 1.41
+    },
+    {
+     "t": "le",
+     "a": 1.45,
+     "b": 1.49
+    },
+    {
+     "t": "comptoir.",
+     "a": 1.53,
+     "b": 2.13
+    },
+    {
+     "t": "Ici,",
+     "a": 2.29,
+     "b": 2.73
+    },
+    {
+     "t": "tu",
+     "a": 2.85,
+     "b": 2.93
+    },
+    {
+     "t": "es",
+     "a": 2.97,
+     "b": 3.01
+    },
+    {
+     "t": "en",
+     "a": 3.09,
+     "b": 3.17
+    },
+    {
+     "t": "sécurité.",
+     "a": 3.197,
+     "b": 3.97
+    }
+   ]
+  },
+  {
+   "id": "L06",
+   "perso": "INES",
+   "texte": "Il traverse… Il s'assoit sur le banc, juste en face.",
+   "fichier": "rentree/s01p2/L06.wav",
+   "duree": 3.96,
+   "mots": [
+    {
+     "t": "Il",
+     "a": 0.05,
+     "b": 0.21
+    },
+    {
+     "t": "traverse…",
+     "a": 0.29,
+     "b": 1.41
+    },
+    {
+     "t": "Il",
+     "a": 1.45,
+     "b": 1.49
+    },
+    {
+     "t": "s'assoit",
+     "a": 1.57,
+     "b": 1.89
+    },
+    {
+     "t": "sur",
+     "a": 1.97,
+     "b": 2.05
+    },
+    {
+     "t": "le",
+     "a": 2.13,
+     "b": 2.21
+    },
+    {
+     "t": "banc,",
+     "a": 2.25,
+     "b": 2.61
+    },
+    {
+     "t": "juste",
+     "a": 2.73,
+     "b": 2.903
+    },
+    {
+     "t": "en",
+     "a": 2.957,
+     "b": 3.01
+    },
+    {
+     "t": "face.",
+     "a": 3.21,
+     "b": 3.73
+    }
+   ]
+  },
+  {
+   "id": "L07",
+   "perso": "VENDEUR",
+   "texte": "Lui, ça fait une heure qu'il tourne dans le quartier.",
+   "fichier": "rentree/s01p2/L07.wav",
+   "duree": 3.08,
+   "mots": [
+    {
+     "t": "Lui,",
+     "a": 0.05,
+     "b": 0.37
+    },
+    {
+     "t": "ça",
+     "a": 0.69,
+     "b": 0.85
+    },
+    {
+     "t": "fait",
+     "a": 0.97,
+     "b": 1.09
+    },
+    {
+     "t": "une",
+     "a": 1.17,
+     "b": 1.25
+    },
+    {
+     "t": "heure",
+     "a": 1.33,
+     "b": 1.41
+    },
+    {
+     "t": "qu'il",
+     "a": 1.49,
+     "b": 1.65
+    },
+    {
+     "t": "tourne",
+     "a": 1.73,
+     "b": 1.89
+    },
+    {
+     "t": "dans",
+     "a": 1.917,
+     "b": 1.97
+    },
+    {
+     "t": "le",
+     "a": 2.01,
+     "b": 2.05
+    },
+    {
+     "t": "quartier.",
+     "a": 2.09,
+     "b": 2.85
+    }
+   ]
+  },
+  {
+   "id": "L08",
+   "perso": "INES",
+   "texte": "Cinq pour cent. J'ai droit à un appel. Pas plus.",
+   "fichier": "rentree/s01p2/L08.wav",
+   "duree": 3.24,
+   "mots": [
+    {
+     "t": "Cinq",
+     "a": 0.05,
+     "b": 0.13
+    },
+    {
+     "t": "pour",
+     "a": 0.29,
+     "b": 0.37
+    },
+    {
+     "t": "cent.",
+     "a": 0.45,
+     "b": 0.93
+    },
+    {
+     "t": "J'ai",
+     "a": 1.17,
+     "b": 1.25
+    },
+    {
+     "t": "droit",
+     "a": 1.33,
+     "b": 1.49
+    },
+    {
+     "t": "à",
+     "a": 1.517,
+     "b": 1.543
+    },
+    {
+     "t": "un",
+     "a": 1.57,
+     "b": 1.65
+    },
+    {
+     "t": "appel.",
+     "a": 1.73,
+     "b": 2.13
+    },
+    {
+     "t": "Pas",
+     "a": 2.37,
+     "b": 2.45
+    },
+    {
+     "t": "plus.",
+     "a": 2.53,
+     "b": 3.01
+    }
+   ]
+  },
+  {
+   "id": "L09",
+   "perso": "VENDEUR",
+   "texte": "J'appelle la police ? Ou je ferme, et je te raccompagne.",
+   "fichier": "rentree/s01p2/L09.wav",
+   "duree": 3.4,
+   "mots": [
+    {
+     "t": "J'appelle",
+     "a": 0.05,
+     "b": 0.37
+    },
+    {
+     "t": "la",
+     "a": 0.41,
+     "b": 0.45
+    },
+    {
+     "t": "police",
+     "a": 0.53,
+     "b": 0.85
+    },
+    {
+     "t": "?",
+     "a": 1.25,
+     "b": 1.29
+    },
+    {
+     "t": "Ou",
+     "a": 1.33,
+     "b": 1.383
+    },
+    {
+     "t": "je",
+     "a": 1.41,
+     "b": 1.57
+    },
+    {
+     "t": "ferme,",
+     "a": 1.65,
+     "b": 2.05
+    },
+    {
+     "t": "et",
+     "a": 2.09,
+     "b": 2.13
+    },
+    {
+     "t": "je",
+     "a": 2.17,
+     "b": 2.21
+    },
+    {
+     "t": "te",
+     "a": 2.25,
+     "b": 2.29
+    },
+    {
+     "t": "raccompagne.",
+     "a": 2.37,
+     "b": 3.17
+    }
+   ]
+  },
+  {
+   "id": "L10",
+   "perso": "INES",
+   "texte": "Attends… Il se lève. Il vient vers la porte.",
+   "fichier": "rentree/s01p2/L10.wav",
+   "duree": 3.48,
+   "mots": [
+    {
+     "t": "Attends…",
+     "a": 0.05,
+     "b": 0.73
+    },
+    {
+     "t": "Il",
+     "a": 0.93,
+     "b": 1.09
+    },
+    {
+     "t": "se",
+     "a": 1.17,
+     "b": 1.25
+    },
+    {
+     "t": "lève.",
+     "a": 1.41,
+     "b": 1.81
+    },
+    {
+     "t": "Il",
+     "a": 2.05,
+     "b": 2.13
+    },
+    {
+     "t": "vient",
+     "a": 2.21,
+     "b": 2.37
+    },
+    {
+     "t": "vers",
+     "a": 2.45,
+     "b": 2.53
+    },
+    {
+     "t": "la",
+     "a": 2.61,
+     "b": 2.69
+    },
+    {
+     "t": "porte.",
+     "a": 2.89,
+     "b": 3.25
+    }
+   ]
+  }
+ ]
+}

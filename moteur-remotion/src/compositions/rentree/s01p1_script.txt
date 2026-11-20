@@ -1,0 +1,14 @@
+# T'ES BIEN RENTRÉE ? — Série 1 « Le Suiveur », partie 1. Format : ID PERSO | [balise] réplique
+# Persos : INES (toi, voix intérieure), JADE (message vocal sur le téléphone), HOMME (le suiveur, derrière)
+# HUD : 02:14 → 02:19, batterie 12 % → 8 %, « Chez toi : 9 min » → 5 min. Vote : « Tu changes de trottoir, ou tu entres dans le kebab ? »
+L01 INES | [tendu] Deux heures quatorze. Mon VTC vient d'annuler. Et il me reste douze pour cent.
+L02 INES | Neuf minutes à pied. C'est bon, je connais le chemin.
+L03 JADE | [excité] T'es partie sans moi ?! Envoie-moi un message quand t'es rentrée, hein !
+L04 INES | [chuchoté] Attends… Le mec en capuche. Il était devant la soirée.
+L05 INES | [tendu] Je traverse. Juste pour voir.
+L06 INES | [choqué] Il a traversé, lui aussi.
+L07 HOMME | [menaçant] Hé… Tu vas où, comme ça ?
+L08 INES | [tendu] Je réponds pas. Surtout, je réponds pas.
+L09 INES | [tendu] Huit pour cent. Encore cinq minutes jusqu'à chez moi.
+L10 INES | [tendu] Le kebab est encore ouvert. Soit j'entre…
+L11 INES | [tendu] Soit je change encore de trottoir. Mais il connaîtra ma rue.

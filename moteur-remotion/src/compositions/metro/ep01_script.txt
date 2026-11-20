@@ -1,0 +1,22 @@
+# DERNIER MÉTRO — Partie 1 (≈ 65 s). Format : ID PERSO | [balise] réplique
+# Persos : NAEL (toi, vue subjective), FEMME (manteau rouge), COSTUME (homme endormi), ADO (casque), ANNONCE (haut-parleur), LOIN (COSTUME dans le tunnel)
+# Messages du numéro inconnu (texte à l'écran, pas de voix) :
+#   M1 « Ne parle pas à la femme en rouge. »   M2 « Compte les passagers. »
+#   M3 « Vous étiez cinq au départ. »          M4 « Ne sors pas. Il n'est pas parti seul. »
+# Vote (fin uniquement) : « Tu le suis dans le tunnel, ou tu restes avec elle ? »
+L01 NAEL | [chuchoté] Hein ? C'est qui, ça ?
+L02 NAEL | [chuchoté] Elle me regarde déjà.
+L03 NAEL | [choqué] Woh !
+L04 ANNONCE | Incident technique. Restez à l'intérieur de la rame. Ne descendez pas sur les voies.
+L05 NAEL | [chuchoté] Un… deux… trois. Quatre, avec moi.
+L06 NAEL | [choqué] Cinq ?!
+L07 FEMME | [curieux] Il t'écrit à toi aussi ?
+L08 NAEL | [tendu] Vous… vous le connaissez ?
+L09 FEMME | [sérieux] Il m'a dit de ne surtout pas te parler.
+L10 COSTUME | [en colère] Moi, je reste pas une minute de plus ici.
+L11 FEMME | [choqué] Non ! Pas le tunnel !
+L12 ADO | [tendu] Il… il est passé où, le monsieur ?
+L13 LOIN | [excité] Nael ! Viens ! Y a une sortie, par ici !
+L14 NAEL | [choqué] Comment il connaît mon prénom ?
+L15 FEMME | [chuchoté] Personne ici ne connaît ton prénom.
+L16 NAEL | [tendu] Je fais quoi, là ?

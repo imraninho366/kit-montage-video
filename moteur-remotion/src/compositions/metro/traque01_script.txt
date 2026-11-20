@@ -1,0 +1,15 @@
+# TU FAIS QUOI ? — « La Traque » (épisode autonome, en ville). Format : ID PERSO | [balise] réplique
+# Persos : NAEL (toi), ALERTE (tous les téléphones), PASSANT (voix COSTUME), MAMAN (au téléphone), ADO, VOISINE
+# Chrono : 18:57:00 → 19:00:00, badge « LA TRAQUE COMMENCE DANS m:ss ». Vote à 19:00 : « Tu entres chez l'inconnue, ou tu cours ? »
+L01 ALERTE | Avis à toute la population. À dix-neuf heures, la traque commence. Un million d'euros pour cette personne.
+L02 NAEL | [choqué] Attends… C'est moi. C'est ma photo !
+L03 PASSANT | [sérieux] Hé… C'est pas toi, là, sur l'écran ?
+L04 MAMAN | [tendu] Ne rentre surtout pas à la maison ! Ils sont déjà devant la porte.
+L05 NAEL | [tendu] Qui ça, ils ? Maman ?
+L06 MAMAN | [chuchoté] Tous les voisins. Ils attendent dix-neuf heures…
+L07 ADO | [excité] Je l'ai trouvé ! Il est là, rue des Lilas !
+L08 NAEL | [tendu] Ils me filment… Tout le monde me filme.
+L09 VOISINE | [chuchoté] Hé, toi ! Viens, rentre chez moi. Vite !
+L10 NAEL | [tendu] Soit je la suis… une inconnue.
+L11 NAEL | [tendu] Soit je cours. Mais ils sont partout.
+L12 PASSANT | [menaçant] Dix-neuf heures.
