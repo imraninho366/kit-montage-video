@@ -23,11 +23,28 @@ ok "$(brew --version | head -1)"
 
 # 2. Outils système --------------------------------------------------------
 step "Outils vidéo/audio (ffmpeg, yt-dlp, whisper, node, uv…)"
-FORMULAS=(ffmpeg yt-dlp whisper-cpp openai-whisper node python@3.13 uv espeak-ng git gh)
+FORMULAS=(ffmpeg ffmpeg-full yt-dlp whisper-cpp openai-whisper node python@3.13 uv espeak-ng tesseract rubberband git gh)
 for f in "${FORMULAS[@]}"; do
   if brew list --formula "$f" >/dev/null 2>&1; then ok "$f déjà installé"
   else brew install "$f" && ok "$f installé" || echo "    ⚠ $f non installé"; fi
 done
+
+# ffmpeg-full (sous-titres incrustés, drawtext, libass…) passe devant le ffmpeg de base
+FFULL="$(brew --prefix ffmpeg-full 2>/dev/null)/bin"
+if [[ -d "$FFULL" ]] && ! grep -q "ffmpeg-full" "$HOME/.zshrc" 2>/dev/null; then
+  echo "export PATH=\"$FFULL:\$PATH\"  # ffmpeg-full (kit montage vidéo)" >> "$HOME/.zshrc"
+fi
+export PATH="$FFULL:$PATH"
+ok "ffmpeg-full prioritaire ($(ffmpeg -hide_banner -filters 2>/dev/null | grep -c -E ' (subtitles|drawtext) ') filtres texte/sous-titres)"
+
+# Applications (Blender pour la 3D, OBS pour enregistrer l'écran)
+if [[ $EXTRAS == 1 ]]; then
+  for pair in blender:Blender obs:OBS; do
+    c="${pair%%:*}"; app="${pair##*:}"
+    if brew list --cask "$c" >/dev/null 2>&1 || [[ -d "/Applications/$app.app" ]]; then ok "$c déjà installé"
+    else brew install --cask "$c" && ok "$c installé" || echo "    ⚠ $c non installé"; fi
+  done
+fi
 
 # 3. Claude Code -----------------------------------------------------------
 step "Claude Code"
@@ -35,7 +52,7 @@ command -v claude >/dev/null || npm install -g @anthropic-ai/claude-code
 ok "claude installé"
 
 # 4. Skills ----------------------------------------------------------------
-step "Skills (Hyperframes, Remotion, Higgsfield, media-use, watch-video…)"
+step "Skills (Hyperframes, Remotion, media-use, watch-video, a-publier…)"
 mkdir -p "$SKILLS_DST"
 for dir in "$KIT_DIR"/skills/*/; do
   name="$(basename "$dir")"
@@ -65,21 +82,32 @@ if [[ $EXTRAS == 1 ]]; then
   VENV="$HOME/.claude/video-venv"
   uv venv --python 3.13 "$VENV" >/dev/null 2>&1 || true
   uv pip install --python "$VENV/bin/python" \
-    auto-editor scenedetect numpy soundfile kokoro-onnx elevenlabs google-genai python-dotenv requests
+    auto-editor scenedetect numpy soundfile pillow kokoro-onnx supertonic elevenlabs google-genai python-dotenv requests
   if [[ "$(uname -m)" == "arm64" ]]; then
     uv pip install --python "$VENV/bin/python" parakeet-mlx || true
   fi
   ok "venv : $VENV  (activer : source $VENV/bin/activate)"
+
+  step "Voix locales gratuites (Kokoro, anglais) → ~/.claude/models/kokoro"
+  KDIR="$MODELS_DST/kokoro"; mkdir -p "$KDIR"
+  KREL="https://github.com/thewh1teagle/kokoro-onnx/releases/download/model-files-v1.0"
+  for f in kokoro-v1.0.onnx voices-v1.0.bin; do
+    if [[ -f "$KDIR/$f" ]]; then ok "$f déjà présent"
+    else curl -L --fail -o "$KDIR/$f" "$KREL/$f" && ok "$f téléchargé" || echo "    ⚠ $f non téléchargé"; fi
+  done
+  ok "Supertonic (voix FR/EN) : le modèle se télécharge au premier usage"
 fi
 
 # 8. Serveurs MCP ---------------------------------------------------------
 step "Serveurs MCP"
 claude mcp add --scope user remotion-documentation -- npx -y @remotion/mcp@latest >/dev/null 2>&1 || true
 ok "remotion-documentation"
-claude mcp add --scope user --transport http higgsfield https://mcp.higgsfield.ai/mcp >/dev/null 2>&1 || true
-ok "higgsfield (se connecter ensuite via /mcp)"
 
-# 9. Plugins (à lancer dans Claude Code) -----------------------------------
+# 9. Dossier de publication -------------------------------------------------
+step "Dossier A-PUBLIER (une fiche par chaîne, un dossier par vidéo)"
+python3 "$SKILLS_DST/a-publier/scripts/a_publier.py" index >/dev/null && ok "$HOME/Downloads/A-PUBLIER"
+
+# 10. Plugins (à lancer dans Claude Code) -----------------------------------
 step "Dernière étape : à taper DANS Claude Code"
 cat <<'EOF'
     /plugin marketplace add DojoCodingLabs/remotion-superpowers
@@ -87,7 +115,6 @@ cat <<'EOF'
     /plugin marketplace add affaan-m/everything-claude-code
     /plugin install ecc@ecc
     /setup     (clés API de remotion-superpowers : KIE, Pexels, TwelveLabs…)
-    /mcp       (se connecter à Higgsfield)
 
 Installation terminée. Relance Claude Code.
 EOF
