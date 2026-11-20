@@ -5,8 +5,10 @@
     a_publier.py video  "Ma Chaine" "Titre de la vidéo" --video rendu.mp4 \
         [--miniatures a.png b.png c.png] [--srt st.srt] [--short s.mp4] [--apercu fil.jpg] [--langue fr]
     a_publier.py index
+    a_publier.py ouvrir ["Ma Chaine"]      → ouvre le dossier dans le Finder (Mac) ou l'Explorateur (Windows)
 
-Racine : ~/Downloads/A-PUBLIER (ou variable A_PUBLIER_DIR). Python standard uniquement.
+Racine : ~/Downloads/A-PUBLIER — sur Windows C:/Users/<toi>/Downloads/A-PUBLIER (ou variable A_PUBLIER_DIR).
+Python standard uniquement, fonctionne sur macOS, Windows et Linux.
 """
 import argparse
 import datetime
@@ -17,6 +19,13 @@ import subprocess
 import sys
 import unicodedata
 from pathlib import Path
+
+# Accents et flèches lisibles même dans la console Windows
+for flux in (sys.stdout, sys.stderr):
+    try:
+        flux.reconfigure(encoding='utf-8')
+    except Exception:
+        pass
 
 RACINE = Path(os.environ.get('A_PUBLIER_DIR', Path.home() / 'Downloads' / 'A-PUBLIER'))
 AUJOURDHUI = datetime.date.today().strftime('%d/%m/%Y')
@@ -30,8 +39,8 @@ def slug(texte, max_len=60):
 
 
 def nom_dossier_chaine(nom):
-    # Garde le nom lisible mais sans caractères gênants pour le Finder / le terminal
-    return re.sub(r'[/:\\]', '-', nom).strip()
+    # Nom lisible, sans caractères interdits par le Finder ou par Windows (\\ / : * ? " < > |)
+    return re.sub(r'[\\/:*?"<>|]', '-', nom).strip().rstrip('.')
 
 
 def lier(src, dst):
@@ -123,6 +132,8 @@ _Créé le {AUJOURDHUI}._
 """, encoding='utf-8')
     print(f'Chaîne prête : {d.parent}\n  → remplir {fiche}')
     cmd_index(None)
+    if getattr(a, 'ouvrir', False):
+        ouvrir_dossier(d.parent)
 
 
 # ---------------------------------------------------------------- vidéo
@@ -139,7 +150,7 @@ def cmd_video(a):
     chaine = RACINE / nom_dossier_chaine(a.chaine)
     if not (chaine / '00-CHAINE').exists():
         print(f'Chaîne inconnue, je la crée d’abord : {a.chaine}')
-        cmd_chaine(argparse.Namespace(nom=a.chaine, langue=a.langue, force=False))
+        cmd_chaine(argparse.Namespace(nom=a.chaine, langue=a.langue, force=False, ouvrir=False))
     n = a.numero or prochain_numero(chaine)
     d = chaine / f'{n:02d}-{slug(a.titre)}'
     d.mkdir(parents=True, exist_ok=True)
@@ -230,6 +241,27 @@ Déplacer ce dossier dans `{chaine.name}/publie/`.
 """, encoding='utf-8')
     print(f'Vidéo prête : {d}\n  → remplir {fiche}')
     cmd_index(None)
+    if a.ouvrir:
+        ouvrir_dossier(d)
+
+
+# ---------------------------------------------------------------- ouvrir
+def ouvrir_dossier(chemin):
+    chemin = Path(chemin)
+    chemin.mkdir(parents=True, exist_ok=True)
+    try:
+        if sys.platform == 'darwin':
+            subprocess.run(['open', str(chemin)], check=False)
+        elif os.name == 'nt':
+            os.startfile(str(chemin))  # Explorateur Windows
+        else:
+            subprocess.run(['xdg-open', str(chemin)], check=False)
+    except Exception as e:
+        print(f'Impossible d’ouvrir le dossier ({e}) : {chemin}')
+
+
+def cmd_ouvrir(a):
+    ouvrir_dossier(RACINE / nom_dossier_chaine(a.chaine) if a.chaine else RACINE)
 
 
 # ---------------------------------------------------------------- index
@@ -261,6 +293,7 @@ def main():
     c.add_argument('nom')
     c.add_argument('--langue', default='fr')
     c.add_argument('--force', action='store_true', help='réécrire la fiche si elle existe')
+    c.add_argument('--ouvrir', action='store_true', help='ouvrir le dossier dans le Finder / l’Explorateur')
     v = sp.add_parser('video', help='préparer une vidéo finie')
     v.add_argument('chaine')
     v.add_argument('titre')
@@ -272,9 +305,12 @@ def main():
     v.add_argument('--langue', default='fr')
     v.add_argument('--numero', type=int)
     v.add_argument('--force', action='store_true', help='réécrire 0-TOUT-COPIER.md s’il existe')
+    v.add_argument('--ouvrir', action='store_true', help='ouvrir le dossier dans le Finder / l’Explorateur')
     sp.add_parser('index', help='mettre à jour LISEZ-MOI.md')
+    o = sp.add_parser('ouvrir', help='ouvrir A-PUBLIER (ou une chaîne) dans le Finder / l’Explorateur')
+    o.add_argument('chaine', nargs='?')
     a = p.parse_args()
-    {'chaine': cmd_chaine, 'video': cmd_video, 'index': cmd_index}[a.cmd](a)
+    {'chaine': cmd_chaine, 'video': cmd_video, 'index': cmd_index, 'ouvrir': cmd_ouvrir}[a.cmd](a)
 
 
 if __name__ == '__main__':

@@ -2,11 +2,11 @@
 
 Tout ce qu'il faut pour produire des vidéos YouTube / TikTok avec Claude Code, **sans tournage et avec des outils gratuits** :
 montage (ffmpeg), motion design (Remotion, Hyperframes), 3D (Blender), sous-titres (Whisper), voix locales (Kokoro, Supertonic),
-téléchargement de sources (yt-dlp), un **moteur Remotion complet** prêt à servir de modèle, et un **dossier A-PUBLIER** prêt à copier-coller pour chaque chaîne et chaque vidéo.
+téléchargement de sources (yt-dlp), et un **dossier A-PUBLIER** prêt à copier-coller pour chaque chaîne et chaque vidéo.
 
 Aucun compte GitHub n'est nécessaire : le dépôt est public.
 
-## Installation (macOS, Mac M1 ou plus récent conseillé)
+## Installation sur Mac (M1 ou plus récent conseillé)
 
 **Option 1 — en laissant Claude Code tout faire.** Ouvre Claude Code et colle :
 
@@ -22,6 +22,27 @@ git clone https://github.com/imraninho366/kit-montage-video.git ~/kit-montage-vi
 
 > `./install.sh --no-extras` = installation rapide (sans Blender, OBS, paquets Python ni voix locales).
 > L'installation demande ton mot de passe Mac une fois (pour Homebrew) et prend 15 à 40 min selon la connexion.
+
+## Installation sur Windows 10 / 11
+
+**Option 1 — avec Claude Code.** Ouvre Claude Code et colle :
+
+```
+Clone https://github.com/imraninho366/kit-montage-video dans mon dossier utilisateur, puis lance install.ps1 avec PowerShell et dis-moi quand c'est fini.
+```
+
+**Option 2 — dans PowerShell :**
+
+```powershell
+git clone https://github.com/imraninho366/kit-montage-video.git "$env:USERPROFILE\kit-montage-video"; cd "$env:USERPROFILE\kit-montage-video"; powershell -ExecutionPolicy Bypass -File .\install.ps1
+```
+
+> Pas de Git ? Bouton vert **Code → Download ZIP** sur GitHub, décompresse, puis clic droit sur `install.ps1` → **Exécuter avec PowerShell**.
+> Sur Windows, les outils sont installés avec `winget` (ffmpeg, yt-dlp, Python, Node, Git, Blender, OBS) ; les voix locales Kokoro/Supertonic ne sont installées que sur Mac.
+
+## Après l'installation (Mac et Windows)
+
+À la fin, le dossier **A-PUBLIER** s'ouvre tout seul dans le Finder (Mac) ou l'Explorateur (Windows).
 
 Ensuite, **dans Claude Code**, tape une par une :
 
@@ -74,18 +95,6 @@ Les paquets Python sont dans `~/.claude/video-venv` (`source ~/.claude/video-ven
 ### Serveur MCP
 - `remotion-documentation` : doc Remotion à jour, sans compte.
 
-## Le moteur Remotion (`moteur-remotion/`)
-
-Le moteur de montage qui a servi à produire les vidéos des chaînes : 44 composants (titres, chiffres clés, graphiques, cartes et globe,
-chronologies, captures d'articles, appel à s'abonner, écran de fin…), des dizaines de vidéos modèles (documentaire long, Shorts,
-séries interactives TikTok, leçons POV 3D, miniatures) et les scripts de voix et de bruitages.
-
-```bash
-cd ~/kit-montage-video/moteur-remotion && npm run studio
-```
-
-Les médias (voix, images, musiques) ne sont pas fournis : les compositions servent de modèles. Détails dans [moteur-remotion/README.md](moteur-remotion/README.md).
-
 ## Le dossier A-PUBLIER
 
 ```
@@ -101,7 +110,9 @@ Les médias (voix, images, musiques) ne sont pas fournis : les compositions serv
     └── publie/                      ← déplacer ici une vidéo une fois en ligne
 ```
 
-Il suffit de demander à Claude : « Crée ma chaîne *Nom* » ou « Prépare la vidéo pour la publication ».
+Emplacement : `~/Downloads/A-PUBLIER` sur Mac, `C:\Users\<toi>\Downloads\A-PUBLIER` sur Windows.
+Il suffit de demander à Claude : « Crée ma chaîne *Nom* » ou « Prépare la vidéo pour la publication » : le dossier est créé,
+la fiche est remplie (description, tags, réglages…) et il s'ouvre dans le Finder / l'Explorateur.
 Tu publies toi-même : rien n'est envoyé automatiquement sur YouTube ou TikTok.
 
 ## Exemples de demandes à Claude

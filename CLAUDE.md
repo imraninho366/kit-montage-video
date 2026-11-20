@@ -19,11 +19,6 @@ Toute nouvelle chaîne et toute vidéo finie passent par la skill **`a-publier`*
 `~/Downloads/A-PUBLIER/<Chaîne>/00-CHAINE/0-CREER-LA-CHAINE.md`, puis `NN-slug/0-TOUT-COPIER.md` + `1-VIDEO.mp4` + miniatures + `.srt`.
 Les règles de qualité sont dans `skills/a-publier/references/qualite.md`.
 
-## Moteur Remotion
-`moteur-remotion/` : composants dans `src/components/`, vidéos modèles dans `src/compositions/` (déclarées dans `src/Root.tsx`).
-Pour une nouvelle vidéo, partir de la composition la plus proche du format demandé et créer ses médias dans `public/<nom>/`.
-Rendre avec `npx remotion render <Id> sortie/<nom>.mp4` (2 rendus parallèles maximum, réglé dans `remotion.config.ts`).
-
 ## Outils locaux
 - Modèles : `~/.claude/models/` (Whisper, Kokoro). Python : `~/.claude/video-venv/bin/python`.
 - Voix gratuites : Kokoro (anglais, `kokoro-onnx`), Supertonic (FR/EN, `supertonic`).

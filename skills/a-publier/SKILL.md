@@ -35,17 +35,25 @@ Le travail de Claude s'arrête à un dossier complet et prêt à copier-coller.
 Le script `scripts/a_publier.py` (Python standard, aucune dépendance) crée tout ça :
 
 ```bash
-# 1. Nouvelle chaîne : crée le dossier + la fiche 0-CREER-LA-CHAINE.md à remplir
-python3 ~/.claude/skills/a-publier/scripts/a_publier.py chaine "Nom De La Chaine" --langue fr
+# 1. Nouvelle chaîne : crée le dossier + la fiche 0-CREER-LA-CHAINE.md, et l'ouvre dans le Finder / l'Explorateur
+python3 ~/.claude/skills/a-publier/scripts/a_publier.py chaine "Nom De La Chaine" --langue fr --ouvrir
 
 # 2. Vidéo finie : crée NN-slug/, numérote tout seul, range les fichiers, écrit 0-TOUT-COPIER.md
 python3 ~/.claude/skills/a-publier/scripts/a_publier.py video "Nom De La Chaine" "Titre de la vidéo" \
     --video rendu.mp4 --miniatures a.png b.png c.png --srt sous-titres.srt --langue fr \
-    [--short short.mp4] [--apercu fil.jpg]
+    [--short short.mp4] [--apercu fil.jpg] [--ouvrir]
 
 # 3. Remettre à jour le tableau LISEZ-MOI.md
 python3 ~/.claude/skills/a-publier/scripts/a_publier.py index
+
+# 4. Ouvrir A-PUBLIER (ou une chaîne) dans le Finder / l'Explorateur Windows
+python3 ~/.claude/skills/a-publier/scripts/a_publier.py ouvrir ["Nom De La Chaine"]
 ```
+
+**Windows** : remplacer `python3` par `python` et `~/.claude` par `"$env:USERPROFILE\.claude"` (PowerShell).
+Le dossier est alors `C:\Users\<nom>\Downloads\A-PUBLIER`.
+
+Toujours passer `--ouvrir` quand on crée une chaîne ou qu'une vidéo est prête, pour que l'utilisateur voie le dossier.
 
 Les fichiers lourds sont des **liens physiques** quand c'est possible (aucun espace disque en plus ;
 supprimer A-PUBLIER n'efface pas les originaux). Dossier racine modifiable : variable `A_PUBLIER_DIR`.
