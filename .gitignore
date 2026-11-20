@@ -2,3 +2,5 @@
 *.bak.*
 .env
 moteur-remotion/
+__pycache__/
+*.pyc
